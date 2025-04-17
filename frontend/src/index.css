@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 0 0% 98%; /* Light grey */
+    --foreground: 0 0% 10%; /* Near-black text */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    
+    --primary: 0 84% 60%;       /* Red-500 */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 95%;      /* Light grey */
+    --secondary-foreground: 0 0% 20%;
+    
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 50%;
+    
+    --accent: 0 0% 92%;
+    --accent-foreground: 0 0% 10%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 0 84% 60%; /* Red ring */
+
+    --radius: 0.5rem;
+
+    --chart-1: 0 84% 60%;
+    --chart-2: 240 4% 40%;
+    --chart-3: 0 0% 20%;
+    --chart-4: 10 80% 80%;
+    --chart-5: 0 100% 90%;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'geist';
+    src: url(./assets/fonts/geist.woff2) format('woff2');
+  }
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+}
+
+button {
+  background-color: white; /* ✅ Use the custom variable */
+  color: black;
+  border: 2px solid black;
+}
