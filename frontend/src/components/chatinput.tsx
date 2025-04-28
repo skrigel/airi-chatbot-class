@@ -1,17 +1,11 @@
 import { Textarea } from "../ui/textarea";
 import { cx } from 'classix';
-// import { Button } from "../ui/button";
 import { ArrowUpIcon } from "./icons"
 import { toast } from 'sonner';
-// import { useEffect, useState } from 'react';
 import { ChatInputProps } from '../interfaces/interfaces'
-
-//functions to reformat input --> backend??
-// flask integrations with react
 
 export const ChatInput = ({ question, setQuestion, onSubmit, isLoading }: ChatInputProps) => {
 
- 
     return(
     <div className="relative w-full flex flex-col gap-4">
      
@@ -51,3 +45,5 @@ export const ChatInput = ({ question, setQuestion, onSubmit, isLoading }: ChatIn
     </div>
     );
 }
+
+

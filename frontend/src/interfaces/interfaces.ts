@@ -1,4 +1,4 @@
-export interface message{
+export interface message {
     content:string;
     role:string;
     id:string;
@@ -9,3 +9,8 @@ export interface ChatInputProps {
     onSubmit: (text?: string) => void;
     isLoading: boolean;
 }
+
+export interface ChatMessagesProps {
+    previousMessages: message[];
+  }
+  
