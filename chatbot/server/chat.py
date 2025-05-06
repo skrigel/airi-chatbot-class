@@ -73,3 +73,42 @@ class Gemini:
 
         return response.text, history
        
+
+
+    def generate_chunks(self, user_input, history=None):
+        if history is None:
+            history = [{
+                "role": "user",
+                "parts": [
+                    *[{
+                        "file_data": {
+                            "mime_type": self.file.mime_type,
+                            "file_uri": self.file.uri
+                        }
+                    }],
+                    "Please read and use the attached file to inform your responses."
+                ]
+            }]
+
+        if not isinstance(user_input, str):
+            raise ValueError("Input must be a string.")
+
+        history.append({"role": "user", "parts": user_input})
+
+        chat_session = self.model.start_chat(history=history)
+        response = chat_session.send_message(user_input, stream=True)
+
+        accumulated_text = ""
+
+        # Add an empty assistant message to history that we'll update as we go
+        assistant_message = {"role": "model", "parts": ""}
+        history.append(assistant_message)
+
+        for chunk in response:
+            accumulated_text += chunk.text
+            assistant_message["parts"] = accumulated_text  # update in-place
+
+            # Yield both the chunk text and the updated history
+            yield {"chunk": chunk.text, "history": history}
+
+       

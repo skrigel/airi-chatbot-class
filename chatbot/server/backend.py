@@ -4,8 +4,10 @@
 
 ##
 from flask import Flask, request, jsonify, Response, send_from_directory, stream_with_context
+from fastapi.responses import StreamingResponse
 from flask_cors import CORS
 from chat import Gemini
+import json
 
 
 # Front-end SHOULD NOT LOOK AT HOW BACKEND WORKS
@@ -44,19 +46,27 @@ def chat():
     message = request.json.get('message')
     if message:
 
-        ##Place holder
-
         # response = chatbot.get_response(message)
-        print("MESSAGE",message)
         # response = Gemini.generate()
         
         bot_reply, chat_history  = model.generate(message, chat_history)
-        print("BOT REPLY:", bot_reply)
         return jsonify({'response': bot_reply})
     else:
         return jsonify({'error': 'No message provided'}), 400
     
 
+@app.route("/api/v1/stream", methods=["POST"])
+def stream():
+    def generate():
+        global chat_history
+        global model
+        message = request.json.get('message')
+        if message:
+            for chunk in model.generate_chunks(message, history=chat_history):
+                # Serialize as JSON and add newline delimiter
+                yield json.dumps(chunk['chunk']) + '\n'
+
+    return Response(stream_with_context(generate()), mimetype='application/json')
 # prompt history
 ## CHOOSE FORMAT - more modular, more robust
 # {

@@ -3,6 +3,7 @@ import { useScrollToBottom } from '../../components/use-scroll-to-bottom';
 import { useState, useRef } from "react";
 import { message } from "../../interfaces/interfaces";
 import {v4 as uuidv4} from 'uuid';
+import ReactMarkdown from "react-markdown";
 
 
 const API_URL = 'http://localhost:5000/';
@@ -27,7 +28,7 @@ export function Chat() {
     const messageText = text || question;
     if (!messageText.trim()) return;
   
-    setIsLoading(true);
+    // setIsLoading(true);
     setQuestion("");
   
     const userMessage: message = { content: messageText, role: "user", id: uuidv4() };
@@ -40,31 +41,67 @@ export function Chat() {
     setCurrentMessage(loadingMessage);
   
     try {
-      const response = await fetch(`${API_URL}api/v1/sendMessage`, {
+
+      const stream = await fetch(`${API_URL}api/v1/stream`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({ message: messageText })
       });
-  
-      const data = await response.json();
-      console.log('Bot response data:', data);
-  
-      if (data.error) {
-        throw new Error(data.error);
+
+       if (!stream.body) {
+        throw new Error('Failed!!');
       }
+
   
-      const botMessage: message = {
-        content: data.response,
-        role: "assistant",
-        id: uuidv4()
-      };
-  
-      // 3. Move both loading message and real bot message into previousMessages
-      setPreviousMessages(prev => [...prev, botMessage]);
-      setCurrentMessage(null);
-  
+        const reader = stream.body.getReader();
+        const decoder = new TextDecoder();
+        let done = false;
+        let buffer = "";
+        let accumulatedText = "";
+      
+        while (!done) {
+          const { value, done: doneReading } = await reader.read();
+          done = doneReading;
+          buffer += decoder.decode(value, { stream: !done });
+      
+          // Split on newline to handle each JSON chunk
+          const lines = buffer.split("\n");
+          buffer = lines.pop() ?? ""; // Keep the last partial line in buffer
+      
+          for (const line of lines) {
+            if (line.trim()) {
+              try {
+                const parsed = JSON.parse(line);
+                accumulatedText += parsed
+      
+                console.log("Accumulated full message so far:", accumulatedText);
+                const currMess: message = {content: accumulatedText, role: 'assistant', id: uuidv4()}
+                setCurrentMessage(currMess);
+      
+                // Example: update UI live here
+                // setCurrentMessage({ content: accumulatedText, role: "assistant" });
+              } catch (err) {
+                console.error("Error parsing line:", line, err);
+              }
+            }
+
+          
+       
+        }
+        
+
+    }
+    const botMessage: message = {
+      content: accumulatedText,
+      role: "assistant",
+      id: uuidv4()
+    };
+
+    // 3. Move both loading message and real bot message into previousMessages
+    setPreviousMessages(prev => [...prev, botMessage]);
+    setCurrentMessage(null);
     } catch (error) {
       console.error("Error sending message:", error);
       const errorMessage: message = {
@@ -90,7 +127,7 @@ export function Chat() {
       <div className={`p-2 rounded-lg max-w-xl ${
         msg.role === "user" ? "bg-blue-200" : "bg-gray-200"
       }`}>
-        {msg.content}
+        <ReactMarkdown>{msg.content}</ReactMarkdown>
       </div>
     </div>
   ))}
@@ -98,7 +135,8 @@ export function Chat() {
   {currentMessage && (
     <div key={currentMessage.id} className="flex justify-start">
       <div className="p-2 rounded-lg max-w-xl bg-gray-200">
-        {currentMessage.content}
+      <ReactMarkdown>{currentMessage.content}</ReactMarkdown>
+       
       </div>
     </div>
   )}
