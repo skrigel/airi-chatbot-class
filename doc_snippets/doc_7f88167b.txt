@@ -1,0 +1,17 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: AI Risk Database v3
+Row: 1055
+
+Content:
+This page is not mobile-friendly; please access on a computer if you can.: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+Watch video
+View explainer
+Give feedback: Coghlan2023 
+Updated: 26 March 2025: 44.03.01.b
+Unnamed: 3: 44
+Unnamed: 4: 3
+Unnamed: 5: 1
+Unnamed: 6: 2
+Unnamed: 7: Additional evidence
+This work is licensed under CC BY 4.0: Unintentional: direct 
+Unnamed: 9: AI is designed in a way that shows ignorant, reckless, or prejudiced lack of consideration for its impact on animals

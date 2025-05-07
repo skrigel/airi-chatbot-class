@@ -1,5 +1,4 @@
-from google import genai
-from google.genai import types
+import google.generativeai as genai
 import os
 from pathlib import Path
 import mimetypes
@@ -19,10 +18,8 @@ class GeminiModel:
         self.repository_path = repository_path
         
         # Initialize client
-        self.client = genai.Client(
-            api_key=api_key,
-            http_options=types.HttpOptions(api_version='v1alpha')
-        )
+        genai.configure(api_key=api_key)
+        self.client = genai
         
         # Initialize conversation history
         self.history = []
@@ -32,12 +29,8 @@ class GeminiModel:
         """
         
         # Initial system content
-        self.history = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=self.system_prompt)]
-            )
-        ]
+        self.history = []
+        self.safety_settings = []
         
         # Load repository files if path is provided
         if repository_path:
@@ -49,15 +42,19 @@ class GeminiModel:
             print(f"Warning: Repository path {self.repository_path} does not exist")
             return
             
+        # No direct file upload in the newer SDK - we'll read and add to prompt
         base_path = Path(self.repository_path)
+        self.file_contents = []
+        
         for filename in os.listdir(self.repository_path):
             file_path = base_path / filename
             if file_path.name.startswith('.') or not file_path.is_file():
                 continue
                 
             try:
-                uploaded_file = self.client.files.upload(file=file_path)
-                self.history.append(uploaded_file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    self.file_contents.append(f"Content from {filename}:\n{content}")
                 print(f"Loaded file: {filename}")
             except Exception as e:
                 print(f"Error loading file {filename}: {e}")
@@ -74,48 +71,41 @@ class GeminiModel:
             str: Model's response
         """
         # Add user input to history
-        self.history.append(
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=user_input)]
-            )
-        )
+        self.history.append({"role": "user", "parts": [{"text": user_input}]})
+        
+        # Prepare prompt with system prompt and file contents
+        prompt = self.system_prompt
+        
+        # Add file contents if available (truncated if too long)
+        if hasattr(self, 'file_contents') and self.file_contents:
+            # Limit to first few files to avoid context limits
+            combined_content = "\n\n".join(self.file_contents[:3])
+            if len(combined_content) > 8000:
+                combined_content = combined_content[:8000] + "...[content truncated]"
+            prompt += "\n\nRepository content for reference:\n" + combined_content
         
         # Generate response
         try:
+            model = genai.GenerativeModel(model_name=self.model_name)
+            
             if stream:
-                response_stream = self.client.models.generate_content_stream(
-                    model=self.model_name,
-                    contents=self.history
-                )
+                chat = model.start_chat(history=self.history)
+                response = chat.send_message(prompt + "\n\n" + user_input, stream=True)
                 
-                # For streaming, we'll collect all chunks
+                # For streaming, collect all chunks
                 full_response = ""
-                for chunk in response_stream:
-                    if hasattr(chunk, 'candidates') and chunk.candidates:
-                        candidate = chunk.candidates[0]
-                        if hasattr(candidate, 'content') and candidate.content:
-                            if hasattr(candidate.content, 'parts') and candidate.content.parts:
-                                chunk_text = candidate.content.parts[0].text
-                                full_response += chunk_text
-                                # When streaming, you'd typically yield each chunk
-                                # Here we're just collecting them
+                for chunk in response:
+                    if hasattr(chunk, 'text'):
+                        full_response += chunk.text
                 
                 response_text = full_response
             else:
-                response = self.client.models.generate_content(
-                    model=self.model_name,
-                    contents=self.history
-                )
-                response_text = response.candidates[0].content.parts[0].text
+                chat = model.start_chat(history=self.history)
+                response = chat.send_message(prompt + "\n\n" + user_input)
+                response_text = response.text
             
             # Add model response to history
-            self.history.append(
-                types.Content(
-                    role="model",
-                    parts=[types.Part.from_text(text=response_text)]
-                )
-            )
+            self.history.append({"role": "model", "parts": [{"text": response_text}]})
             
             return response_text
             
@@ -124,18 +114,57 @@ class GeminiModel:
             print(error_msg)
             return error_msg
     
+    def generate_stream(self, prompt, history=None):
+        """
+        Generate a streaming response to user input.
+        
+        Args:
+            prompt (str): User's question or message
+            history (list, optional): Conversation history in the required format
+            
+        Yields:
+            Text chunks from the model's response
+        """
+        try:
+            model = self.client.GenerativeModel(model_name=self.model_name)
+            
+            # Use provided history or instance history
+            chat_history = history if history is not None else self.history
+            
+            # Initialize chat with history if available
+            chat = model.start_chat(history=chat_history)
+            
+            # Store chunks for saving to history later
+            chunks = []
+            
+            # Send message with streaming enabled
+            response = chat.send_message(prompt, stream=True)
+            
+            # Yield each chunk of text as it arrives
+            for chunk in response:
+                if hasattr(chunk, 'text') and chunk.text:
+                    # Save chunk for history
+                    chunks.append(chunk.text)
+                    # Yield chunk for streaming
+                    yield chunk.text
+            
+            # Add message to history - only if using internal history
+            if history is None and chunks:
+                # Add the prompt as user message
+                self.history.append({"role": "user", "parts": [{"text": prompt}]})
+                
+                # Combine chunks into full response
+                full_response = "".join(chunks)
+                
+                # Add the response as model message
+                self.history.append({"role": "model", "parts": [{"text": full_response}]})
+                
+        except Exception as e:
+            error_msg = f"Error generating streaming response: {str(e)}"
+            print(error_msg)
+            yield error_msg
+    
     def reset_conversation(self):
         """Reset the conversation history but keep the system prompt and repository files"""
-        # Save uploaded files
-        uploaded_files = [content for content in self.history if not hasattr(content, 'role')]
-        
-        # Reset history with system prompt
-        self.history = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=self.system_prompt)]
-            )
-        ]
-        
-        # Re-add uploaded files
-        self.history.extend(uploaded_files)
+        # Simply clear the history
+        self.history = []

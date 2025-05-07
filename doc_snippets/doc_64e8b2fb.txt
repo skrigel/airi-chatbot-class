@@ -1,0 +1,11 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: Domain Taxonomy statistics
+Row: 20
+
+Content:
+Risk Entry from Domain Taxonomy statistics (Domain: 6.3):
+
+Domain / Subdomain: 6.3
+Column_2: Economic and cultural devaluation of human effort
+Proportion of risks in AI risk database: 0.02
+Proportion of documents in AI risk database: 0.35

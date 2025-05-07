@@ -1,0 +1,11 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: Domain Taxonomy statistics
+Row: 19
+
+Content:
+Risk Entry from Domain Taxonomy statistics (Domain: 6.2):
+
+Domain / Subdomain: 6.2
+Column_2: Increased inequality and decline in employment quality
+Proportion of risks in AI risk database: 0.03
+Proportion of documents in AI risk database: 0.41

@@ -1,5 +1,4 @@
-from google import genai
-from google.genai import types
+import google.generativeai as genai
 import logging
 import json
 import re
@@ -19,10 +18,8 @@ class Monitor:
         self.model_name = model_name
         
         # Initialize client
-        self.client = genai.Client(
-            api_key=api_key,
-            http_options=types.HttpOptions(api_version='v1alpha')
-        )
+        genai.configure(api_key=api_key)
+        self.client = genai
         
         # System prompt for the monitor
         self.system_prompt = """You are a monitor for the MIT AI Risk Repository chatbot.
@@ -75,29 +72,19 @@ Return ONLY a JSON object with the following structure:
         
         # Fall back to model-based classification
         try:
-            # Create conversation with system prompt and user input
+            # Create conversation history
             conversation = [
-                types.Content(
-                    role="user",
-                    parts=[types.Part.from_text(text=self.system_prompt)]
-                ),
-                types.Content(
-                    role="model",
-                    parts=[types.Part.from_text(text="I understand my role. I will only classify the inquiry and won't answer the question.")]
-                ),
-                types.Content(
-                    role="user", 
-                    parts=[types.Part.from_text(text=user_input)]
-                )
+                {"role": "user", "parts": [{"text": self.system_prompt}]},
+                {"role": "model", "parts": [{"text": "I understand my role. I will only classify the inquiry and won't answer the question."}]},
+                {"role": "user", "parts": [{"text": user_input}]}
             ]
             
             # Generate response
-            response = self.client.models.generate_content(
-                model=self.model_name,
-                contents=conversation
-            )
+            model = genai.GenerativeModel(model_name=self.model_name)
+            chat = model.start_chat(history=conversation)
+            response = chat.send_message("Classify this inquiry according to the instructions I gave you.")
             
-            response_text = response.candidates[0].content.parts[0].text
+            response_text = response.text
             
             # Extract JSON from response
             try:

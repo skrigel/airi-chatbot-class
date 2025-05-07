@@ -1,0 +1,18 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: AI Risk Database v3
+Row: 1059
+
+Content:
+This page is not mobile-friendly; please access on a computer if you can.: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+Watch video
+View explainer
+Give feedback: Coghlan2023 
+Updated: 26 March 2025: 44.03.02.c
+Unnamed: 3: 44
+Unnamed: 4: 3
+Unnamed: 5: 2
+Unnamed: 6: 3
+Unnamed: 7: Additional evidence
+This work is licensed under CC BY 4.0: Unintentional: direct 
+Unnamed: 9: AI harms animals due to mistake or misadventure in the way the AI operates in practice 
+Unnamed: 11: "Future harm could result from AI operating with relatively high intelligence and autonomy in achieving its goals (Russell, 2019). Stuart Russell half humorously suggests that a robot chef which runs out of meat might decide to cook the cat (Havens, 2015). But something vaguely similar might occur and is worth pre-empting. For example, an advanced robot on a fruit and vegetable farm may decide to destroy small animals that enter the farm by ‘reasoning’ that they threaten the valuable produce."

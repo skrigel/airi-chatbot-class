@@ -1,0 +1,21 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: AI Risk Database v3
+Row: 1063
+
+Content:
+Risk Entry from AI Risk Database v3:
+
+This page is not mobile-friendly; please access on a computer if you can.: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+Watch video
+View explainer
+Give feedback: Coghlan2023 
+Updated: 26 March 2025: 44.04.01.a
+Unnamed: 3: 44
+Unnamed: 4: 4
+Unnamed: 5: 1
+Unnamed: 6: 1
+Unnamed: 7: Additional evidence
+This work is licensed under CC BY 4.0: Unintentional: indirect 
+Unnamed: 9: Indirect Material Harms 
+Unnamed: 11: "Infrastructure supporting AI is materially impactful, and the effects of climate change may be the most significant. AI models are often computationally expensive and generate significant carbon emissions (Coeckelbergh, 2021; Schwartz et al., 2020), causing potentially massive effects on living things."
+Unnamed: 13: 19

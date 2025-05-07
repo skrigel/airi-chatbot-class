@@ -1,0 +1,10 @@
+Source: fallback
+file_type: domain_fallback
+title: Malicious_use Risk Information
+domain: malicious_use
+citation: Source: Malicious_use Risk Information
+
+Content:
+AI Misuse & Malicious Application Risks
+
+The repository catalogs how AI can be weaponized or misused, including cybercrime automation, targeted phishing attacks, malware optimization, physical attacks using autonomous systems, and fraud enhancement. These risks cover both intentional and unintentional harmful applications.

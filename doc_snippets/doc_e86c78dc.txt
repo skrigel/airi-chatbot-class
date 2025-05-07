@@ -1,0 +1,14 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: AI Risk Database v3
+Row: 1486
+
+Content:
+This page is not mobile-friendly; please access on a computer if you can.: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values
+Watch video
+View explainer
+Give feedback: Clarke2023
+Updated: 26 March 2025: 55.05.00
+Unnamed: 3: 55
+Unnamed: 4: 5
+Unnamed: 7: Risk Category
+This work is licensed under CC BY 4.0: AI leads to humans losing control of the future

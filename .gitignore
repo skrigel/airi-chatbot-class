@@ -1,0 +1,59 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Database files
+chroma_db/
+*.pkl
+simple_store.pkl
+simple_store_data.json
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Backup files
+backup_*/
+
+# Specific nested Git repository
+backup_20250506_201647/backup_20250506_201644/backup_20250506_201308/github-repo/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo

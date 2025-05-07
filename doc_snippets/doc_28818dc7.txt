@@ -1,0 +1,11 @@
+Source: The_AI_Risk_Repository_V3_26_03_2025.xlsx
+Sheet: AI Risk Database v3
+Row: 655
+
+Content:
+Unnamed: 12: 99
+Unnamed: 14: 3 - Other
+Unnamed: 15: 3 - Other
+Unnamed: 16: 2 - Post-deployment
+Unnamed: 17: 5. Human-Computer Interaction
+Unnamed: 18: 5.1 > Overreliance and unsafe use

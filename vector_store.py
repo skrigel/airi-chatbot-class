@@ -139,11 +139,39 @@ class VectorStore:
     def _initialize_embeddings(self):
         """Initialize embeddings based on the provider."""
         if self.embedding_provider.lower() == "google":
-            return GoogleGenerativeAIEmbeddings(
-                model="embedding-001",
-                google_api_key=self.api_key,
-                task_type="retrieval_query"
-            )
+            try:
+                embeddings = GoogleGenerativeAIEmbeddings(
+                    model="models/embedding-001",  # Updated model name format
+                    google_api_key=self.api_key,
+                    task_type="retrieval_query"
+                )
+                # Test the embeddings with a simple query to verify they work
+                test_embedding = embeddings.embed_query("test query for embeddings")
+                if test_embedding and len(test_embedding) > 0:
+                    logger.info("Embeddings test successful")
+                    return embeddings
+                else:
+                    logger.error("Embeddings test failed - returned empty embedding")
+                    raise ValueError("Empty embedding result")
+            except Exception as e:
+                logger.error(f"Error initializing Google embeddings: {str(e)}")
+                # Try the alternative embedding format
+                try:
+                    logger.info("Trying alternative embedding model format...")
+                    embeddings = GoogleGenerativeAIEmbeddings(
+                        model="embedding-001",  # Original model name format
+                        google_api_key=self.api_key,
+                        task_type="retrieval_query"
+                    )
+                    test_embedding = embeddings.embed_query("test query for embeddings")
+                    if test_embedding and len(test_embedding) > 0:
+                        logger.info("Alternative embeddings test successful")
+                        return embeddings
+                    else:
+                        raise ValueError("Alternative embedding format also failed")
+                except Exception as alt_err:
+                    logger.error(f"Alternative embedding also failed: {str(alt_err)}")
+                    raise
         else:
             raise ValueError(f"Unsupported embedding provider: {self.embedding_provider}")
     
@@ -678,8 +706,44 @@ class VectorStore:
             files_processed = 0
             files_failed = 0
             
+            # Check for repository configuration file that may specify priority files
+            priority_excel_file = None
+            config_path = os.path.join(self.repository_path, ".repository_config")
+            if os.path.exists(config_path):
+                try:
+                    with open(config_path, 'r') as config_file:
+                        for line in config_file:
+                            if line.startswith('excel_priority='):
+                                priority_excel_file = line.strip().split('=', 1)[1]
+                                logger.info(f"Found priority Excel file in config: {priority_excel_file}")
+                                break
+                except Exception as config_err:
+                    logger.error(f"Error reading repository config: {str(config_err)}")
+            
+            # If we have a priority Excel file, process it first
+            if priority_excel_file:
+                priority_path = os.path.join(self.repository_path, priority_excel_file)
+                if os.path.exists(priority_path):
+                    logger.info(f"Processing priority Excel file first: {priority_path}")
+                    try:
+                        # Process as Excel file
+                        docs = self._process_excel_content(Path(priority_path))
+                        if docs:
+                            self.all_documents.extend(docs)
+                            files_processed += 1
+                            logger.info(f"Successfully processed priority file: {priority_excel_file} - {len(docs)} documents created")
+                    except Exception as priority_err:
+                        logger.error(f"Error processing priority file {priority_path}: {str(priority_err)}")
+                        files_failed += 1
+            
+            # Process all other files
             for file_path in base_path.glob("**/*"):
                 if not file_path.is_file() or file_path.name.startswith('.'):
+                    continue
+                
+                # Skip if this is our priority file that was already processed
+                if priority_excel_file and file_path.name == priority_excel_file:
+                    logger.info(f"Skipping already processed priority file: {file_path}")
                     continue
                 
                 logger.info(f"Processing file: {file_path}")

@@ -1,0 +1,9 @@
+Source: fallback
+file_type: default
+title: MIT AI Risk Repository Overview
+citation: Source: MIT AI Risk Repository Overview
+
+Content:
+MIT AI Risk Repository Information
+
+The MIT AI Risk Repository is a comprehensive database containing over 1600 AI risks categorized across different domains including discrimination, privacy, misinformation, malicious use, human-computer interaction, socioeconomic impacts, and system safety.
