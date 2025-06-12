@@ -1,0 +1,4 @@
+Source: info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx\nrow: 1328\nsheet: AI Risk Database v3\nspecific_domain: Unspecified\ntitle: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nfile_type: ai_risk_entry\nrisk_category: Societal Risks\nsubdomain: \ndomain: Unspecified\n\nContent:\nTitle: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies
+Risk Category: Societal Risks
+Risk Subcategory: Economic harm (Disempowering Workers)
+Additional Evidence: Level 4 Categories: 1. Undermine workers' rights; 2. Worsen job quality; 3. Encourage undue worker surveillance; 4. Cause harmful labor-force disruptions

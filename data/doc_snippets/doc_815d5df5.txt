@@ -1,0 +1,3 @@
+Source: info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx\nspecific_domain: 6.2 > Increased inequality and decline in employment quality\nsheet: AI Risk Database v3\nfile_type: ai_risk_domain_summary\nentry_count: 45\ntitle: AI Risk Domain: 6.2 > Increased inequality and decline in employment quality\ndomain: 6.2 > Increased inequality and decline in employment quality\n\nContent:\nAI Risk Domain: 6.2 > Increased inequality and decline in employment quality
+
+This domain contains 45 risk entries from the AI Risk Repository:

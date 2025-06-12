@@ -1,124 +1,113 @@
 # AIRI Chatbot
 
-A sophisticated chatbot for the MIT AI Risk Repository with advanced RAG capabilities and a modern React frontend.
+A sophisticated chatbot for the MIT AI Risk Repository with advanced RAG capabilities, modular architecture, and clickable citations.
 
-## Quick Start for Your Teammate
+## Quick Start
 
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR-USERNAME/airi-chatbot.git
 cd airi-chatbot
 
-# Make the setup and run scripts executable
-chmod +x setup.sh run.sh
+# Install dependencies
+pip install -r requirements.txt
 
-# Complete first-time setup (builds frontend, installs dependencies)
-./setup.sh
+# Set your API key (required)
+export GEMINI_API_KEY="your-api-key-here"
 
 # Run the chatbot
-./run.sh
+python3 main.py
 ```
 
-That's it! The chatbot will be available at http://localhost:5000 (or another port if 5000 is unavailable).
+The chatbot will automatically find an available port (usually 8000, 8080, or 8090) and display the URL.
 
-## What Each Script Does
+## Key Features
 
-### setup.sh (run once when first setting up)
-- Installs all Python dependencies
-- Builds/sets up the frontend UI
-- Creates necessary directories
-- Prepares the repository structure
-
-### run.sh (use each time to start the chatbot)
-- Detects the correct Python interpreter
-- Verifies Flask is installed (and installs it if missing)
-- Starts the Flask server with the AIRI adapter
-- Automatically finds an available port if the default is in use
-
-## Features
-
-- **Robust RAG System**: Hybrid search combining vector and keyword-based retrieval
-- **Clickable Citations**: References link to original document sources
-- **Domain Detection**: Special handling for topic-specific queries
-- **Streaming Responses**: Real-time text generation
-- **Modern UI**: React-based frontend with responsive design
-- **Multi-level Fallbacks**: Resilient operation with graceful degradation
-- **Excel-specific References**: Sheet and row citations for structured data
+- **Smart Employment Query Processing**: Enhanced handling for job-related AI risk questions
+- **Clickable Citations**: Each response includes links to view original source documents
+- **Modular Architecture**: Clean, maintainable codebase with proper separation of concerns
+- **Automatic Port Detection**: Finds available ports automatically
+- **Robust Error Handling**: Graceful fallbacks and detailed status reporting
 
 ## System Architecture
 
-The adapter integrates three main components:
+The system uses a clean, modular architecture:
 
-1. **Vector Store** (`vector_store.py`): Advanced RAG implementation with hybrid search
-2. **Query Monitor** (`monitor.py`): Analyzes and classifies user questions
-3. **LLM Integration** (`gemini_model.py`): Uses Gemini models for response generation
+```
+src/
+├── api/                     # Web API layer
+│   ├── routes/             # Route handlers (chat, health, snippets)
+│   └── app.py              # Flask application factory
+├── core/                   # Business logic
+│   ├── models/             # AI model implementations
+│   ├── storage/            # Data storage and retrieval
+│   ├── query/              # Query processing and analysis
+│   └── services/           # Orchestration services
+└── config/                 # Configuration and settings
+```
 
-## Advanced RAG Implementation
+### Key Components
 
-The system uses a sophisticated Retrieval-Augmented Generation (RAG) approach:
+1. **Vector Store**: Hybrid search combining semantic similarity with keyword matching
+2. **Query Processor**: Enhanced handling for employment and domain-specific queries  
+3. **Citation Service**: Generates clickable links to source documents
+4. **Chat Service**: Orchestrates the complete conversation flow
 
-1. **Hybrid Retrieval**: Combines vector search (semantic similarity) with keyword search (BM25)
-2. **Query Preprocessing**: Enhances queries with key terms and special handling for questions
-3. **Smart Context Formatting**: Organizes retrieved information with clear structure and source citations
-4. **Domain-Specific Handling**: Special processing for different query types
-5. **Performance Optimization**: Caching mechanism for frequently asked questions
-6. **Robust Fallback Mechanisms**: Multi-level fallbacks for reliable operation
+## Configuration
 
-## Detailed Setup Instructions
+### Environment Variables
 
-If you need more control over the setup process:
+Create a `.env` file or set environment variables:
 
-### Prerequisites
+```bash
+# Required
+GEMINI_API_KEY=your-api-key-here
 
-- Python 3.6+
-- Valid Gemini API key
+# Optional
+PORT=8090
+REPOSITORY_PATH=/path/to/data/info_files
+```
 
-### Step-by-Step Setup
+### Data Setup
 
-1. **Make scripts executable**:
-   ```bash
-   chmod +x run.sh install_deps.sh setup.sh
-   ```
+Place your MIT AI Risk Repository files in `data/info_files/`:
+- Excel files (`.xlsx`, `.xls`) 
+- Text files (`.txt`, `.md`)
+- The system automatically processes and indexes all files
 
-2. **Install dependencies**:
-   ```bash
-   ./install_deps.sh
-   ```
+## Example Queries
 
-3. **Set up the frontend** (only needed if frontend files are missing):
-   ```bash
-   ./setup.sh
-   ```
+Try these queries to test the system:
 
-4. **Prepare the MIT AI Risk Repository data**:
-   - Place AI Risk Repository files in the `info_files` directory
-   - The application automatically processes Excel, CSV, and text files
+**Employment & Job Impact:**
+- "How will AI affect my job as an accountant?"
+- "What are the risks of AI automation in the workplace?"
 
-5. **Start the application**:
-   ```bash
-   ./run.sh
-   ```
+**General AI Risks:**  
+- "What are the main types of AI risks?"
+- "What concerns exist regarding bias in AI systems?"
 
-### Troubleshooting for First-Time Users
+**Domain-Specific:**
+- "What are the risks of AI in healthcare?"
+- "What might happen if self-driving cars get compromised?"
 
-- **If Flask installation fails**, try manually:
-  ```bash
-  pip install --user flask flask-cors
-  # or
-  python3 -m pip install --user flask flask-cors
-  ```
+## API Endpoints
 
-- **For complete installation** of all dependencies:
-  ```bash
-  pip install --user -r requirements.txt
-  ```
+The system provides RESTful API endpoints:
 
-- **Frontend Not Loading**: Run `./setup.sh` to rebuild the frontend
-- **Port Conflicts**: The app automatically finds an available port, or specify one:
-  ```bash
-  ./run.sh 8090
-  ```
-- **Missing Documents**: Add files to the `info_files` directory
+- `POST /api/v1/stream` - Streaming chat responses
+- `POST /api/v1/sendMessage` - Non-streaming chat
+- `GET /api/health` - System health check
+- `GET /snippet/{id}` - View source document citations
+
+## Troubleshooting
+
+**Common Issues:**
+
+- **Port Conflicts**: The app automatically finds available ports (8000, 8080, 8090)
+- **Missing API Key**: Set `GEMINI_API_KEY` environment variable
+- **No Citations**: Ensure documents are in `data/info_files/` directory
+- **Frontend Issues**: Frontend files are included, no additional setup needed
 
 ## License
 
