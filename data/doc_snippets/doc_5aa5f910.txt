@@ -1,0 +1,2 @@
+Source: info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx\nfile_type: domain_taxonomy\nsheet: Domain Taxonomy of AI Risks v3\ntitle: Domain Definition from Domain Taxonomy of AI Risks v3\nrow: 23\n\nContent:\nDomain Taxonomy Entry:
+6.2 Increased inequality and decline in employment quality Widespread use of AI increasing social and economic inequalities, such as by automating jobs, reducing the quality of employment, or producing exploitative dependencies between workers and their employers.

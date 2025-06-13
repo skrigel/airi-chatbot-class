@@ -1,8 +1,0 @@
-Source: /Users/davidturturean/Documents/Codingprojects/airi-chatbot/airi-chatbot-class/info_files/Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt
-row: 17
-file_type: tabular
-citation: Source: Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt (Entry 17)
-
-Content:
-Risk Entry:
-The AI Risk Repository:                                                March
