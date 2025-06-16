@@ -6,8 +6,12 @@ A sophisticated chatbot for the MIT AI Risk Repository with advanced RAG capabil
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/airi-chatbot.git
-cd airi-chatbot
+git clone https://github.com/skrigel/airi-chatbot-class.git
+cd airi-chatbot-class
+
+# Create and activate virtual environment (IMPORTANT!)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
