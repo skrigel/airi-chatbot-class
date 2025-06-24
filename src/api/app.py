@@ -4,7 +4,7 @@ Flask application factory for the AIRI chatbot API.
 import os
 import socket
 from typing import Dict
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, jsonify
 from flask_cors import CORS
 
 from .routes.chat import chat_bp, init_chat_routes
@@ -33,8 +33,11 @@ def create_app(config=None):
     # Create Flask app
     app = Flask(__name__)
     
-    # Enable CORS
-    CORS(app)
+    # Enable CORS with production settings
+    CORS(app, 
+         origins=["*"],  # Allow all origins for testing
+         methods=["GET", "POST", "OPTIONS"],
+         allow_headers=["Content-Type", "Authorization"])
     
     # Apply configuration
     if config:
