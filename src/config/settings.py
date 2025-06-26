@@ -35,7 +35,7 @@ class Settings:
     
     # Vector Store Configuration
     EMBEDDING_PROVIDER = "google"
-    USE_HYBRID_SEARCH = True
+    USE_HYBRID_SEARCH = os.environ.get('USE_HYBRID_SEARCH', 'true').lower() == 'true'
     DEFAULT_CHUNK_SIZE = 1000
     DEFAULT_CHUNK_OVERLAP = 200
     RISK_ENTRY_CHUNK_SIZE = 2000
