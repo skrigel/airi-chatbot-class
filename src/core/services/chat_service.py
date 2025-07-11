@@ -49,7 +49,7 @@ class ChatService:
             Tuple of (response_text, retrieved_documents)
         """
         try:
-            # 1. Intent classification (Phase 2.1) - fast pre-filtering
+            # 1. Intent classification (Phase 2.1) - Using working version from copy folder
             from ...core.query.intent_classifier import intent_classifier
             intent_result = intent_classifier.classify_intent(message)
             
