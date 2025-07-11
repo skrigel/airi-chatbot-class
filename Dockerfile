@@ -42,5 +42,5 @@ ENV USE_FIELD_AWARE_HYBRID=true
 ENV USE_HYBRID_SEARCH=true
 ENV DEBUG=false
 
-# Run the application
-CMD ["python", "main.py"]
+# Run the application with explicit error output
+CMD ["python", "-u", "main.py"]
