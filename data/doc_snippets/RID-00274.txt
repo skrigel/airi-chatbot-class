@@ -1,0 +1,28 @@
+Repository ID: RID-00274
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Application\nAdditional Evidence: "Effect on existing power differentials and inequalities: Use cases that entrench or amplify power differentials between the organization employing the system and the a...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00274
+risk_category: First-Order Risks
+row: 251
+scqa_answer: Additionally, the act of codifying it in a potentially black-boxed ML system may entrench these learned biases when humans fail to question their predictions [120]
+scqa_complication: ation’s power over the public but not vice-versa. Other applications may amplify systemic inequalities due to the ease, scale, and speed with which predi
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: made [62]. Additionally, the act of codifying it in a potentially black-boxed ML system may entrench these learned biases when humans fail to question their predictions [120]."
+search_all_fields: The Risks of Machine Learning Systems Unspecified First-Order Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems Unspecified First-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Application\nAdditional Evidence: "Effect on existing power differentials and inequalities: Use cases that entrench or amplify power differentials between the organization employing the system and the affected population should be assigned a higher risk from a human rights perspective. This can take the form of increased surveillance, which increases the organization’s power over the public but not vice-versa. Other applications may amplify systemic inequalities due to the ease, scale, and speed with which predictions can now be made [62]. Additionally, the act of codifying it in a potentially black-boxed ML system may entrench these learned biases when humans fail to question their predictions [120]."

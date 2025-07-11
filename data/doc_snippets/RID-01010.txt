@@ -1,0 +1,28 @@
+Repository ID: RID-01010
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Healthcare\nRisk Subcategory: Social manipulation in elderly- and child-care\nDescription: " the use of advanced AI fo...
+domain: 5. Human-Computer Interaction
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-01010
+risk_category: Healthcare
+row: 987
+scqa_answer: 1 > Overreliance and unsafe use\nRisk Category: Healthcare\nRisk Subcategory: Social manipulation in elderly- and child-care\nDescription: " the use of advanced AI for elderly- and child-care are subject to risk of psychological manipulation and misjudgment "\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: Future Outlooks and Emerging Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Healthcare\nRisk
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 5
+search_all_fields: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks 5. Human-Computer Interaction Healthcare 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use AI Risk Database v3 ai_risk_entry
+search_high_priority: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks 5. Human-Computer Interaction Healthcare
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use
+sheet: AI Risk Database v3
+specific_domain: 5.1 > Overreliance and unsafe use
+subdomain: 5.1 > Overreliance and unsafe use
+timing: 2 - Post-deployment
+title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks
+
+Content:
+Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Healthcare\nRisk Subcategory: Social manipulation in elderly- and child-care\nDescription: " the use of advanced AI for elderly- and child-care are subject to risk of psychological manipulation and misjudgment "\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

@@ -57,3 +57,7 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Node modules
+node_modules/
+frontend/node_modules/

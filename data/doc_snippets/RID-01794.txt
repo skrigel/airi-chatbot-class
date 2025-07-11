@@ -1,0 +1,28 @@
+Repository ID: RID-01794
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Dimension - Failure dynamics\nRisk Subcategory: System (normal) failures\nAdditional Evidence: "One example of this is the 2010 Flash Crash, where a temporary stock market crash wa...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01794
+risk_category: Dimension - Failure dynamics
+row: 1771
+scqa_answer: ing harms were observed at a societal level. The nature of risks related to system failures makes them difficult to pre- dict and manage in advance, b
+scqa_complication: eli- hood of user engagement, but the resulting harms were observed at a societal level. The nature of risks related to system failures makes them diffic
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Dimension - Failure dynamics\nRisk Subcategory: System (normal) failures\nAdditiona
+search_all_fields: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems Unspecified Dimension - Failure dynamics Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems Unspecified Dimension - Failure dynamics
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems
+
+Content:
+Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Dimension - Failure dynamics\nRisk Subcategory: System (normal) failures\nAdditional Evidence: "One example of this is the 2010 Flash Crash, where a temporary stock market crash was partly caused by interactions between multiple trading algorithms, each of which was individually working as intended. Another example is the increasingly polarized society, potentially driven by algorithmic bias and amplification on social media applications, where recommendation algorithms simply recommended content baseed on the likeli- hood of user engagement, but the resulting harms were observed at a societal level. The nature of risks related to system failures makes them difficult to pre- dict and manage in advance, but it underscores the importance of monitoring and identifying unexpected risks."

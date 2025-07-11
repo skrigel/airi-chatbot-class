@@ -1,0 +1,28 @@
+Repository ID: RID-00252
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society\nRisk Category: Impacts: People and Society\nRisk Subcategory: Concentration of Authority\nAdditional Evidence: "Global deployment of a model can consolidate power within a single, originating culture, to determine a...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00252
+risk_category: Impacts: People and Society
+row: 229
+scqa_answer: of a historic process of militarised colonization should be examined. Insidious effects which generative AI systems could further embed include the e
+scqa_complication: eoples and cultures can contribute to this norms and values imposition. Certain modality characteristics such as language carry within it its own logics
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: UNICEF [248], included the enforcement of "bias, given that they often select a predetermined reply based on the most matching keywords or similar wording patt
+search_all_fields: Evaluating the Social Impact of Generative AI Systems in Systems and Society Unspecified Impacts: People and Society Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Evaluating the Social Impact of Generative AI Systems in Systems and Society Unspecified Impacts: People and Society
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Evaluating the Social Impact of Generative AI Systems in Systems and Society
+
+Content:
+Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society\nRisk Category: Impacts: People and Society\nRisk Subcategory: Concentration of Authority\nAdditional Evidence: "Global deployment of a model can consolidate power within a single, originating culture, to determine and propagate acceptability [245] across cultures [150]. Highest performing characteristics of generative systems such as language, dominant cultural values, and embedded norms can overrepresent regions outside of where a system is deployed. For example, a language model that is highest performing in the English language can be deployed in a region with a different dominant language and incentivize engaging in English. Establishing or reinforcing goodness with certain languages, accents, imagery, social norms, and other representations of peoples and cultures can contribute to this norms and values imposition. Certain modality characteristics such as language carry within it its own logics and frames. Though English as a lingua franca is globally beneficial, the consequences of its dominance as a result of a historic process of militarised colonization should be examined. Insidious effects which generative AI systems could further embed include the erosion of global multilingualism, undermine the right to language and culture, and further marginalize the necessity for widespread multilingual education. The effects of generative AI systems on child development, including the technologically mediated socialisation of norms and values is also an area to be inquired. These are in addition to the emotional and behavioural effects of chatbots on children. This, according to UNICEF [248], included the enforcement of "bias, given that they often select a predetermined reply based on the most matching keywords or similar wording pattern"."

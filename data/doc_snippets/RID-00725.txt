@@ -1,0 +1,28 @@
+Repository ID: RID-00725
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Model Evaluation for Extreme Risks\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.2 > AI possessing dangerous capabilities\nRisk Category: Political strategy\nDescription: "The model can perform the social modelling and planning necessary for an actor to gain and exercis...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00725
+risk_category: Political strategy
+row: 702
+scqa_answer: "\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: ce, not just on a micro-level but in scenarios with multiple actors and rich social context. For example, the model can score highly in forecasting compe
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: in scenarios with multiple actors and rich social context. For example, the model can score highly in forecasting competitions on questions relating to globa
+search_all_fields: Model Evaluation for Extreme Risks 7. AI System Safety, Failures, & Limitations Political strategy 7.2 > AI possessing dangerous capabilities 7.2 > AI possessing dangerous capabilities AI Risk Database v3 ai_risk_entry
+search_high_priority: Model Evaluation for Extreme Risks 7. AI System Safety, Failures, & Limitations Political strategy
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.2 > AI possessing dangerous capabilities 7.2 > AI possessing dangerous capabilities
+sheet: AI Risk Database v3
+specific_domain: 7.2 > AI possessing dangerous capabilities
+subdomain: 7.2 > AI possessing dangerous capabilities
+timing: 2 - Post-deployment
+title: Model Evaluation for Extreme Risks
+
+Content:
+Title: Model Evaluation for Extreme Risks\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.2 > AI possessing dangerous capabilities\nRisk Category: Political strategy\nDescription: "The model can perform the social modelling and planning necessary for an actor to gain and exercise political influence, not just on a micro-level but in scenarios with multiple actors and rich social context. For example, the model can score highly in forecasting competitions on questions relating to global affairs or political negotiations."\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

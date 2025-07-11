@@ -1,0 +1,28 @@
+Repository ID: RID-00421
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Ethical and social risks of harm from language models\nRisk Category: Automation, Access and Environmental Harms\nRisk Subcategory: Increasing inequality and negative effects on job quality\nAdditional Evidence: "LM applications could also create risks for job quality, which in turn could aff...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00421
+risk_category: Automation, Access and Environmental Harms
+row: 398
+scqa_answer: However, some workers have seen an increase in the pace of work, more tightly controlled tasks and reductions in autonomy, human contact and collaboration (Gutelius and Theodore, 2019)"
+scqa_complication: automated some mundane tasks. However, some workers have seen an increase in the pace of work, more tightly controlled tasks and reductions in autonomy, human
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Ethical and social risks of harm from language models\nRisk Category: Automation, Access and Environmental Harms\nRisk Subcategory: Increasing inequality and negative effects on job quality\nAdditional Evidence: "LM applications could also create risks for job quality, which in turn could affect individual wellbeing
+search_all_fields: Ethical and social risks of harm from language models Unspecified Automation, Access and Environmental Harms Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Ethical and social risks of harm from language models Unspecified Automation, Access and Environmental Harms
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Ethical and social risks of harm from language models
+
+Content:
+Title: Ethical and social risks of harm from language models\nRisk Category: Automation, Access and Environmental Harms\nRisk Subcategory: Increasing inequality and negative effects on job quality\nAdditional Evidence: "LM applications could also create risks for job quality, which in turn could affect individual wellbeing. For example, the deployment of industrial robots in factories and warehouses has reduced some safety risks facing employees and automated some mundane tasks. However, some workers have seen an increase in the pace of work, more tightly controlled tasks and reductions in autonomy, human contact and collaboration (Gutelius and Theodore, 2019)"

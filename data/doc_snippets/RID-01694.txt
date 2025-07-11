@@ -1,0 +1,28 @@
+Repository ID: RID-01694
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Bias\nAdditional Evidence: "Bias: Systematic errors in algorithmic systems that favour certain groups or worldviews and often create unfair outcomes for some people. Bias can have multiple sources, ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01694
+risk_category: Risks from malfunctions
+row: 1671
+scqa_answer: s for some people. Bias can have multiple sources, including errors in algorithmic design, unrepresentative or otherwise flawed datasets, or pre- exis
+scqa_complication: or groups based on their attributes, such as race, gender, age, religion, or other protected characteristics."
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: as\nAdditional Evidence: "Bias: Systematic errors in algorithmic systems that favour certain groups or worldviews and often create unfair outcomes for some people. Bias can
+search_all_fields: International AI Safety Report 2025 Unspecified Risks from malfunctions Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International AI Safety Report 2025 Unspecified Risks from malfunctions
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International AI Safety Report 2025
+
+Content:
+Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Bias\nAdditional Evidence: "Bias: Systematic errors in algorithmic systems that favour certain groups or worldviews and often create unfair outcomes for some people. Bias can have multiple sources, including errors in algorithmic design, unrepresentative or otherwise flawed datasets, or pre- existing social inequalities. ● Discrimination: The unfair treatment of individuals or groups based on their attributes, such as race, gender, age, religion, or other protected characteristics."

@@ -1,0 +1,28 @@
+Repository ID: RID-01697
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Loss of control\nAdditional Evidence: "There are multiple versions of loss of control concerns, including versions that emphasise ‘passive’ loss of control (see Figure 2.5). In ‘passive’ loss of con...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01697
+risk_category: Risks from malfunctions
+row: 1674
+scqa_answer: These concerns are partly grounded in the ‘automation bias’ literature, which reports many cases of people complacently relying on recommendations from automated systems (590, 591)
+scqa_complication: are delegated to AI systems, but the systems’ decisions are too opaque, complex, or fast to allow for or incentivise meaningful oversight. Alternatively
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: asise ‘passive’ loss of control (see Figure 2.5). In ‘passive’ loss of control scenarios, important decisions are delegated to AI systems, but the systems’ decisions are too opaque, complex, or fast to allow for or incentivise meaningful
+search_all_fields: International AI Safety Report 2025 Unspecified Risks from malfunctions Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International AI Safety Report 2025 Unspecified Risks from malfunctions
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International AI Safety Report 2025
+
+Content:
+Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Loss of control\nAdditional Evidence: "There are multiple versions of loss of control concerns, including versions that emphasise ‘passive’ loss of control (see Figure 2.5). In ‘passive’ loss of control scenarios, important decisions are delegated to AI systems, but the systems’ decisions are too opaque, complex, or fast to allow for or incentivise meaningful oversight. Alternatively, people stop exercising oversight because they strongly trust the systems’ decisions and are not required to exercise oversight (585, 589). These concerns are partly grounded in the ‘automation bias’ literature, which reports many cases of people complacently relying on recommendations from automated systems (590, 591)."

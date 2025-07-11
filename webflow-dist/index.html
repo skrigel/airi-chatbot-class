@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRI Chatbot - Webflow Bundle</title>
+    
+    <!-- Webflow Integration Styles -->
+    <style>
+        /* Scoped styles for Webflow embedding */
+        .airi-chatbot-embedded {
+            font-family: inherit; /* Use Webflow site's font */
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .airi-chatbot-embedded * {
+            box-sizing: border-box;
+        }
+        
+        /* Ensure no conflicts with Webflow */
+        .airi-chatbot-embedded .container {
+            max-width: none !important;
+        }
+        
+        /* Loading indicator */
+        .airi-loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .airi-loading.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- This will be the container for Webflow -->
+    <div id="airi-chatbot-root" class="airi-chatbot-embedded">
+        <div class="airi-loading" id="airi-loading">
+            🤖 Loading AIRI Chatbot...
+        </div>
+    </div>
+
+    <!-- Webflow Configuration Script -->
+    <script>
+        // This will be set by Webflow page
+        window.AIRI_CONFIG = window.AIRI_CONFIG || {
+            apiBaseUrl: 'https://airi-chatbot-class-production.up.railway.app',
+            embeddedMode: true,
+            containerId: 'airi-chatbot-root'
+        };
+        
+        console.log('🚀 AIRI Webflow Integration Starting...', window.AIRI_CONFIG);
+    </script>
+
+    <!-- API Patch (Enhanced for Webflow) -->
+    <script src="api-patch.js"></script>
+    
+    <!-- Main App Bundle -->
+    <link rel="stylesheet" href="assets/index-D8R_wQYv.css">
+    <script type="module" src="assets/index-RDKkp_mY.js"></script>
+
+    <script>
+        // Hide loading indicator once app loads
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const loading = document.getElementById('airi-loading');
+                if (loading) {
+                    loading.classList.add('hidden');
+                }
+            }, 2000); // Give app time to mount
+        });
+        
+        // Enhanced error handling for Webflow
+        window.addEventListener('error', function(e) {
+            console.error('🚨 AIRI App Error:', e.error);
+            const loading = document.getElementById('airi-loading');
+            if (loading && !loading.classList.contains('hidden')) {
+                loading.innerHTML = '❌ Error loading chatbot. Please refresh the page.';
+                loading.style.color = '#dc3545';
+            }
+        });
+    </script>
+</body>
+</html>

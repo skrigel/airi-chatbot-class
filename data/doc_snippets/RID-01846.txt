@@ -1,0 +1,28 @@
+Repository ID: RID-01846
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Model Development\nRisk Subcategory: Training-related (Robust overfitting ...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01846
+risk_category: Model Development
+row: 1823
+scqa_answer: "\nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 1 - Pre-deployment
+scqa_complication: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 7. AI System Safet
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robu
+search_all_fields: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems 7. AI System Safety, Failures, & Limitations Model Development 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness AI Risk Database v3 ai_risk_entry
+search_high_priority: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems 7. AI System Safety, Failures, & Limitations Model Development
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness
+sheet: AI Risk Database v3
+specific_domain: 7.3 > Lack of capability or robustness
+subdomain: 7.3 > Lack of capability or robustness
+timing: 1 - Pre-deployment
+title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems
+
+Content:
+Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Model Development\nRisk Subcategory: Training-related (Robust overfitting in adversarial training)\nDescription: "Adversarial training can be affected by robust overfitting, where the model’s robustness on test data decreases during further training, particularly after the learning rate decay. This issue has been consistently observed across various datasets and algorithms in adversarial training settings [163, 230]. Robust over- fitting can affect the model’s ability to generalize effectively and reduce its resilience to adversarial attacks."\nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 1 - Pre-deployment

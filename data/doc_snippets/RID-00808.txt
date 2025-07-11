@@ -1,0 +1,28 @@
+Repository ID: RID-00808
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nRisk Category: Fairness\nAdditional Evidence: LLMs can favor certain groups of users or ideas, perpetuate stereotypes, or make incorrect assumptions based on extracted statistical patterns
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00808
+risk_category: Fairness
+row: 785
+scqa_answer: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nRisk Category: Fairness\nAdditional Evidence: LLMs can favor certain groups of users or ideas, perpetuate stereotypes, or make incorrect assumptions based on extracted statistical patterns
+scqa_complication: e Language Models’ Alignment\nRisk Category: Fairness\nAdditional Evidence: LLMs can favor certain groups of users or ideas, perpetuate stereotypes, or ma
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nRisk Category: Fairness\nAdditional Evidence: LLMs can favor certain groups of users or ideas, perpetuate stereotypes, or make incorrect assumptions based on extracted statistical patterns
+search_all_fields: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment Unspecified Fairness Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment Unspecified Fairness
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment
+
+Content:
+Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nRisk Category: Fairness\nAdditional Evidence: LLMs can favor certain groups of users or ideas, perpetuate stereotypes, or make incorrect assumptions based on extracted statistical patterns

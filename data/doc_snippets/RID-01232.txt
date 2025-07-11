@@ -1,0 +1,28 @@
+Repository ID: RID-01232
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Obscene, Degrading, and/or Abusive Content\nAdditional Evidence: "Generated explicit or obscene AI content may include highly realistic “deepfakes” of real individuals, including chil...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01232
+risk_category: Obscene, Degrading, and/or Abusive Content
+row: 1209
+scqa_answer: Outside of CSAM, the creation and spread of NCII disproportionately impacts women and sexual minorities, and can have subsequent negative consequences including decline in overall mental health, substance abuse, and even suicidal thoughts
+scqa_complication: itle: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Obscene, Degrading, and/or Abusive Con
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: terial can have downstream negative consequences: in the context of CSAM, even if the generated images do not resemble specific individuals, the prevalence of such ima
+search_all_fields: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Obscene, Degrading, and/or Abusive Content Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Obscene, Degrading, and/or Abusive Content
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
+
+Content:
+Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Obscene, Degrading, and/or Abusive Content\nAdditional Evidence: "Generated explicit or obscene AI content may include highly realistic “deepfakes” of real individuals, including children. The spread of this kind of material can have downstream negative consequences: in the context of CSAM, even if the generated images do not resemble specific individuals, the prevalence of such images can divert time and resources from efforts to find real-world victims. Outside of CSAM, the creation and spread of NCII disproportionately impacts women and sexual minorities, and can have subsequent negative consequences including decline in overall mental health, substance abuse, and even suicidal thoughts."

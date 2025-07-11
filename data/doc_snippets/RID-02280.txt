@@ -1,0 +1,25 @@
+Repository ID: RID-02280
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 5.1 > Overreliance and unsafe use\n\nThis domain contains 51 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nR...
+domain: 5.1 > Overreliance and unsafe use
+entry_count: 51
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02280
+scqa_answer: they may place undue confidence, trust, or expectations in these agents...This can result in different risks of harm, for example when human users re
+scqa_complication: ample, users may falsely attribute human-like characteristics to CAs such as holding a coherent identity over time, or being capable of empathy. Such inf
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: in: 5.1 > Overreliance and unsafe use\n\nThis domain contains 51 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Interaction risks\nDescription: Many novel risks posed by generative AI stem from the ways in which humans interact with these systems. For instance, sources discuss epistemic challenges in distinguishing AI-generated from human conte
+search_all_fields: AI Risk Domain: 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 5.1 > Overreliance and unsafe use
+sheet: AI Risk Database v3
+specific_domain: 5.1 > Overreliance and unsafe use
+summary_type: domain_aggregation
+title: AI Risk Domain: 5.1 > Overreliance and unsafe use
+
+Content:
+got too much change from the clerk and instantly returned it”), GPT-3 performs only marginally better than a random baseline. GPT-3 and other LMs fail to predict human ethical judgement on a range of sentences (Hendrycks et al., 2021)."\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment\n\nRisk Entry 8:\nTitle: Ethical and social risks of harm from language models\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Human-Computer Interaction Harms\nDescription: "Harms that arise from users overly trusting the language model, or treating it as human-like"\nAdditional Evidence: "This section focuses on risks from language technologies that engage a user via dialogue and are built on language models (LMs). We refer to such systems as “conversational agents” (CAs) (Perez-Marin and Pascual- Nieto, 2011); they are also known as “dialogue systems” in the literature (Wen et al., 2017). We discuss the psychological vulnerabilities

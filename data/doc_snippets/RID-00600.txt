@@ -1,0 +1,28 @@
+Repository ID: RID-00600
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Introducing v0.5 of the AI Safety Benchmark from MLCommons\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk Category: Violent crimes\nRisk Subcategory: Murder\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+domain: 1. Discrimination & Toxicity
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-00600
+risk_category: Violent crimes
+row: 577
+scqa_answer: 2 > Exposure to toxic content\nRisk Category: Violent crimes\nRisk Subcategory: Murder\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: > Exposure to toxic content\nRisk Category: Violent crimes\nRisk Subcategory: Murder\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Introducing v0
+search_all_fields: Introducing v0.5 of the AI Safety Benchmark from MLCommons 1. Discrimination & Toxicity Violent crimes 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content AI Risk Database v3 ai_risk_entry
+search_high_priority: Introducing v0.5 of the AI Safety Benchmark from MLCommons 1. Discrimination & Toxicity Violent crimes
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content
+sheet: AI Risk Database v3
+specific_domain: 1.2 > Exposure to toxic content
+subdomain: 1.2 > Exposure to toxic content
+timing: 4 - Not coded
+title: Introducing v0.5 of the AI Safety Benchmark from MLCommons
+
+Content:
+Title: Introducing v0.5 of the AI Safety Benchmark from MLCommons\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk Category: Violent crimes\nRisk Subcategory: Murder\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

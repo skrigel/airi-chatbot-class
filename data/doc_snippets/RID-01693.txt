@@ -1,0 +1,28 @@
+Repository ID: RID-01693
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Bias\nAdditional Evidence: "Bias in AI has many sources, like poor training data and system design choices. General- purpose AI is primarily trained on language and image datasets that disproportion...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01693
+risk_category: Risks from malfunctions
+row: 1670
+scqa_answer: Certain design choices, such as content filtering techniques used to align systems with particular worldviews, can also contribute to biased output
+scqa_complication: Western cultures. This contributes to biased output. Certain design choices, such as content filtering techniques used to align systems with particular
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: isk Subcategory: Bias\nAdditional Evidence: "Bias in AI has many sources, like poor training data and system design choices. General- purpose AI is primarily trained on language and image datasets that dispro
+search_all_fields: International AI Safety Report 2025 Unspecified Risks from malfunctions Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International AI Safety Report 2025 Unspecified Risks from malfunctions
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International AI Safety Report 2025
+
+Content:
+Title: International AI Safety Report 2025\nRisk Category: Risks from malfunctions\nRisk Subcategory: Bias\nAdditional Evidence: "Bias in AI has many sources, like poor training data and system design choices. General- purpose AI is primarily trained on language and image datasets that disproportionately represent English- speaking and Western cultures. This contributes to biased output. Certain design choices, such as content filtering techniques used to align systems with particular worldviews, can also contribute to biased output."

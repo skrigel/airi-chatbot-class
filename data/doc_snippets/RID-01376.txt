@@ -1,0 +1,28 @@
+Repository ID: RID-01376
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Legal and Rights-Related Risks\nRisk Subcategory: Privacy (Types of Sensitive Data)\nAdditional Evidence: Level 4 Categories: 1. Personal Identifiable Information; 2. Health data; 3. L...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01376
+risk_category: Legal and Rights-Related Risks
+row: 1353
+scqa_answer: Communication records
+scqa_complication: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Legal and Rights-R
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Legal and Rights-Related Risks\nRisk Subcategory: Privacy (Types of Sensitive Data)\nAdditional Evidence: Level 4 Categories: 1
+search_all_fields: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Legal and Rights-Related Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Legal and Rights-Related Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies
+
+Content:
+Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Legal and Rights-Related Risks\nRisk Subcategory: Privacy (Types of Sensitive Data)\nAdditional Evidence: Level 4 Categories: 1. Personal Identifiable Information; 2. Health data; 3. Location data; 4. Demographic data; 5. Biometric data (facial recognition); 6. Educational records; 7. Financial records; 8. Behavioral/Preference data; 9. Communication records

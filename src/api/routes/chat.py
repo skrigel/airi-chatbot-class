@@ -70,8 +70,17 @@ def stream_message():
                 domain = None
                 docs = []
                 
-                # Initial status update
+                # Initial status update with system info
                 yield json.dumps("Processing your query...") + '\n'
+                
+                # Add system version info to logs
+                from ...config.settings import settings
+                logger.info(f"🔧 Processing with Field-Aware Hybrid: {settings.USE_FIELD_AWARE_HYBRID}")
+                if chat_service.vector_store and hasattr(chat_service.vector_store, 'hybrid_retriever'):
+                    if chat_service.vector_store.hybrid_retriever:
+                        retriever_class = chat_service.vector_store.hybrid_retriever.__class__.__name__
+                        logger.info(f"🎯 Using retriever: {retriever_class}")
+                
                 time.sleep(0.3)
                 
                 # 1. Analyze the query

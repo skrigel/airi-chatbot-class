@@ -1,0 +1,28 @@
+Repository ID: RID-02190
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nSub-domain: X.1 > Excluded\nRisk Category: Output risks (Value alignment)\nRisk Subcategory: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-02190
+risk_category: Output risks (Value alignment)
+row: 2167
+scqa_answer: 1 > Excluded\nRisk Category: Output risks (Value alignment)\nRisk Subcategory: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: Title: AI Risk Atlas\nSub-domain: X.1 > Excluded\nRisk Category: Output risks (Value alignment)\nRisk Subcategory: -\nEntity: 4 - Not
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nSub-domain: X
+search_all_fields: AI Risk Atlas Unspecified Output risks (Value alignment) X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Output risks (Value alignment)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nSub-domain: X.1 > Excluded\nRisk Category: Output risks (Value alignment)\nRisk Subcategory: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

@@ -1,0 +1,28 @@
+Repository ID: RID-01067
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Intentional: socially condemned/illegal\nRisk Subcategory: AI intentionally designed and used to harm animals in ways that contradict social values or are illegal\nAdditional Evidence: Example: "AI-enabled dr...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01067
+risk_category: Intentional: socially condemned/illegal
+row: 1044
+scqa_answer: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Intentional: socially condemned/illegal\nRisk Subcategory: AI intentionally designed and used to harm animals in ways that contradict social values or are illegal\nAdditional Evidence: Example: "AI-enabled drones designed and used to locate target animals for illegal wildlife trade"
+scqa_complication: ematic Account and Framework\nRisk Category: Intentional: socially condemned/illegal\nRisk Subcategory: AI intentionally designed and used to harm animals
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Intentional: socially condemned/illegal\nRisk Subcategory: AI intentionally designed and used to harm animals in ways that contradict social values or are illegal\nAdditional Evidence: Example: "AI-enabled drones designed and used to locate target animals for illegal wildlife trade"
+search_all_fields: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Intentional: socially condemned/illegal Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Intentional: socially condemned/illegal
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+
+Content:
+Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Intentional: socially condemned/illegal\nRisk Subcategory: AI intentionally designed and used to harm animals in ways that contradict social values or are illegal\nAdditional Evidence: Example: "AI-enabled drones designed and used to locate target animals for illegal wildlife trade"

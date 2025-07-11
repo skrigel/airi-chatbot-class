@@ -1,0 +1,28 @@
+Repository ID: RID-00516
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Subcategory: Adversarial attack\nAdditional Evidence: "In general, adversarial attacks can be grouped into two classes: 1. Targeted adversarial attack: The goal of targeted adversarial attack is to make...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00516
+risk_category: 
+row: 493
+scqa_answer: Untargeted adversarial attack: The objective of untargeted adversarial attack is to make an AI/ML model generate a prediction that is different from the true label without intended target"
+scqa_complication: Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Subcategory: Adversarial attack\nAddition
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Subcategory: Adversarial attack\nAdditional Evidence: "In general, adversarial attacks can be grouped into two classes: 1
+search_all_fields: Towards risk-aware artificial intelligence and machine learning systems: An overview Unspecified Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Towards risk-aware artificial intelligence and machine learning systems: An overview Unspecified
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Towards risk-aware artificial intelligence and machine learning systems: An overview
+
+Content:
+Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Subcategory: Adversarial attack\nAdditional Evidence: "In general, adversarial attacks can be grouped into two classes: 1. Targeted adversarial attack: The goal of targeted adversarial attack is to make an AI/ML model classify an adversarial image with a true label of K as a target class T (T ∕= K ) through intentional design (i.e., data manipulation). 2. Untargeted adversarial attack: The objective of untargeted adversarial attack is to make an AI/ML model generate a prediction that is different from the true label without intended target"

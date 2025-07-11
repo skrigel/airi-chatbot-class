@@ -1,0 +1,28 @@
+Repository ID: RID-01226
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Information Security\nAdditional Evidence: "For instance, prompt injection involves modifying what input is provided to a GAI system so that it behaves in unintended ways. In direct p...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01226
+risk_category: Information Security
+row: 1203
+scqa_answer: Malicious tampering with data or parts of the model could exacerbate risks associated with GAI system outputs
+scqa_complication: itle: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Information Security\nAdditional Evide
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: ut is provided to a GAI system so that it behaves in unintended ways. In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems. Indirect prompt inje
+search_all_fields: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Information Security Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Information Security
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
+
+Content:
+Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Information Security\nAdditional Evidence: "For instance, prompt injection involves modifying what input is provided to a GAI system so that it behaves in unintended ways. In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems. Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved. Security researchers have already demonstrated how indirect prompt injections can exploit vulnerabilities by stealing proprietary data or running malicious code remotely on a machine. Merely querying a closed production model can elicit previously undisclosed information about that model. Another cybersecurity risk to GAI is data poisoning, in which an adversary compromises a training dataset used by a model to manipulate its outputs or operation. Malicious tampering with data or parts of the model could exacerbate risks associated with GAI system outputs."

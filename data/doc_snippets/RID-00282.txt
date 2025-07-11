@@ -1,0 +1,32 @@
+Repository ID: RID-00282
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Misapplication\nAdditional Evidence: "Ability to prevent misuse: The ability to prevent misuse before it occurs significantly reduces misapplication risk. In
+the case of autonomous vehicles, the car mig...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00282
+risk_category: First-Order Risks
+row: 259
+scqa_answer: However, while such failsafes significantly reduce risk, they do not entirely eliminate it since they can be bypassed [9]
+scqa_complication: t while the car is in motion.
+However, while such failsafes significantly reduce risk, they do not entirely eliminate it since they can be bypassed [9]."
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Misapplication\nAdditional Evidence: "Ability to prevent misuse: The ability to prevent misuse before it occurs significantly reduces misapplication risk
+search_all_fields: The Risks of Machine Learning Systems Unspecified First-Order Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems Unspecified First-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Misapplication\nAdditional Evidence: "Ability to prevent misuse: The ability to prevent misuse before it occurs significantly reduces misapplication risk. In
+the case of autonomous vehicles, the car might be programmed to automatically slow to a stop if individuals remove their hands from the wheel or if there is a significant weight decrease in the driver’s seat while the car is in motion.
+However, while such failsafes significantly reduce risk, they do not entirely eliminate it since they can be bypassed [9]."

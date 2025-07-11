@@ -1,0 +1,28 @@
+Repository ID: RID-01363
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Societal Risks\nRisk Subcategory: Manipulation (Misrepresentation)\nAdditional Evidence: Level 4 Categories: 1. Automated social media posts; 2. Not labeling content as AI-generated (U...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01363
+risk_category: Societal Risks
+row: 1340
+scqa_answer: Not labeling content as AI-generated (Using chatbots to convince people they are communicating with a human); 3
+scqa_complication: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Societal Risks\nRi
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Societal Risks\nRisk Subcategory: Manipulation (Misrepresentation)\nAdditional Evidence: Level 4 Categories: 1
+search_all_fields: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Societal Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Societal Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies
+
+Content:
+Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Societal Risks\nRisk Subcategory: Manipulation (Misrepresentation)\nAdditional Evidence: Level 4 Categories: 1. Automated social media posts; 2. Not labeling content as AI-generated (Using chatbots to convince people they are communicating with a human); 3. Impersonating humans

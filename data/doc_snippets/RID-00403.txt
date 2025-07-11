@@ -1,0 +1,28 @@
+Repository ID: RID-00403
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Ethical and social risks of harm from language models\nRisk Category: Malicious Uses\nRisk Subcategory: Facilitating fraud, scames and more targeted manipulation\nAdditional Evidence: "Simulating a person’s writing style or speech may also be used to enable more targeted manipulation at scale...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00403
+risk_category: Malicious Uses
+row: 380
+scqa_answer: In this way, a personal simulation could be used for optimising these messages to elicit a wanted response from the victim
+scqa_complication: Title: Ethical and social risks of harm from language models\nRisk Category: Malicious Uses\nRisk Subcategory: Facilitating fraud, scames and more tar
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Ethical and social risks of harm from language models\nRisk Category: Malicious Uses\nRisk Subcategory: Facilitating fraud, scames and more targeted manipulation\nAdditional Evidence: "Simulating a person’s writing style or speech may also be used to enable more targeted manipulation at scale
+search_all_fields: Ethical and social risks of harm from language models Unspecified Malicious Uses Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Ethical and social risks of harm from language models Unspecified Malicious Uses
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Ethical and social risks of harm from language models
+
+Content:
+Title: Ethical and social risks of harm from language models\nRisk Category: Malicious Uses\nRisk Subcategory: Facilitating fraud, scames and more targeted manipulation\nAdditional Evidence: "Simulating a person’s writing style or speech may also be used to enable more targeted manipulation at scale. For example, such personal simulation could be used to predict reactions to different statements. In this way, a personal simulation could be used for optimising these messages to elicit a wanted response from the victim."

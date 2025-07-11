@@ -1,0 +1,28 @@
+Repository ID: RID-01407
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks\nRisk Category: Risks from Unreliability\nRisk Subcategory: Accidents\nAdditional Evidence: "There are various sources of unpredictable behaviour and thus failures in general purpose AI models. First...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01407
+risk_category: Risks from Unreliability
+row: 1384
+scqa_answer: failures in general purpose AI models. Firstly, a source for accidents can be anomalous output based on unusual input. For example, in the case of la
+scqa_complication: iability, Misuse and Systemic Risks\nRisk Category: Risks from Unreliability\nRisk Subcategory: Accidents\nAdditional Evidence: "There are various sources
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks\nRisk Category: Risks from Unreliability\nRisk Subcategory: Accidents\nAdditional Evidence: "There are various sources of unpredictable behaviour and thus failures in general purpose AI models
+search_all_fields: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks Unspecified Risks from Unreliability Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks Unspecified Risks from Unreliability
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks
+
+Content:
+Title: Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks\nRisk Category: Risks from Unreliability\nRisk Subcategory: Accidents\nAdditional Evidence: "There are various sources of unpredictable behaviour and thus failures in general purpose AI models. Firstly, a source for accidents can be anomalous output based on unusual input. For example, in the case of language models, so-called “glitch tokens” have been discovered that lead to unusual odd answers for questions that are usually solved inconspicuously (see Figure 2).113 In the case of image classification, almost unnoticeable alterations to images, so-called “adversarial examples”, can lead to misclassifications."

@@ -1,0 +1,28 @@
+Repository ID: RID-00867
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology\nSub-domain: X.1 > Excluded\nRisk Category: Culture and identity\nDescription: Supportive of culture and cultural diversity, Collective human identity and the good life\nAdditional Evidence: E.g., Supportive of cul...
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-00867
+risk_category: Culture and identity
+row: 844
+scqa_answer: , Supportive of culture and cultural diversity, Collective human identity and the good life\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: \nSub-domain: X.1 > Excluded\nRisk Category: Culture and identity\nDescription: Supportive of culture and cultural diversity, Collective human identity an
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology\nSub-domain: X
+search_all_fields: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology Unspecified Culture and identity X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology Unspecified Culture and identity
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology
+
+Content:
+Title: The Ethics of ChatGPT – Exploring the Ethical Issues of an Emerging Technology\nSub-domain: X.1 > Excluded\nRisk Category: Culture and identity\nDescription: Supportive of culture and cultural diversity, Collective human identity and the good life\nAdditional Evidence: E.g., Supportive of culture and cultural diversity, Collective human identity and the good life\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

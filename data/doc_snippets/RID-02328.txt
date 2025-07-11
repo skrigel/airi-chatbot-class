@@ -1,0 +1,23 @@
+Repository ID: RID-02328
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Content from sheet Change Log:\n\n Unnamed: 0                                                                                                                                                                                                                                                               ...
+file_type: excel_sheet
+rid: RID-02328
+scqa_answer: A systematic evidence review and common frame of reference for the risks from artificial intelligence
+scqa_complication: ord of updates made to the AI Risk Repository.
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Content from sheet Change Log:\n\n Unnamed: 0                                                                                                                                                                                                                                                                                        Unnamed: 1                                                                                                                                                              Unnamed: 2  Updated: 26 March 2025
+                                                                                                                                                                                                                                                                                                  Change Log                                                                                                                                                                                                 
+                                                                                                                                                                                                                                    This page is not mobile-friendly; please access on a computer if you can
+search_all_fields: Sheet: Change Log Change Log excel_sheet
+search_high_priority: Sheet: Change Log
+search_low_priority: Change Log excel_sheet
+search_medium_priority: 
+sheet: Change Log
+title: Sheet: Change Log
+
+Content:
+Description of sheet                                                                                                                                                                                                
+                                                                                                                                                                                                                                     This sheet provides a record of updates made to the AI Risk Repository.

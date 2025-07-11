@@ -1,0 +1,28 @@
+Repository ID: RID-01450
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Advancing AI Governance: A Literature Review of Problems, Options, and Proposals\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.2 > AI possessing dangerous capabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescrip...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01450
+risk_category: Dangerous capabilities in AI systems
+row: 1427
+scqa_answer: 2 > AI possessing dangerous capabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescription: "cases where a large language model displays awareness that it is a model, and it can recognize whether it is currently in testing or deployment;"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other
+scqa_complication: ssing dangerous capabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescription: "cases where a la
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: 2 > AI possessing dangerous capabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescription: "cases where a large language model displays awareness that it is a model, and it can recognize whether it is currently in testing or deployment;"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other?
+scqa_situation: pabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescription: "cases where a large language model displays
+search_all_fields: Advancing AI Governance: A Literature Review of Problems, Options, and Proposals 7. AI System Safety, Failures, & Limitations Dangerous capabilities in AI systems 7.2 > AI possessing dangerous capabilities 7.2 > AI possessing dangerous capabilities AI Risk Database v3 ai_risk_entry
+search_high_priority: Advancing AI Governance: A Literature Review of Problems, Options, and Proposals 7. AI System Safety, Failures, & Limitations Dangerous capabilities in AI systems
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.2 > AI possessing dangerous capabilities 7.2 > AI possessing dangerous capabilities
+sheet: AI Risk Database v3
+specific_domain: 7.2 > AI possessing dangerous capabilities
+subdomain: 7.2 > AI possessing dangerous capabilities
+timing: 3 - Other
+title: Advancing AI Governance: A Literature Review of Problems, Options, and Proposals
+
+Content:
+Title: Advancing AI Governance: A Literature Review of Problems, Options, and Proposals\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.2 > AI possessing dangerous capabilities\nRisk Category: Dangerous capabilities in AI systems\nRisk Subcategory: Situational awareness\nDescription: "cases where a large language model displays awareness that it is a model, and it can recognize whether it is currently in testing or deployment;"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other

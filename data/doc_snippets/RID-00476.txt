@@ -1,0 +1,28 @@
+Repository ID: RID-00476
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Governance of artificial intelligence: A risk and guideline-based integrative framework\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Social AI Risks\nRisk Subcategory: Lack of knowledge and social acceptance regarding AI\nEntity: 4 - Not co...
+domain: 6. Socioeconomic and Environmental
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-00476
+risk_category: Social AI Risks
+row: 453
+scqa_answer: 5 > Governance failure\nRisk Category: Social AI Risks\nRisk Subcategory: Lack of knowledge and social acceptance regarding AI\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: of artificial intelligence: A risk and guideline-based integrative framework\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance fai
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Governance of artificial intelligence: A risk and guideline-based integrative framework\nDomain: 6
+search_all_fields: Governance of artificial intelligence: A risk and guideline-based integrative framework 6. Socioeconomic and Environmental Social AI Risks 6.5 > Governance failure 6.5 > Governance failure AI Risk Database v3 ai_risk_entry
+search_high_priority: Governance of artificial intelligence: A risk and guideline-based integrative framework 6. Socioeconomic and Environmental Social AI Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.5 > Governance failure 6.5 > Governance failure
+sheet: AI Risk Database v3
+specific_domain: 6.5 > Governance failure
+subdomain: 6.5 > Governance failure
+timing: 4 - Not coded
+title: Governance of artificial intelligence: A risk and guideline-based integrative framework
+
+Content:
+Title: Governance of artificial intelligence: A risk and guideline-based integrative framework\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Social AI Risks\nRisk Subcategory: Lack of knowledge and social acceptance regarding AI\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

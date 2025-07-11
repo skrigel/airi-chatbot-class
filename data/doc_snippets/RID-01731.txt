@@ -1,0 +1,28 @@
+Repository ID: RID-01731
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nSub-domain: X.1 > Excluded\nRisk Category: Sources of systemic risks from general-purpose AI\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-01731
+risk_category: Sources of systemic risks from general-purpose AI
+row: 1708
+scqa_answer: 1 > Excluded\nRisk Category: Sources of systemic risks from general-purpose AI\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nSub-domain: X.1 > Excluded\nRisk Category: Sources of systemic risks from general-purpose AI\
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nSub-domain: X
+search_all_fields: A Taxonomy of Systemic Risks from General-Purpose AI Unspecified Sources of systemic risks from general-purpose AI X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: A Taxonomy of Systemic Risks from General-Purpose AI Unspecified Sources of systemic risks from general-purpose AI
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: A Taxonomy of Systemic Risks from General-Purpose AI
+
+Content:
+Title: A Taxonomy of Systemic Risks from General-Purpose AI\nSub-domain: X.1 > Excluded\nRisk Category: Sources of systemic risks from general-purpose AI\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

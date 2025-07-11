@@ -1,0 +1,25 @@
+Repository ID: RID-02279
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 7.1 > AI pursuing its own goals in conflict with human goals or values\n\nThis domain contains 90 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 7. AI System Safety, Failures, & Limitatio...
+domain: 7.1 > AI pursuing its own goals in conflict with human goals or values
+entry_count: 90
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02279
+scqa_answer: s\nDescription: "Our culture, lifestyle, and even probability of survival may change drastically. Because the intentions programmed into an artificial
+scqa_complication: th and respects human values. However, a central debate in this area concerns the methodological challenges in selecting appropriate values. While AI systems
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: se by malicious individuals or groups, especially in the context of open-source models, is highlighted in the literature as a significant factor emphasizing the critic
+search_all_fields: AI Risk Domain: 7.1 > AI pursuing its own goals in conflict with human goals or values 7.1 > AI pursuing its own goals in conflict with human goals or values 7.1 > AI pursuing its own goals in conflict with human goals or values AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 7.1 > AI pursuing its own goals in conflict with human goals or values 7.1 > AI pursuing its own goals in conflict with human goals or values
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 7.1 > AI pursuing its own goals in conflict with human goals or values
+sheet: AI Risk Database v3
+specific_domain: 7.1 > AI pursuing its own goals in conflict with human goals or values
+summary_type: domain_aggregation
+title: AI Risk Domain: 7.1 > AI pursuing its own goals in conflict with human goals or values
+
+Content:
+An Overview of Catastrophic AI Risks\n- An Overview of Catastrophic AI Risks\n- An Overview of Catastrophic AI Risks\n- An Overview of Catastrophic AI Risks\n- An Overview of Catastrophic AI Risks\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- The Ethics of Advanced AI Assistants\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- AI Alignment: A Comprehensive Survey\n- X-Risk Analysis for AI Research\n- X-Risk Analysis for AI Research\n- X-Risk Analysis for AI Research\n- What Ethics

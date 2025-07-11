@@ -1,0 +1,28 @@
+Repository ID: RID-01279
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "The CO2 emissions resulting from AI development and deployment depend on the extent and sources of its energy consumption as well as s...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01279
+risk_category: Systemic Risks
+row: 1256
+scqa_answer: the actual CO2 emissions for a given amount of energy consumed in AI can vary considerably."
+scqa_complication: ources like solar power contributing substantially less CO2 emissions throughout their life cycle compared to fossil fuels (581*). AI firms often rely on
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "The CO2 emissions resulting from AI development and deployment depend on the extent and sources of its energy consumption as well as several factors
+search_all_fields: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International Scientific Report on the Safety of Advanced AI
+
+Content:
+Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "The CO2 emissions resulting from AI development and deployment depend on the extent and sources of its energy consumption as well as several factors. The carbon intensity of the energy source is a key variable, with renewable sources like solar power contributing substantially less CO2 emissions throughout their life cycle compared to fossil fuels (581*). AI firms often rely on renewable energy (76, 78), a significant portion of AI training globally still relies on high- carbon sources such as coal or natural gas (581*). Other important factors affecting CO2 emissions include the geographic location of data centres, their efficiency, and the efficiency of the hardware used. As a result, the actual CO2 emissions for a given amount of energy consumed in AI can vary considerably."

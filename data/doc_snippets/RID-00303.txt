@@ -1,0 +1,28 @@
+Repository ID: RID-00303
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Design\nAdditional Evidence: "Design and development team: Although software libraries such as PyTorch and transformers are increasing the accessibility of machine learning, a technical understanding of...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00303
+risk_category: First-Order Risks
+row: 280
+scqa_answer: Additionally, the diversity of a team (in terms of demographics) will affect its ability to identify design decisions that may disproportionately impact different demographics, such as using proxy attributes in modeling or training an international chatbot only on White American English
+scqa_complication: ics, such as using proxy attributes in modeling or training an international chatbot only on White American English."
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: technical expertise may be able to identify gaps in the design requirements and help to improve them. Conversely, the lack of either increases the risk of an ML system failing post-deployment or having some unforeseen effects on the affected community. There have bee
+search_all_fields: The Risks of Machine Learning Systems Unspecified First-Order Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems Unspecified First-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Design\nAdditional Evidence: "Design and development team: Although software libraries such as PyTorch and transformers are increasing the accessibility of machine learning, a technical understanding of ML techniques and their corresponding strengths and weaknesses is often necessary for choosing the right modeling technique and mitigating its flaws. Similarly, good system design requires engineers with relevant experience. A team with the relevant technical expertise may be able to identify gaps in the design requirements and help to improve them. Conversely, the lack of either increases the risk of an ML system failing post-deployment or having some unforeseen effects on the affected community. There have been calls for mandatory certification of engineers to ensure a minimum level of competency and ethical training, though they are largely voluntary. Additionally, the diversity of a team (in terms of demographics) will affect its ability to identify design decisions that may disproportionately impact different demographics, such as using proxy attributes in modeling or training an international chatbot only on White American English."

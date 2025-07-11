@@ -1,0 +1,28 @@
+Repository ID: RID-00144
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A framework for ethical Ai at the United Nations\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.2 > Cyberattacks, weapon development or use, and mass harm\nRisk Category: Lethal Autonomous Weapons (LAW)\nDescription: "What is debated as an ethical issue is the use of LAW — AI-driven wea...
+domain: 4. Malicious Actors & Misuse
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00144
+risk_category: Lethal Autonomous Weapons (LAW)
+row: 121
+scqa_answer: "\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: opment or use, and mass harm\nRisk Category: Lethal Autonomous Weapons (LAW)\nDescription: "What is debated as an ethical issue is the use of LAW — AI-dri
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: 2 > Cyberattacks, weapon development or use, and mass harm\nRisk Category: Lethal Autonomous Weapons (LAW)\nDescription: "What is debated as an ethical issue is the use of LAW — AI-driven weapons that fully autonomously take actions that intentionally kill humans?
+scqa_situation: Title: A framework for ethical Ai at the United Nations\nDomain: 4
+search_all_fields: A framework for ethical Ai at the United Nations 4. Malicious Actors & Misuse Lethal Autonomous Weapons (LAW) 4.2 > Cyberattacks, weapon development or use, and mass harm 4.2 > Cyberattacks, weapon development or use, and mass harm AI Risk Database v3 ai_risk_entry
+search_high_priority: A framework for ethical Ai at the United Nations 4. Malicious Actors & Misuse Lethal Autonomous Weapons (LAW)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 4.2 > Cyberattacks, weapon development or use, and mass harm 4.2 > Cyberattacks, weapon development or use, and mass harm
+sheet: AI Risk Database v3
+specific_domain: 4.2 > Cyberattacks, weapon development or use, and mass harm
+subdomain: 4.2 > Cyberattacks, weapon development or use, and mass harm
+timing: 2 - Post-deployment
+title: A framework for ethical Ai at the United Nations
+
+Content:
+Title: A framework for ethical Ai at the United Nations\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.2 > Cyberattacks, weapon development or use, and mass harm\nRisk Category: Lethal Autonomous Weapons (LAW)\nDescription: "What is debated as an ethical issue is the use of LAW — AI-driven weapons that fully autonomously take actions that intentionally kill humans."\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

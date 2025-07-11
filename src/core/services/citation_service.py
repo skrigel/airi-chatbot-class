@@ -13,64 +13,169 @@ from ...config.settings import settings
 logger = get_logger(__name__)
 
 class CitationService:
-    """Handles citation generation and snippet management."""
+    """Handles citation generation and snippet management with RID-based citations."""
     
     def __init__(self):
         self.snippets_dir = settings.DOC_SNIPPETS_DIR
         # Ensure snippets directory exists
         self.snippets_dir.mkdir(parents=True, exist_ok=True)
+        
+        # RID to citation mapping for deterministic citation replacement
+        self.rid_citation_map = {}
     
     def enhance_response_with_citations(self, response: str, docs: List[Document]) -> str:
         """
-        Add clickable citations to the response text.
+        Add RID-based citations to the response text with inline highlighting.
         
         Args:
             response: Generated response text
             docs: Source documents
             
         Returns:
-            Response with enhanced citations
+            Response with enhanced RID-based citations and highlighting
         """
         if not docs:
             return response
         
-        # Create mapping of docs to their citations
-        doc_citations = {}
-        for i, doc in enumerate(docs):
-            citation = self._format_document_citation(doc)
-            
-            # Map various reference patterns to citations
-            doc_citations[f"SECTION {i+1}"] = citation
-            doc_citations[f"Source {i+1}"] = citation
-            doc_citations[f"Document {i+1}"] = citation
-            doc_citations[f"Entry {i+1}"] = citation
-            
-            # Also add by filename if available
-            if 'source' in doc.metadata:
-                filename = os.path.basename(doc.metadata['source'])
-                doc_citations[filename] = citation
+        # Build RID citation mapping
+        self.rid_citation_map = {}
+        for doc in docs:
+            rid = doc.metadata.get('rid', None)
+            if rid:
+                citation = self._format_rid_citation(doc)
+                self.rid_citation_map[rid] = citation
                 
-                # Add the mangled version that actually appears in responses
-                mangled_name = self._clean_for_filename(filename).replace('-', ' ').title()
-                doc_citations[mangled_name] = citation
+                # Save snippet for the RID
+                self._save_rid_snippet(doc, rid)
         
-        # Replace section references with clickable citations
-        enhanced_response = response
-        logger.info(f"Processing citations for {len(doc_citations)} documents")
-        logger.info(f"Available patterns: {list(doc_citations.keys())}")
-        logger.info(f"Response snippet: {response[:200]}...")
+        # Replace RID placeholders and legacy patterns
+        enhanced_response = self._replace_rid_citations(response, docs)
         
-        for pattern, citation in doc_citations.items():
-            # Check if pattern exists in response
-            if pattern in enhanced_response:
-                logger.info(f"✓ Replacing pattern '{pattern}' with citation")
-                enhanced_response = enhanced_response.replace(f"[{pattern}]", citation)
-                enhanced_response = enhanced_response.replace(pattern, citation)
-            else:
-                logger.debug(f"✗ Pattern '{pattern}' not found in response")
+        # Add inline highlighting for supported claims
+        enhanced_response = self._add_inline_highlighting(enhanced_response, docs)
         
-        logger.info(f"Citation enhancement complete. Changed: {response != enhanced_response}")
+        logger.info(f"RID citation enhancement complete. RIDs processed: {len(self.rid_citation_map)}")
         return enhanced_response
+    
+    def _replace_rid_citations(self, response: str, docs: List[Document]) -> str:
+        """Replace RID placeholders and legacy section references with proper citations."""
+        enhanced_response = response
+        
+        # First, replace any RID-##### patterns with proper citations
+        import re
+        rid_pattern = r'RID-(\d{5})'
+        
+        def replace_rid(match):
+            rid = match.group(0)
+            return self.rid_citation_map.get(rid, rid)  # Keep original if not found
+        
+        enhanced_response = re.sub(rid_pattern, replace_rid, enhanced_response)
+        
+        # Handle legacy patterns (SECTION X, Document X) for backward compatibility
+        for i, doc in enumerate(docs, 1):
+            rid = doc.metadata.get('rid')
+            if not rid:
+                continue
+                
+            citation = self.rid_citation_map.get(rid, f"[Source {i}]")
+            
+            # Replace various legacy patterns
+            patterns = [
+                f"SECTION {i}",
+                f"Source {i}",
+                f"Document {i}",
+                f"Entry {i}"
+            ]
+            
+            for pattern in patterns:
+                if pattern in enhanced_response:
+                    enhanced_response = enhanced_response.replace(pattern, citation)
+                    logger.info(f"✓ Replaced legacy pattern '{pattern}' with RID citation")
+        
+        # If no citations were added through pattern replacement, append them
+        if self.rid_citation_map and not any(rid in enhanced_response for rid in self.rid_citation_map.keys()):
+            logger.info("No citation patterns found - appending citations to response")
+            citations_list = []
+            for rid, citation in self.rid_citation_map.items():
+                citations_list.append(f"{rid}: {citation}")
+            
+            if citations_list:
+                enhanced_response += "\n\n**Sources:**\n" + "\n".join(f"• {cite}" for cite in citations_list)
+                logger.info(f"✓ Appended {len(citations_list)} citations to response")
+        
+        return enhanced_response
+    
+    def _add_inline_highlighting(self, response: str, docs: List[Document]) -> str:
+        """Add bold highlighting to phrases that directly reference source content."""
+        # For now, implement basic highlighting
+        # Future enhancement: use fuzzy matching to find exact phrases from sources
+        return response  # Placeholder for inline highlighting feature
+    
+    def _format_rid_citation(self, doc: Document) -> str:
+        """Format a citation using the document's RID."""
+        rid = doc.metadata.get('rid', 'RID-UNKNOWN')
+        file_type = doc.metadata.get('file_type', '')
+        
+        # Create human-readable citation text based on document type
+        if 'ai_risk_entry' in file_type:
+            title = doc.metadata.get('title', 'AI Risk Entry')
+            domain = doc.metadata.get('domain', '')
+            if domain and domain != 'Unspecified':
+                citation_text = f"{title} (Domain: {domain})"
+            else:
+                citation_text = title
+        elif 'domain_summary' in file_type:
+            domain = doc.metadata.get('domain', 'Unknown Domain')
+            citation_text = f"AI Risk Domain: {domain}"
+        elif 'excel' in file_type:
+            sheet = doc.metadata.get('sheet', 'Unknown Sheet')
+            row = doc.metadata.get('row', '')
+            if row:
+                citation_text = f"MIT AI Repository, {sheet}, Row {row}"
+            else:
+                citation_text = f"MIT AI Repository, {sheet}"
+        else:
+            # Generic citation
+            source = doc.metadata.get('source', 'Unknown Source')
+            filename = os.path.basename(source)
+            if 'AI_Risk' in filename:
+                citation_text = "AI Risk Repository Document"
+            else:
+                citation_text = filename.replace('_', ' ').replace('-', ' ')[:30]
+        
+        return f"[{citation_text}](/snippet/{rid})"
+    
+    def _save_rid_snippet(self, doc: Document, rid: str) -> None:
+        """Save document snippet using RID for easy retrieval."""
+        snippet_path = self.snippets_dir / f"{rid}.txt"
+        
+        try:
+            with open(snippet_path, 'w', encoding='utf-8') as f:
+                f.write(f"Repository ID: {rid}\n")
+                f.write(f"Source: {doc.metadata.get('source', 'Unknown')}\n")
+                
+                # Add all metadata
+                for key, value in doc.metadata.items():
+                    if key not in ['source', 'page_content', 'content_hash']:
+                        f.write(f"{key}: {value}\n")
+                
+                f.write(f"\nContent:\n{doc.page_content}")
+        except Exception as e:
+            logger.error(f"Error saving RID snippet for {rid}: {str(e)}")
+    
+    def get_snippet_by_rid(self, rid: str) -> str:
+        """Get snippet content by RID."""
+        snippet_path = self.snippets_dir / f"{rid}.txt"
+        
+        if snippet_path.exists():
+            try:
+                with open(snippet_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+            except Exception as e:
+                logger.error(f"Error reading RID snippet {rid}: {str(e)}")
+                return f"Error reading snippet {rid}: {str(e)}"
+        else:
+            return f"Snippet for {rid} not found"
     
     def _format_document_citation(self, doc: Document) -> str:
         """Format a citation for a document based on its type and metadata."""

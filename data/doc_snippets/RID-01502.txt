@@ -1,0 +1,28 @@
+Repository ID: RID-01502
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Worsened epistemic pro...
+domain: 3. Misinformation
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01502
+risk_category: Worsened epistemic processes for society
+row: 1479
+scqa_answer: 2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Worsened epistemic processes for society\nRisk Subcategory: AI contributes to increased online polarisation\nDescription: "One of the most significant commercial uses of current AI systems is in the content recommendation algorithms of social media companies, and there are already concerns that this is contributing to worsened polarisation online"\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: y\nRisk Subcategory: AI contributes to increased online polarisation\nDescription: "One of the most significant commercial uses of current AI systems is
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: cts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Worsened epistemic processes for society\nRisk Subcategory: AI contributes to increased online polarisation\nDescription: "One of the most significant commercial uses of current AI systems is in the content recommendation algorithms of social media companies, and there are already concer
+search_all_fields: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values 3. Misinformation Worsened epistemic processes for society 3.2 > Pollution of information ecosystem and loss of consensus reality 3.2 > Pollution of information ecosystem and loss of consensus reality AI Risk Database v3 ai_risk_entry
+search_high_priority: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values 3. Misinformation Worsened epistemic processes for society
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 3.2 > Pollution of information ecosystem and loss of consensus reality 3.2 > Pollution of information ecosystem and loss of consensus reality
+sheet: AI Risk Database v3
+specific_domain: 3.2 > Pollution of information ecosystem and loss of consensus reality
+subdomain: 3.2 > Pollution of information ecosystem and loss of consensus reality
+timing: 2 - Post-deployment
+title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values
+
+Content:
+Title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Worsened epistemic processes for society\nRisk Subcategory: AI contributes to increased online polarisation\nDescription: "One of the most significant commercial uses of current AI systems is in the content recommendation algorithms of social media companies, and there are already concerns that this is contributing to worsened polarisation online"\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

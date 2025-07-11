@@ -1,0 +1,28 @@
+Repository ID: RID-02144
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nRisk Category: Training Data Risks (Value alignment)\nRisk Subcategory: Improper data curation\nAdditional Evidence: "Improper data curation can adversely affect how a model is trained, resulting in a model that does not behave in accordance with the intended values. Correcting...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02144
+risk_category: Training Data Risks (Value alignment)
+row: 2121
+scqa_answer: ing in a model that does not behave in accordance with the intended values. Correcting problems after the model is trained and deployed might be insuf
+scqa_complication: Title: AI Risk Atlas\nRisk Category: Training Data Risks (Value alignment)\nRisk Subcategory: Improper data curation\nAdditional Evide
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nRisk Category: Training Data Risks (Value alignment)\nRisk Subcategory: Improper data curation\nAdditional Evidence: "Improper data curation can adversely affect how a model is trained, resulting in a model that does not behave in accordance with the intended values
+search_all_fields: AI Risk Atlas Unspecified Training Data Risks (Value alignment) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Training Data Risks (Value alignment)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nRisk Category: Training Data Risks (Value alignment)\nRisk Subcategory: Improper data curation\nAdditional Evidence: "Improper data curation can adversely affect how a model is trained, resulting in a model that does not behave in accordance with the intended values. Correcting problems after the model is trained and deployed might be insufficient for guaranteeing proper behavior."

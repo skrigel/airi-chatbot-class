@@ -1,0 +1,28 @@
+Repository ID: RID-00290
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Training & validation data\nAdditional Evidence: "Control over training and validation data: Using pretrained models (e.g., GPT-3 [27], BERT [52], Inception [174]) for processing unstructured data such ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00290
+risk_category: First-Order Risks
+row: 267
+scqa_answer: further highlight the existence of pretrained models trained on private datasets that cannot be independently audited by researchers [16]
+scqa_complication: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Training & validation data\nAdditiona
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: ver the training data for teams that do not pretrain their own models and simply build on top of publicly released models or machine learning API services (e.g., translation). Given the discovery of systemic labeling errors, stereotypes, and even pornographic content in popular datasets such as ImageNet
+search_all_fields: The Risks of Machine Learning Systems Unspecified First-Order Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems Unspecified First-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Training & validation data\nAdditional Evidence: "Control over training and validation data: Using pretrained models (e.g., GPT-3 [27], BERT [52], Inception [174]) for processing unstructured data such as images and text is becoming increasingly common. While this can significantly improve performance, the trade-off is reduced control over the training data for teams that do not pretrain their own models and simply build on top of publicly released models or machine learning API services (e.g., translation). Given the discovery of systemic labeling errors, stereotypes, and even pornographic content in popular datasets such as ImageNet [16, 135, 187], it is important to consider the downstream ramifications of using models pretrained on these datasets. The studies mentioned above were performed on publicly available datasets; Birhane et al. further highlight the existence of pretrained models trained on private datasets that cannot be independently audited by researchers [16]."

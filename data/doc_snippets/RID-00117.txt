@@ -1,0 +1,28 @@
+Repository ID: RID-00117
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk Category: Harmful Content - Toxicity\nDescription: Generating unethical, fraudulent, toxic, violent, pornographic, or other harmful cont...
+domain: 1. Discrimination & Toxicity
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00117
+risk_category: Harmful Content - Toxicity
+row: 94
+scqa_answer: \nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: > Exposure to toxic content\nRisk Category: Harmful Content - Toxicity\nDescription: Generating unethical, fraudulent, toxic, violent, pornographic, or o
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 1
+search_all_fields: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review 1. Discrimination & Toxicity Harmful Content - Toxicity 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content AI Risk Database v3 ai_risk_entry
+search_high_priority: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review 1. Discrimination & Toxicity Harmful Content - Toxicity
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content
+sheet: AI Risk Database v3
+specific_domain: 1.2 > Exposure to toxic content
+subdomain: 1.2 > Exposure to toxic content
+timing: 2 - Post-deployment
+title: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review
+
+Content:
+Title: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk Category: Harmful Content - Toxicity\nDescription: Generating unethical, fraudulent, toxic, violent, pornographic, or other harmful content is a further predominant concern, again focusing notably on LLMs and text-to-image models. Numerous studies highlight the risks associated with the intentional creation of disinformation, fake news, propaganda, or deepfakes, underscoring their significant threat to the integrity of public discourse and the trust in credible media. Additionally, papers explore the potential for generative models to aid in criminal activities, incidents of self-harm, identity theft, or impersonation. Furthermore, the literature investigates risks posed by LLMs when generating advice in high-stakes domains such as health, safety-related issues, as well as legal or financial matters.\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

@@ -1,0 +1,28 @@
+Repository ID: RID-01036
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.4 > Lack of transparency or interpretability\nRisk Category: Explainability\nDescription: "Any action or procedure performed by a model w...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-01036
+risk_category: Explainability
+row: 1013
+scqa_answer: "\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment
+scqa_complication: is of Artificial Intelligence Risks for a Responsible Governance\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.4 > Lack of transpar
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance\nDomain: 7
+search_all_fields: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance 7. AI System Safety, Failures, & Limitations Explainability 7.4 > Lack of transparency or interpretability 7.4 > Lack of transparency or interpretability AI Risk Database v3 ai_risk_entry
+search_high_priority: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance 7. AI System Safety, Failures, & Limitations Explainability
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.4 > Lack of transparency or interpretability 7.4 > Lack of transparency or interpretability
+sheet: AI Risk Database v3
+specific_domain: 7.4 > Lack of transparency or interpretability
+subdomain: 7.4 > Lack of transparency or interpretability
+timing: 2 - Post-deployment
+title: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance
+
+Content:
+Title: An Exploratory Diagnosis of Artificial Intelligence Risks for a Responsible Governance\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.4 > Lack of transparency or interpretability\nRisk Category: Explainability\nDescription: "Any action or procedure performed by a model with the intention of clarifying or detailing its internal functions."\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment

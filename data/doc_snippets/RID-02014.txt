@@ -1,0 +1,28 @@
+Repository ID: RID-02014
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Multi-Agent Risks from Advanced AI\nRisk Category: Information Asymmetries\nAdditional Evidence: "A key aspect of many multi-agent systems is that some agents might possess knowledge that others do not. These information asymmetries can result from constraints on information exchange or from ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02014
+risk_category: Information Asymmetries
+row: 1991
+scqa_answer: from constraints on information exchange or from strategic behaviour and can lead to cooperation failures in both common-interest and mixed-motive se
+scqa_complication: Title: Multi-Agent Risks from Advanced AI\nRisk Category: Information Asymmetries\nAdditional Evidence: "A key aspect of many multi-agent syste
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: failures in both common-interest and mixed-motive settings. Despite their information processing capabilities, AI agents remain vulnerable to failures caused
+search_all_fields: Multi-Agent Risks from Advanced AI Unspecified Information Asymmetries Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Multi-Agent Risks from Advanced AI Unspecified Information Asymmetries
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Multi-Agent Risks from Advanced AI
+
+Content:
+Title: Multi-Agent Risks from Advanced AI\nRisk Category: Information Asymmetries\nAdditional Evidence: "A key aspect of many multi-agent systems is that some agents might possess knowledge that others do not. These information asymmetries can result from constraints on information exchange or from strategic behaviour and can lead to cooperation failures in both common-interest and mixed-motive settings. Despite their information processing capabilities, AI agents remain vulnerable to failures caused by information asymmetries."

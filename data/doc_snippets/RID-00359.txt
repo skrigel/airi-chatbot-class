@@ -1,0 +1,31 @@
+Repository ID: RID-00359
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Taxonomy of Risks posed by Language Models\nRisk Category: Risk area 5: Human-Computer Interaction Harms\nRisk Subcategory: Anthropomorphising systems can lead to overreliance and unsafe use\nAdditional Evidence: "Anthropomorphising
+may further lead to an undesirable accountability shift, whe...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00359
+risk_category: Risk area 5: Human-Computer Interaction Harms
+row: 336
+scqa_answer: This may distract and obscure responsibilities of the developers and reduce accountability [161]
+scqa_complication: Title: Taxonomy of Risks posed by Language Models\nRisk Category: Risk area 5: Human-Computer Interaction Harms\nRisk Subcategory: Anthropomorp
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Taxonomy of Risks posed by Language Models\nRisk Category: Risk area 5: Human-Computer Interaction Harms\nRisk Subcategory: Anthropomorphising systems can lead to overreliance and unsafe use\nAdditional Evidence: "Anthropomorphising
+may further lead to an undesirable accountability shift, whereby responsibility is shifted away from developers of a CA onto the CA itself
+search_all_fields: Taxonomy of Risks posed by Language Models Unspecified Risk area 5: Human-Computer Interaction Harms Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Taxonomy of Risks posed by Language Models Unspecified Risk area 5: Human-Computer Interaction Harms
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Taxonomy of Risks posed by Language Models
+
+Content:
+Title: Taxonomy of Risks posed by Language Models\nRisk Category: Risk area 5: Human-Computer Interaction Harms\nRisk Subcategory: Anthropomorphising systems can lead to overreliance and unsafe use\nAdditional Evidence: "Anthropomorphising
+may further lead to an undesirable accountability shift, whereby responsibility is shifted away from developers of a CA onto the CA itself. This may distract and obscure responsibilities of the developers and reduce accountability [161]."

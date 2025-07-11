@@ -1,0 +1,28 @@
+Repository ID: RID-01076
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI is designed in a way that shows ignorant, reckless, or prejudiced lack of consideration for its impact on animals\nAdditional Evidence: "Proposals to deliberately h...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01076
+risk_category: Unintentional: direct
+row: 1053
+scqa_answer: Individual or swarms of Unmanned Aerial Vehicles used to surveil and monitor ‘livestock’ might distress or even injure animals, particularly if the animals have evolved to fear predators in the air (Alanezi et al
+scqa_complication: ematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI is designed in a way that shows ignorant, reckless, or prejudiced
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI is designed in a way that shows ignorant, reckless, or prejudiced lack of consideration for its impact on animals\nAdditional Evidence: "Proposals to deliberately harass birds with automated drones to prevent perching on buildings have also been made, sometimes with the claim that it is less harmful than alternatives (Schiano et al
+search_all_fields: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+
+Content:
+Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI is designed in a way that shows ignorant, reckless, or prejudiced lack of consideration for its impact on animals\nAdditional Evidence: "Proposals to deliberately harass birds with automated drones to prevent perching on buildings have also been made, sometimes with the claim that it is less harmful than alternatives (Schiano et al., 2022). More broadly, increasing tagging and tracking in the wider IoT could significantly disrupt animal activities, behaviour, and habitats. Individual or swarms of Unmanned Aerial Vehicles used to surveil and monitor ‘livestock’ might distress or even injure animals, particularly if the animals have evolved to fear predators in the air (Alanezi et al., 2022)."

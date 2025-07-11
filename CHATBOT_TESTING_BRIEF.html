@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Risk Repository Chatbot: User Experience Testing Brief</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+            line-height: 1.6;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+            color: #000;
+        }
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 24pt;
+            color: #000;
+        }
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 18pt;
+            margin-bottom: 12pt;
+            color: #000;
+        }
+        h3 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 12pt;
+            margin-bottom: 6pt;
+            color: #000;
+        }
+        p {
+            margin-bottom: 12pt;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-bottom: 12pt;
+        }
+        li {
+            margin-bottom: 6pt;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 18pt;
+        }
+        .indent {
+            margin-left: 0.5in;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+        @media print {
+            body {
+                margin: 0;
+                padding: 1in;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>AI Risk Repository Chatbot: User Experience Testing Brief</h1>
+
+<div class="section">
+<h2>Background</h2>
+
+<p>The MIT AI Risk Repository project has developed an interactive chatbot interface to provide users with empirically-grounded, evidence-based information about AI risks. This chatbot serves as a conversational gateway to the comprehensive MIT AI Risk Repository, which contains thousands of documented AI risks, their impacts, and potential mitigations.</p>
+
+<p><span class="bold">Current Chatbot Capabilities:</span></p>
+<ul>
+    <li>Provides accurate, non-hallucinated responses based exclusively on AI Risk Repository data</li>
+    <li>Employs advanced retrieval-augmented generation (RAG) with field-aware hybrid search</li>
+    <li>Includes clickable citations linking directly to source documents</li>
+    <li>Covers comprehensive AI risk domains including safety, privacy, bias, governance, and socioeconomic impacts</li>
+</ul>
+
+<p><span class="bold">Known Limitations:</span></p>
+<ul>
+    <li>Basic interface lacking user guidance and expectation management</li>
+    <li>Response times of 5-10 seconds without user feedback during processing</li>
+    <li>Limited context provided about the chatbot's purpose, scope, and capabilities</li>
+    <li>Minimal formatting and visual hierarchy in response presentation</li>
+    <li>Unclear link styling and interaction patterns</li>
+</ul>
+
+<p>The chatbot represents a critical component of the AI Risk Repository's mission to make AI risk research accessible to policymakers, researchers, and practitioners. As we prepare for broader deployment, we need systematic user feedback to optimize the interface and user experience.</p>
+</div>
+
+<div class="section">
+<h2>Testing Objectives</h2>
+
+<p>For this testing phase, we aim to:</p>
+
+<ol>
+    <li><span class="bold">Evaluate User Experience</span>: Assess the clarity, usability, and intuitiveness of the current chatbot interface</li>
+    <li><span class="bold">Identify Friction Points</span>: Document specific moments where users experience confusion, frustration, or uncertainty</li>
+    <li><span class="bold">Validate Information Architecture</span>: Determine whether users understand the chatbot's purpose, scope, and capabilities</li>
+    <li><span class="bold">Optimize Response Presentation</span>: Gather feedback on formatting, citation display, and content organization</li>
+    <li><span class="bold">Assess User Expectations</span>: Understand what users expect from an AI risk chatbot and how our implementation aligns with those expectations</li>
+    <li><span class="bold">Prioritize Improvements</span>: Identify the most impactful modifications for enhancing user satisfaction and task completion</li>
+</ol>
+</div>
+
+<div class="section">
+<h2>Testing Protocol</h2>
+
+<h3>Pre-Testing Setup</h3>
+
+<p><span class="bold">Access the Chatbot:</span></p>
+<ul>
+    <li>Navigate to [INSERT WEBSITE URL HERE]</li>
+    <li>Ensure you have a stable internet connection</li>
+    <li>Use a desktop or laptop browser (Chrome, Firefox, or Safari recommended)</li>
+</ul>
+
+<p><span class="bold">Recording Setup:</span></p>
+<ul>
+    <li>Install Veed screen recording software or use your preferred screen recording tool</li>
+    <li>Begin recording before starting your interaction with the chatbot</li>
+    <li>Include audio commentary describing your thoughts and reactions throughout the session</li>
+</ul>
+
+<h3>Testing Session Structure</h3>
+
+<p><span class="bold">Phase 1: Initial Impressions (3-5 minutes)</span></p>
+<ol>
+    <li>Arrive at the chatbot interface without prior instruction</li>
+    <li>Spend 2-3 minutes exploring the interface before sending any messages</li>
+    <li>Verbally describe:
+        <ul>
+            <li>Your first impression of the interface</li>
+            <li>What you understand the chatbot's purpose to be</li>
+            <li>Any confusion or uncertainty about how to proceed</li>
+            <li>What additional information or guidance you would find helpful</li>
+        </ul>
+    </li>
+</ol>
+
+<p><span class="bold">Phase 2: Natural Interaction (15-20 minutes)</span></p>
+<p>Engage with the chatbot using queries relevant to your interests or work. Consider testing different types of questions:</p>
+
+<p><span class="italic">Repository-Related Queries (recommended):</span></p>
+<ul>
+    <li>"What are the employment risks from AI automation?"</li>
+    <li>"How does facial recognition bias affect marginalized communities?"</li>
+    <li>"What privacy concerns arise from AI surveillance systems?"</li>
+    <li>"What are the governance gaps in AI regulation?"</li>
+</ul>
+
+<p><span class="italic">General Knowledge Queries (to test boundaries):</span></p>
+<ul>
+    <li>"What's the capital of France?"</li>
+    <li>"How do I bake cookies?"</li>
+</ul>
+
+<p><span class="italic">Edge Cases:</span></p>
+<ul>
+    <li>"Tell me about artificial flowers" (contains 'artificial' but not AI-related)</li>
+    <li>"What machine should I buy for my gym?" (contains 'machine' but not AI-related)</li>
+</ul>
+
+<p><span class="bold">During interaction, please:</span></p>
+<ul>
+    <li>Think aloud as you formulate questions</li>
+    <li>Comment on response times and any periods of uncertainty</li>
+    <li>React to the content, formatting, and presentation of responses</li>
+    <li>Attempt to click on citations and describe the experience</li>
+    <li>Note any moments of confusion or delight</li>
+</ul>
+
+<p><span class="bold">Phase 3: Focused Evaluation (5-10 minutes)</span></p>
+<p>After natural interaction, please specifically evaluate:</p>
+
+<ol>
+    <li><span class="bold">Response Quality</span>: Are the responses helpful, accurate, and appropriately scoped?</li>
+    <li><span class="bold">Citation System</span>: Are the clickable links useful? Do they provide adequate source verification?</li>
+    <li><span class="bold">User Guidance</span>: Do you feel adequately informed about what the chatbot can and cannot do?</li>
+    <li><span class="bold">Visual Design</span>: How would you rate the interface's aesthetics and professionalism?</li>
+    <li><span class="bold">Performance</span>: How do the response times affect your experience?</li>
+</ol>
+</div>
+
+<div class="section page-break">
+<h2>Documentation Requirements</h2>
+
+<h3>Screen Recording</h3>
+<ul>
+    <li><span class="bold">Duration</span>: 25-35 minutes total</li>
+    <li><span class="bold">Format</span>: MP4 or similar standard video format</li>
+    <li><span class="bold">Audio</span>: Include verbal commentary throughout your session</li>
+    <li><span class="bold">File Naming</span>: [YourName]_ChatbotTesting_[Date].mp4</li>
+</ul>
+
+<h3>Post-Session Feedback Form</h3>
+
+<p>Please complete the following structured feedback within 24 hours of your testing session:</p>
+
+<p><span class="bold">Section A: Overall Experience</span></p>
+<ol>
+    <li>On a scale of 1-10, how would you rate your overall experience with the chatbot?</li>
+    <li>What was your primary goal or expectation when first encountering the interface?</li>
+    <li>How well did the chatbot meet your expectations? What gaps remained?</li>
+</ol>
+
+<p><span class="bold">Section B: Usability Assessment</span></p>
+<ol>
+    <li><span class="bold">Interface Clarity</span>: How easily could you understand how to interact with the chatbot?</li>
+    <li><span class="bold">Response Time</span>: How did the 5-10 second response delays affect your experience?</li>
+    <li><span class="bold">Content Presentation</span>: How well-formatted and readable were the responses?</li>
+    <li><span class="bold">Citation System</span>: How useful were the clickable source links?</li>
+</ol>
+
+<p><span class="bold">Section C: Content Evaluation</span></p>
+<ol>
+    <li><span class="bold">Information Quality</span>: How accurate and helpful were the responses to your AI risk questions?</li>
+    <li><span class="bold">Scope Understanding</span>: How well did you understand what topics the chatbot could address?</li>
+    <li><span class="bold">Boundary Management</span>: How appropriately did the chatbot handle non-AI risk questions?</li>
+</ol>
+
+<p><span class="bold">Section D: Improvement Priorities</span></p>
+<ol>
+    <li><span class="bold">Critical Issues</span>: What problems most hindered your ability to use the chatbot effectively?</li>
+    <li><span class="bold">Quick Wins</span>: What small changes would significantly improve your experience?</li>
+    <li><span class="bold">Feature Requests</span>: What additional capabilities would enhance the chatbot's utility for your work?</li>
+</ol>
+
+<p><span class="bold">Section E: Comparative Context</span></p>
+<ol>
+    <li><span class="bold">Similar Tools</span>: How does this chatbot compare to other AI or research tools you've used?</li>
+    <li><span class="bold">User Background</span>: Briefly describe your familiarity with AI risk topics and your professional context</li>
+    <li><span class="bold">Use Cases</span>: In what scenarios would you be most likely to use this chatbot?</li>
+</ol>
+</div>
+
+<div class="section">
+<h2>Technical Considerations</h2>
+
+<p><span class="bold">Data Collection Transparency</span>: Please note that the backend system logs all user inputs for analysis and improvement purposes. Your interactions will be used to enhance the chatbot's functionality and user experience. Personal information should not be included in your test queries.</p>
+
+<p><span class="bold">System Architecture</span>: The chatbot employs advanced retrieval techniques including:</p>
+<ul>
+    <li>Field-aware hybrid search combining vector similarity and keyword matching</li>
+    <li>Multi-model fallback for enhanced reliability</li>
+    <li>Semantic intent classification to optimize response relevance</li>
+    <li>Real-time citation consistency validation</li>
+</ul>
+
+<p><span class="bold">Performance Context</span>: Current response times of 5-10 seconds reflect the system's comprehensive search and validation processes. We are exploring options for progress indicators and interim feedback during processing.</p>
+</div>
+
+<div class="section">
+<h2>Timeline and Next Steps</h2>
+
+<p><span class="bold">Testing Schedule</span>:</p>
+<ul>
+    <li><span class="bold">Week 1</span>: Internal testing with Future Tech team members (3-4 testers)</li>
+    <li><span class="bold">Week 2</span>: External testing with domain experts (1-2 additional testers)</li>
+    <li><span class="bold">Week 3</span>: Analysis of feedback and implementation planning</li>
+    <li><span class="bold">Week 4</span>: Implementation of high-priority improvements</li>
+</ul>
+
+<p><span class="bold">Feedback Integration</span>:</p>
+<ul>
+    <li>Weekly team meetings every Friday at 3pm EST to review findings</li>
+    <li>Iterative improvement cycles based on prioritized feedback</li>
+    <li>Follow-up testing sessions after significant modifications</li>
+</ul>
+
+<p><span class="bold">Deliverables from Testing</span>:</p>
+<ul>
+    <li>Comprehensive feedback analysis report</li>
+    <li>Prioritized improvement roadmap</li>
+    <li>UI/UX enhancement specifications</li>
+    <li>Technical optimization recommendations</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Long-term Vision</h2>
+
+<p>This testing phase supports our broader vision of creating the premier resource for evidence-based AI risk information. Key strategic objectives include:</p>
+
+<p><span class="bold">Differentiation</span>: Positioning the chatbot as uniquely empirically-grounded compared to other AI risk resources</p>
+
+<p><span class="bold">Personalization</span>: Potential future development of user-specific content curation based on professional background and research interests</p>
+
+<p><span class="bold">Integration</span>: Possible collaboration with other AI risk initiatives (e.g., AI Risk Nexus, Vector Institute) for comprehensive coverage</p>
+
+<p><span class="bold">Scalability</span>: Ensuring the interface can support growing user bases across policy, research, and industry communities</p>
+</div>
+
+<div class="section">
+<h2>Contact Information</h2>
+
+<p><span class="bold">For Technical Issues</span>: [INSERT TECHNICAL CONTACT]</p>
+<p><span class="bold">For Content Questions</span>: [INSERT CONTENT CONTACT]</p>
+<p><span class="bold">For General Feedback</span>: [INSERT PROJECT LEAD CONTACT]</p>
+
+<p><span class="bold">Project Team</span>:</p>
+<ul>
+    <li>Peter Slattery (Project Lead)</li>
+    <li>David Turturean (Technical Implementation)</li>
+    <li>Sasha [Last Name] (UI/UX Development)</li>
+</ul>
+
+<hr style="margin-top: 24pt; margin-bottom: 12pt;">
+
+<p><span class="italic">This brief was developed based on the June 27, 2025 project planning meeting and reflects current priorities for chatbot optimization. Please reach out with any questions about the testing protocol or feedback requirements.</span></p>
+</div>
+
+</body>
+</html>

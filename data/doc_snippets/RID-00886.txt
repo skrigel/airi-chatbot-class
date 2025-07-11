@@ -1,0 +1,28 @@
+Repository ID: RID-00886
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration\nSub-domain: X.1 > Excluded\nRisk Category: Challenges associated with the economy:\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-00886
+risk_category: Challenges associated with the economy:
+row: 863
+scqa_answer: 1 > Excluded\nRisk Category: Challenges associated with the economy:\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: \nSub-domain: X.1 > Excluded\nRisk Category: Challenges associated with the economy:\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration\nSub-domain: X
+search_all_fields: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration Unspecified Challenges associated with the economy: X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration Unspecified Challenges associated with the economy:
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration
+
+Content:
+Title: Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration\nSub-domain: X.1 > Excluded\nRisk Category: Challenges associated with the economy:\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

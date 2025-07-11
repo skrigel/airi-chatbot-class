@@ -1,0 +1,28 @@
+Repository ID: RID-01236
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Value Chain and Component Integration\nAdditional Evidence: "Errors in third-party GAI components can also have downstream impacts on accuracy and robustness. For example, test datase...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01236
+risk_category: Value Chain and Component Integration
+row: 1213
+scqa_answer: Inaccuracies in these labels can impact the “stability” or robustness of these benchmarks, which many GAI practitioners consider during the model selection process
+scqa_complication: itle: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Value Chain and Component Integration\
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Value Chain and Component Integration\nAdditional Evidence: "Errors in third-party GAI components can also have downstream impacts on accuracy and robustness
+search_all_fields: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Value Chain and Component Integration Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Value Chain and Component Integration
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
+
+Content:
+Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Value Chain and Component Integration\nAdditional Evidence: "Errors in third-party GAI components can also have downstream impacts on accuracy and robustness. For example, test datasets commonly used to benchmark or validate models can contain label errors. Inaccuracies in these labels can impact the “stability” or robustness of these benchmarks, which many GAI practitioners consider during the model selection process."

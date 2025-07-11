@@ -1,0 +1,28 @@
+Repository ID: RID-02128
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Training Data Risks (Fairness)\nRisk Subcategory: Data bias\nDescription: "Historical and societal biases that are present in the data are used to train and fine-...
+domain: 1. Discrimination & Toxicity
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-02128
+risk_category: Training Data Risks (Fairness)
+row: 2105
+scqa_answer: "\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: Title: AI Risk Atlas\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Catego
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nDomain: 1
+search_all_fields: AI Risk Atlas 1. Discrimination & Toxicity Training Data Risks (Fairness) 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas 1. Discrimination & Toxicity Training Data Risks (Fairness)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation
+sheet: AI Risk Database v3
+specific_domain: 1.1 > Unfair discrimination and misrepresentation
+subdomain: 1.1 > Unfair discrimination and misrepresentation
+timing: 2 - Post-deployment
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Training Data Risks (Fairness)\nRisk Subcategory: Data bias\nDescription: "Historical and societal biases that are present in the data are used to train and fine-tune the model."\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

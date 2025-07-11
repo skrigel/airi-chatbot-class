@@ -1,0 +1,28 @@
+Repository ID: RID-01711
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International AI Safety Report 2025\nRisk Category: Systemic risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI sometimes leaks sensitive information acquired during training or while interacting with users. Sensitive information that was in the training data...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01711
+risk_category: Systemic risks
+row: 1688
+scqa_answer: In addition, when users share sensitive information with the model to achieve more personalised responses, this information can also leak or be exposed to unauthorised third parties
+scqa_complication: tional AI Safety Report 2025\nRisk Category: Systemic risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI sometimes leaks
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: International AI Safety Report 2025\nRisk Category: Systemic risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI sometimes leaks sensitive information acquired during training or while interacting with users
+search_all_fields: International AI Safety Report 2025 Unspecified Systemic risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International AI Safety Report 2025 Unspecified Systemic risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International AI Safety Report 2025
+
+Content:
+Title: International AI Safety Report 2025\nRisk Category: Systemic risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI sometimes leaks sensitive information acquired during training or while interacting with users. Sensitive information that was in the training data can leak unintentionally when a user interacts with the model. In addition, when users share sensitive information with the model to achieve more personalised responses, this information can also leak or be exposed to unauthorised third parties."

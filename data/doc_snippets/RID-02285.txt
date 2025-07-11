@@ -1,0 +1,25 @@
+Repository ID: RID-02285
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 5.2 > Loss of human agency and autonomy\n\nThis domain contains 38 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: A framework for ethical Ai at the United Nations\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Cat...
+domain: 5.2 > Loss of human agency and autonomy
+entry_count: 38
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02285
+scqa_answer: s for complex activities, and by taking advantage of this process, people are becoming able to perform a greater number of activities more quickly and
+scqa_complication: more quickly and accurately. However, the result of this innovation is enabling choices that were once exclusively human responsibility to be made by AI syst
+scqa_confidence: 1.0
+scqa_content_type: mitigation_strategy
+scqa_question: It damages all the Black community because if you're damaging Black men, then you're hurting Black families"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment\n\nRisk Entry 7:\nTitle: Evaluating the Social Impact of Generative AI Systems in Systems and Society\nDomain: 5?
+scqa_situation: 2 > Loss of human agency and autonomy\n\nThis domain contains 38 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: A framework for ethical Ai at the United Nations\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Loss of Autonomy\nDescription: "Delegating decisions to an AI, especially an AI that is not transparent and not contestable, may leave people feeling helpless, subjected to the decision power of a machine."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment\n\nRisk Entry 2:\nTitle: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Domain-specific AI - Effects on humans and other living beings: Non-existential risks\nRisk Subcategory: Human dignity/respect\nDescription: "Discrepancies between caste/status based on intelligence may lead to undignified parts of the society—e.g., humans—who are surpassed in intelligence by AI"\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 2 - Post-deployment\n\nRisk Entry 3:\nTitle: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Reduced Autonomy/Responsibility\nDescription: "AI is providing more and more solutions for complex activities, and by taking advantage of this process, people are becoming able to perform a greater number of activities more quickly and accurately. However, the result of this innovation is enabling choices that were once exclusively human responsibility to be made by AI systems."\nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment\n\nRisk Entry 4:\nTitl
+search_all_fields: AI Risk Domain: 5.2 > Loss of human agency and autonomy 5.2 > Loss of human agency and autonomy 5.2 > Loss of human agency and autonomy AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 5.2 > Loss of human agency and autonomy 5.2 > Loss of human agency and autonomy
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 5.2 > Loss of human agency and autonomy
+sheet: AI Risk Database v3
+specific_domain: 5.2 > Loss of human agency and autonomy
+summary_type: domain_aggregation
+title: AI Risk Domain: 5.2 > Loss of human agency and autonomy
+
+Content:
+conforming of content\nAdditional Evidence: "[A photo recommender shared a] picture of my deceased mother [and it] just kind of caught me, and I sat there and thought about different things for a little bit. Then I had to get back to work. But I was distracted the whole time"\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 2 - Post-deployment\n\nRisk Entry 6:\nTitle: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Societal System Harms\nRisk Subcategory: Cultural harms\nDescription: Cultural harm has been described as the development or use of algorithmic systems that affects cultural stability and safety, such as “loss of communication means, loss of cultural property, and harm to social values”\nAdditional Evidence: "[An image search for 'thug' showing predominantly Black men] . . . It damages all the Black community because if you're damaging

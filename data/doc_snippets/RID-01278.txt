@@ -1,0 +1,28 @@
+Repository ID: RID-01278
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "Today, data centres, servers and data transmission networks account for between 1% to 1.5% of global electricity demand (578); roughly...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01278
+risk_category: Systemic Risks
+row: 1255
+scqa_answer: AI likely accounts for well under half of data centre electricity consumption currently, but if the rapid growth of AI's computational requirements continues, AI could become the primary consumer of data centre electricity over the coming years and increase its share of global electricity demand
+scqa_complication: ricity consumption currently, but if the rapid growth of AI's computational requirements continues, AI could become the primary consumer of data centre e
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "Today, data centres, servers and data transmission networks account for between 1% to 1
+search_all_fields: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International Scientific Report on the Safety of Advanced AI
+
+Content:
+Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to the environment\nAdditional Evidence: "Today, data centres, servers and data transmission networks account for between 1% to 1.5% of global electricity demand (578); roughly 2% in the EU, 4% in the US, and close to 3% in China (69, 579, 580). AI likely accounts for well under half of data centre electricity consumption currently, but if the rapid growth of AI's computational requirements continues, AI could become the primary consumer of data centre electricity over the coming years and increase its share of global electricity demand. I"

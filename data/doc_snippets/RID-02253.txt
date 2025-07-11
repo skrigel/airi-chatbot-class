@@ -1,0 +1,28 @@
+Repository ID: RID-02253
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nDescription: "Widespread adoption of foundation model-based AI systems m...
+domain: 6. Socioeconomic and Environmental
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-02253
+risk_category: Non-technical risks (Societal impact)
+row: 2230
+scqa_answer: "\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment qua
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: ub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nDescription: "Widespread adoption of foundation model-based AI systems might lead to people's job loss as their work is automated if they are not reskilled."\nEntity: 1 -
+search_all_fields: AI Risk Atlas 6. Socioeconomic and Environmental Non-technical risks (Societal impact) 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas 6. Socioeconomic and Environmental Non-technical risks (Societal impact)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+subdomain: 6.2 > Increased inequality and decline in employment quality
+timing: 2 - Post-deployment
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nDescription: "Widespread adoption of foundation model-based AI systems might lead to people's job loss as their work is automated if they are not reskilled."\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

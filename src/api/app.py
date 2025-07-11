@@ -33,11 +33,19 @@ def create_app(config=None):
     # Create Flask app
     app = Flask(__name__)
     
-    # Enable CORS with production settings
+    # Enable CORS with production settings + Webflow integration
     CORS(app, 
-         origins=["*"],  # Allow all origins for testing
+         origins=[
+             "*",  # Allow all origins for testing
+             "https://futuretech.mit.edu",  # Production Webflow site
+             "https://futuretech.webflow.io",  # Webflow staging
+             "https://*.webflow.io",  # Webflow preview domains
+             "https://davidturturean.github.io",  # GitHub Pages hosting
+             "https://*.github.io"  # Any GitHub Pages domain
+         ],
          methods=["GET", "POST", "OPTIONS"],
-         allow_headers=["Content-Type", "Authorization"])
+         allow_headers=["Content-Type", "Authorization"],
+         supports_credentials=True)
     
     # Apply configuration
     if config:
@@ -121,6 +129,9 @@ def _initialize_services(logger):
         readiness_status = _validate_system_readiness(chat_service)
         logger.info(f"System readiness: {readiness_status}")
         
+        # Validate and log current configuration
+        _log_system_configuration(logger, chat_service)
+        
         logger.info("All services initialized successfully")
         return chat_service
         
@@ -177,6 +188,34 @@ def _validate_system_readiness(chat_service) -> Dict[str, str]:
     
     return status
 
+def _log_system_configuration(logger, chat_service):
+    """Log current system configuration to guarantee we're using the latest version."""
+    logger.info("🔧 SYSTEM CONFIGURATION VERIFICATION")
+    logger.info(f"📊 USE_HYBRID_SEARCH: {settings.USE_HYBRID_SEARCH}")
+    logger.info(f"📊 USE_FIELD_AWARE_HYBRID: {settings.USE_FIELD_AWARE_HYBRID}")
+    
+    # Check actual retriever type in use
+    if chat_service.vector_store and hasattr(chat_service.vector_store, 'hybrid_retriever'):
+        if chat_service.vector_store.hybrid_retriever:
+            retriever_class = chat_service.vector_store.hybrid_retriever.__class__.__name__
+            logger.info(f"🎯 ACTIVE RETRIEVER: {retriever_class}")
+            
+            # Validate it's the correct type
+            if retriever_class == "FieldAwareHybridRetriever":
+                logger.info("✅ CONFIRMED: Using Field-Aware Hybrid Retrieval")
+            else:
+                logger.warning(f"⚠️  UNEXPECTED RETRIEVER TYPE: {retriever_class}")
+        else:
+            logger.warning("⚠️  NO HYBRID RETRIEVER ACTIVE")
+    
+    # Check model configuration
+    if chat_service.gemini_model:
+        model_chain = getattr(chat_service.gemini_model, 'model_chain', ['unknown'])
+        logger.info(f"🤖 MODEL CHAIN: {model_chain}")
+        logger.info(f"🔄 MULTI-MODEL FALLBACK: {hasattr(chat_service.gemini_model, 'model_chain')}")
+    
+    logger.info("🔧 CONFIGURATION VERIFICATION COMPLETE")
+
 def _add_frontend_routes(app, logger):
     """Add routes for serving the frontend."""
     
@@ -192,17 +231,35 @@ def _add_frontend_routes(app, logger):
             return _get_snippet_page(snippet_id)
         
         try:
+            # Look for built files in frontend/dist directory
+            frontend_dist_path = settings.FRONTEND_DIR / 'dist'
             frontend_path = settings.FRONTEND_DIR
             
+            # Try built files first (production mode)
+            if frontend_dist_path.exists():
+                if path and (frontend_dist_path / path).exists():
+                    logger.debug(f"Serving built file: {path}")
+                    return send_from_directory(str(frontend_dist_path), path)
+                elif path and '.' in path:  # File with extension that doesn't exist
+                    logger.warning(f"Built file not found: {path}")
+                    return f"File not found: {path}", 404
+                else:
+                    # Try to serve index.html for all other routes (SPA routing)
+                    logger.debug(f"Serving built index.html for path: {path}")
+                    index_path = frontend_dist_path / 'index.html'
+                    if index_path.exists():
+                        return send_from_directory(str(frontend_dist_path), 'index.html')
+            
+            # Fallback to development files
             if path and (frontend_path / path).exists():
-                logger.debug(f"Serving file: {path}")
+                logger.debug(f"Serving dev file: {path}")
                 return send_from_directory(str(frontend_path), path)
             elif path and '.' in path:  # File with extension that doesn't exist
                 logger.warning(f"File not found: {path}")
                 return f"File not found: {path}", 404
             else:
                 # Try to serve index.html for all other routes (SPA routing)
-                logger.debug(f"Serving index.html for path: {path}")
+                logger.debug(f"Serving dev index.html for path: {path}")
                 index_path = frontend_path / 'index.html'
                 if index_path.exists():
                     return send_from_directory(str(frontend_path), 'index.html')

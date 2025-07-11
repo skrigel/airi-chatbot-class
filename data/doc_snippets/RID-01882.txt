@@ -1,0 +1,28 @@
+Repository ID: RID-01882
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Model Evaluations (Auditing)\nRisk Subcategory: Auditor failure\nDescription: "Auditors may not pu...
+domain: 6. Socioeconomic and Environmental
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-01882
+risk_category: Model Evaluations (Auditing)
+row: 1859
+scqa_answer: "\nEntity: 1 - Human\nIntent: 3 - Other\nTiming: 1 - Pre-deployment
+scqa_complication: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 6. Socioeconomic a
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: M
+search_all_fields: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems 6. Socioeconomic and Environmental Model Evaluations (Auditing) 6.5 > Governance failure 6.5 > Governance failure AI Risk Database v3 ai_risk_entry
+search_high_priority: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems 6. Socioeconomic and Environmental Model Evaluations (Auditing)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.5 > Governance failure 6.5 > Governance failure
+sheet: AI Risk Database v3
+specific_domain: 6.5 > Governance failure
+subdomain: 6.5 > Governance failure
+timing: 1 - Pre-deployment
+title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems
+
+Content:
+Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Model Evaluations (Auditing)\nRisk Subcategory: Auditor failure\nDescription: "Auditors may not publicly disclose risks they find, may be required to not pub- licize shortcomings, or may not receive sufficient cooperation from the relevant internal parties."\nEntity: 1 - Human\nIntent: 3 - Other\nTiming: 1 - Pre-deployment

@@ -1,0 +1,28 @@
+Repository ID: RID-01682
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International AI Safety Report 2025\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.2 > Cyberattacks, weapon development or use, and mass harm\nRisk Category: Risks from malicious use\nRisk Subcategory: Cyber offence\nDescription: "Attackers are beginning to use general- purpose AI for o...
+domain: 4. Malicious Actors & Misuse
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-01682
+risk_category: Risks from malicious use
+row: 1659
+scqa_answer: "\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: perations, presenting growing but currently limited risks. Current systems have demonstrated capabilities in low- and medium- complexity cybersecurity ta
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: s. Current systems have demonstrated capabilities in low- and medium- complexity cybersecurity tasks, with state- sponsored threat actors actively exploring AI to survey target systems. Malicious actors of varying skill levels can leverage these capabilities against people, organisat
+search_all_fields: International AI Safety Report 2025 4. Malicious Actors & Misuse Risks from malicious use 4.2 > Cyberattacks, weapon development or use, and mass harm 4.2 > Cyberattacks, weapon development or use, and mass harm AI Risk Database v3 ai_risk_entry
+search_high_priority: International AI Safety Report 2025 4. Malicious Actors & Misuse Risks from malicious use
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 4.2 > Cyberattacks, weapon development or use, and mass harm 4.2 > Cyberattacks, weapon development or use, and mass harm
+sheet: AI Risk Database v3
+specific_domain: 4.2 > Cyberattacks, weapon development or use, and mass harm
+subdomain: 4.2 > Cyberattacks, weapon development or use, and mass harm
+timing: 2 - Post-deployment
+title: International AI Safety Report 2025
+
+Content:
+Title: International AI Safety Report 2025\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.2 > Cyberattacks, weapon development or use, and mass harm\nRisk Category: Risks from malicious use\nRisk Subcategory: Cyber offence\nDescription: "Attackers are beginning to use general- purpose AI for offensive cyber operations, presenting growing but currently limited risks. Current systems have demonstrated capabilities in low- and medium- complexity cybersecurity tasks, with state- sponsored threat actors actively exploring AI to survey target systems. Malicious actors of varying skill levels can leverage these capabilities against people, organisations, and critical infrastructure such as power grids."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

@@ -1,0 +1,28 @@
+Repository ID: RID-01217
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Human-AI Configuration\nAdditional Evidence: "GAI system use can involve varying risks of misconfigurations and poor interactions between a system and a human who is interacting with ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01217
+risk_category: Human-AI Configuration
+row: 1194
+scqa_answer: deprive themselves or others of GAI’s beneficial uses."
+scqa_complication: interactions with AI systems but may not have detailed knowledge of AI systems and how they work. As a result, human experts may be unnecessarily “avers
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Human-AI Configuration\nAdditional Evidence: "GAI system use can involve varying risks of misconfigurations and poor interactions between a system and a human who is interacting with it
+search_all_fields: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Human-AI Configuration Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile Unspecified Human-AI Configuration
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile
+
+Content:
+Title: Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\nRisk Category: Human-AI Configuration\nAdditional Evidence: "GAI system use can involve varying risks of misconfigurations and poor interactions between a system and a human who is interacting with it. Humans bring their unique perspectives, experiences, or domain- specific expertise to interactions with AI systems but may not have detailed knowledge of AI systems and how they work. As a result, human experts may be unnecessarily “averse” to GAI systems, and thus deprive themselves or others of GAI’s beneficial uses."

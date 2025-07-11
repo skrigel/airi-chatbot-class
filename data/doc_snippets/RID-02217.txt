@@ -1,0 +1,28 @@
+Repository ID: RID-02217
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nRisk Category: Output risks (Robustness)\nRisk Subcategory: Hallucination\nAdditional Evidence: "Hallucinations can be misleading. These false outputs can mislead users and be incorporated into downstream artifacts, further spreading misinformation. False output can harm both o...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02217
+risk_category: Output risks (Robustness)
+row: 2194
+scqa_answer: In some uses, hallucinations can be particularly consequential
+scqa_complication: Title: AI Risk Atlas\nRisk Category: Output risks (Robustness)\nRisk Subcategory: Hallucination\nAdditional Evidence: "Hallucinations
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nRisk Category: Output risks (Robustness)\nRisk Subcategory: Hallucination\nAdditional Evidence: "Hallucinations can be misleading
+search_all_fields: AI Risk Atlas Unspecified Output risks (Robustness) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Output risks (Robustness)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nRisk Category: Output risks (Robustness)\nRisk Subcategory: Hallucination\nAdditional Evidence: "Hallucinations can be misleading. These false outputs can mislead users and be incorporated into downstream artifacts, further spreading misinformation. False output can harm both owners and users of the AI models. In some uses, hallucinations can be particularly consequential."

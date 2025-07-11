@@ -1,0 +1,25 @@
+Repository ID: RID-02281
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 6.2 > Increased inequality and decline in employment quality\n\nThis domain contains 45 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 ...
+domain: 6.2 > Increased inequality and decline in employment quality
+entry_count: 45
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02281
+scqa_answer: in human labor becoming more expensive or less effective than artificial labor, leading to redundancies or extinction of the human labor force."\nEnt
+scqa_complication: ing induced by generative AI, but also productivity gains contingent upon outsourcing mundane or repetitive tasks to generative AI systems.\nEntity: 2 -
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: sk Domain: 6.2 > Increased inequality and decline in employment quality\n\nThis domain contains 45 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Mapping the Ethics of Generative AI: A Comprehensive Scoping Review\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Labor displacement - Economic impact\nDescription: The literature frequently highlights concerns that generative AI systems could adversely impact the economy, potentially even leading to mass unemployment. This pertains to
+search_all_fields: AI Risk Domain: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+summary_type: domain_aggregation
+title: AI Risk Domain: 6.2 > Increased inequality and decline in employment quality
+
+Content:
+AI systems (sourcing, user testing)"\nAdditional Evidence: Example: "Exposing human annotators to toxic audiovisual content (Perrigo, 2023)*"\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 1 - Pre-deployment\n\nAdditional 35 entries in this domain include:\n- Governance of artificial intelligence: A risk and guideline-based integrative framework\n- Governance of artificial intelligence: A risk and guideline-based integrative framework\n- Governance of artificial intelligence: A risk and guideline-based integrative framework\n- Governance of artificial intelligence: A risk and guideline-based integrative framework\n- The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration\n- The Ethics of Advanced AI Assistants\n- Generating Harms - Generative AI's impact and paths forwards\n- Generating Harms - Generative AI's impact and paths forwards\n- Generating Harms - Generative AI's impact and paths forwards\n- Generative AI and ChatGPT:

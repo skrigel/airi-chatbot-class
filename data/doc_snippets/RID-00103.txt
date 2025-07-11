@@ -1,0 +1,28 @@
+Repository ID: RID-00103
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\nRisk Category: Privacy and regulation violations\nDescription: "Some of the broken systems discussed above ...
+domain: 2. Privacy & Security
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00103
+risk_category: Privacy and regulation violations
+row: 80
+scqa_answer: "\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: erring sensitive information\nRisk Category: Privacy and regulation violations\nDescription: "Some of the broken systems discussed above are also very inv
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 2
+search_all_fields: Navigating the Landscape of AI Ethics and Responsibility 2. Privacy & Security Privacy and regulation violations 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information AI Risk Database v3 ai_risk_entry
+search_high_priority: Navigating the Landscape of AI Ethics and Responsibility 2. Privacy & Security Privacy and regulation violations
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+sheet: AI Risk Database v3
+specific_domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+subdomain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+timing: 2 - Post-deployment
+title: Navigating the Landscape of AI Ethics and Responsibility
+
+Content:
+Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\nRisk Category: Privacy and regulation violations\nDescription: "Some of the broken systems discussed above are also very invasive of people’s privacy, controlling, for instance, the length of someone’s last romantic relationship [51]. More recently, ChatGPT was banned in Italy over privacy concerns and potential violation of the European Union’s (EU) General Data Protection Regulation (GDPR) [52]. The Italian data-protection authority said, “the app had experienced a data breach involving user conversations and payment information.” It also claimed that there was no legal basis to justify “the mass collection and storage of personal data for the purpose of ‘training’ the algorithms underlying the operation of the platform,” among other concerns related to the age of the users [52]. Privacy regulators in France, Ireland, and Germany could follow in Italy’s footsteps [53]. Coincidentally, it has recently become public that Samsung employees have inadvertently leaked trade secrets by using ChatGPT to assist in preparing notes for a presentation and checking and optimizing source code [54, 55]. Another example of testing the ethics and regulatory limits can be found in actions of the facial recognition company Clearview AI, which “scraped the public web—social media, employment sites, YouTube, Venmo—to create a database with three billion images of people, along with links to the webpages from which the photos had come” [56]. Trials of this unregulated database have been offered to individual law enforcement officers who often use it without their department’s approval [57]. In Sweden, such illegal use by the police force led to a fine of e250,000 by the country’s data watchdog [57]."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

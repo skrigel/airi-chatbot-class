@@ -1,0 +1,28 @@
+Repository ID: RID-00845
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Generating Harms - Generative AI's impact and paths forwards\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.3 > Fraud, scams, and targeted manipulation\nRisk Category: Harassment, Impersonation, and Extortion\nDescription: "Deepfakes and other AI-generated content can be used to facilit...
+domain: 4. Malicious Actors & Misuse
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00845
+risk_category: Harassment, Impersonation, and Extortion
+row: 822
+scqa_answer: "\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: isted throughout this report, but this section focuses on one subset: intentional, targeted abuse of individuals."\nEntity: 1 - Human\nIntent: 1 - Intent
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Generating Harms - Generative AI's impact and paths forwards\nDomain: 4
+search_all_fields: Generating Harms - Generative AI's impact and paths forwards 4. Malicious Actors & Misuse Harassment, Impersonation, and Extortion 4.3 > Fraud, scams, and targeted manipulation 4.3 > Fraud, scams, and targeted manipulation AI Risk Database v3 ai_risk_entry
+search_high_priority: Generating Harms - Generative AI's impact and paths forwards 4. Malicious Actors & Misuse Harassment, Impersonation, and Extortion
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 4.3 > Fraud, scams, and targeted manipulation 4.3 > Fraud, scams, and targeted manipulation
+sheet: AI Risk Database v3
+specific_domain: 4.3 > Fraud, scams, and targeted manipulation
+subdomain: 4.3 > Fraud, scams, and targeted manipulation
+timing: 2 - Post-deployment
+title: Generating Harms - Generative AI's impact and paths forwards
+
+Content:
+Title: Generating Harms - Generative AI's impact and paths forwards\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.3 > Fraud, scams, and targeted manipulation\nRisk Category: Harassment, Impersonation, and Extortion\nDescription: "Deepfakes and other AI-generated content can be used to facilitate or exacerbate many of the harms listed throughout this report, but this section focuses on one subset: intentional, targeted abuse of individuals."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

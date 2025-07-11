@@ -1,0 +1,7 @@
+Repository ID: RID-00456
+Source: Unknown
+rid: RID-00456
+title: Workforce Retraining Analysis
+
+Content:
+Retraining programs have shown 60% success rates.

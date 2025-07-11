@@ -1,0 +1,28 @@
+Repository ID: RID-02254
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nAdditional Evidence: "Job loss might lead to a loss of income and thus might negatively impact the society and human welfare. Reskilling might be challenging given the pace of the technology...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02254
+risk_category: Non-technical risks (Societal impact)
+row: 2231
+scqa_answer: might negatively impact the society and human welfare. Reskilling might be challenging given the pace of the technology evolution."
+scqa_complication: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nAdditional Evidence: "Jo
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nAdditional Evidence: "Job loss might lead to a loss of income and thus might negatively impact the society and human welfare
+search_all_fields: AI Risk Atlas Unspecified Non-technical risks (Societal impact) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Non-technical risks (Societal impact)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nRisk Category: Non-technical risks (Societal impact)\nRisk Subcategory: Impact on Jobs\nAdditional Evidence: "Job loss might lead to a loss of income and thus might negatively impact the society and human welfare. Reskilling might be challenging given the pace of the technology evolution."

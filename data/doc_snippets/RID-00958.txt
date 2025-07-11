@@ -1,0 +1,28 @@
+Repository ID: RID-00958
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Human–AI interaction\nDescription: "Several participants mentioned how AI systems could influence hum...
+domain: 5. Human-Computer Interaction
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-00958
+risk_category: Human–AI interaction
+row: 935
+scqa_answer: This balance is essential to prevent possible negative consequences such as over-reliance on AI, diminishing human skills and knowledge and a loss of personal accountability"\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment
+scqa_complication: Intelligence: Recognizing the Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Human–AI i
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Human–AI interaction\nDescription: "Several participants mentioned how AI systems could influence human agency and decision-making. They emphasized the need of striking a balance be
+search_all_fields: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks 5. Human-Computer Interaction Human–AI interaction 5.2 > Loss of human agency and autonomy 5.2 > Loss of human agency and autonomy AI Risk Database v3 ai_risk_entry
+search_high_priority: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks 5. Human-Computer Interaction Human–AI interaction
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 5.2 > Loss of human agency and autonomy 5.2 > Loss of human agency and autonomy
+sheet: AI Risk Database v3
+specific_domain: 5.2 > Loss of human agency and autonomy
+subdomain: 5.2 > Loss of human agency and autonomy
+timing: 2 - Post-deployment
+title: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks
+
+Content:
+Title: Ethical Issues in the Development of Artificial Intelligence: Recognizing the Risks\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.2 > Loss of human agency and autonomy\nRisk Category: Human–AI interaction\nDescription: "Several participants mentioned how AI systems could influence human agency and decision-making. They emphasized the need of striking a balance between using the benefits of AI and protecting human autonomy and control. The increasing integration of AI systems into various aspects of our lives, which can have a significant impact on human agency and decision-making, has raised ethical concerns about AI and human–AI interaction. As AI systems advance, they will be able to influence, if not completely replace, IJOES human decision-making in some fields, prompting concerns about the loss of human autonomy and control. Participants in the study emphasize the need of establishing a balance between using the benefits of AI and maintaining human autonomy and control to ensure that people retain agency and are not overly reliant on AI systems. This balance is essential to prevent possible negative consequences such as over-reliance on AI, diminishing human skills and knowledge and a loss of personal accountability"\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment

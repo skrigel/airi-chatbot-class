@@ -1,0 +1,28 @@
+Repository ID: RID-00231
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00231
+risk_category: 
+row: 208
+scqa_answer: Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society
+scqa_complication: 
+scqa_confidence: 0.95
+scqa_content_type: impact_analysis
+scqa_question: How significant is this impact?
+scqa_situation: Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society
+search_all_fields: Evaluating the Social Impact of Generative AI Systems in Systems and Society Unspecified Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Evaluating the Social Impact of Generative AI Systems in Systems and Society Unspecified
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Evaluating the Social Impact of Generative AI Systems in Systems and Society
+
+Content:
+Title: Evaluating the Social Impact of Generative AI Systems in Systems and Society

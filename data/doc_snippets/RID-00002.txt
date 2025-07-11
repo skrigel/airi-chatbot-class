@@ -1,0 +1,78 @@
+Repository ID: RID-00002
+Source: data/info_files/Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt
+content_preview: The AI Risk Repository
+This page is mobile-friendly but please
+access on a non-mobile device for the
+best user experience.
+A comprehensive living database of over
+1600 AI risks categorized by their cause
+and risk domain.
+
+
+
+
+Read paper
+View website
+Watch video
+
+                                      ...
+file_type: text
+rid: RID-00002
+scqa_answer: 12622
+This work is licensed under CC BY 4
+scqa_complication: This page is mobile-friendly but please
+access on a non-mobile device for the
+best user experience.
+A comprehensive living database of over
+1600 AI risk
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: The AI Risk Repository
+This page is mobile-friendly but please
+access on a non-mobile device for the
+best user experience
+search_all_fields: Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt text
+search_high_priority: Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt
+search_low_priority: text
+search_medium_priority: 
+title: Copy-of-The-AI-Risk-Repository-V3_26_03_2025-_please-create-a-copy_-Contents.txt
+
+Content:
+Domain Taxonomy of AI Risks v0.1
+The Domain Taxonomy of AI Risks
+adapted from Weidinger (2022) classifies
+risks into 7 AI risk domains: (1)
+Discrimination & Toxicity, (2) Privacy &
+Security, (3) Misinformation, (4) Malicious
+Actors & Misuse, (5) Human-Computer
+Interaction, (6) Socioeconomic &
+Environmental, and (7) AI System Safety,
+Failures, & Limitations. These are further
+divided into 24 subdomains.
+
+AI Risk Database
+Our living database of risks.
+
+AI Risk Database explainer
+An explainer for our database of 1612
+risks extracted from 65 frameworks,
+categorised with the two taxonomies
+discussed above. You can also watch a
+video.
+
+Causal Taxonomy statistics
+See how risks are classified by the
+Causal Taxonomy
+
+Domain Taxonomy statistics
+See how risks and paper are classified by
+the Domain Taxonomy
+
+Causal x Domain Taxonomy comparison
+See how risks are categorised across
+both taxonomies
+
+Included resources
+A list of all documents included in the
+database

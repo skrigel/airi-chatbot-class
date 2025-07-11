@@ -1,0 +1,28 @@
+Repository ID: RID-00342
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Taxonomy of Risks posed by Language Models\nDomain: 3. Misinformation\nSub-domain: 3.1 > False or misleading information\nRisk Category: Risk area 3: Misinformation Harms\nRisk Subcategory: Disseminating false or misleading information\nDescription: "Where a LM prediction causes a false belie...
+domain: 3. Misinformation
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00342
+risk_category: Risk area 3: Misinformation Harms
+row: 319
+scqa_answer: "\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: Title: Taxonomy of Risks posed by Language Models\nDomain: 3. Misinformation\nSub-domain: 3.1 > False or misleading information\nRisk Category:
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Taxonomy of Risks posed by Language Models\nDomain: 3
+search_all_fields: Taxonomy of Risks posed by Language Models 3. Misinformation Risk area 3: Misinformation Harms 3.1 > False or misleading information 3.1 > False or misleading information AI Risk Database v3 ai_risk_entry
+search_high_priority: Taxonomy of Risks posed by Language Models 3. Misinformation Risk area 3: Misinformation Harms
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 3.1 > False or misleading information 3.1 > False or misleading information
+sheet: AI Risk Database v3
+specific_domain: 3.1 > False or misleading information
+subdomain: 3.1 > False or misleading information
+timing: 2 - Post-deployment
+title: Taxonomy of Risks posed by Language Models
+
+Content:
+Title: Taxonomy of Risks posed by Language Models\nDomain: 3. Misinformation\nSub-domain: 3.1 > False or misleading information\nRisk Category: Risk area 3: Misinformation Harms\nRisk Subcategory: Disseminating false or misleading information\nDescription: "Where a LM prediction causes a false belief in a user, this may threaten personal autonomy and even pose downstream AI safety risks [99]."\nAdditional Evidence: "It can also increase a person’s confidence in an unfounded opinion, and in this way increase polarisation."\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

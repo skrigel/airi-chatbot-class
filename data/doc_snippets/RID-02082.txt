@@ -1,0 +1,28 @@
+Repository ID: RID-02082
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.3 > Fraud, scams, and targeted manipulation\nRisk Category: Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)\nRisk Subcatego...
+domain: 4. Malicious Actors & Misuse
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-02082
+risk_category: Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)
+row: 2059
+scqa_answer: 3 > Fraud, scams, and targeted manipulation\nRisk Category: Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)\nRisk Subcategory: Child sexual abuse material (CSAM)\nDescription: "Create child sexual explicit material"\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: s, and targeted manipulation\nRisk Category: Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)\nRisk Subcategory: Chi
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data\nDomain: 4
+search_all_fields: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data 4. Malicious Actors & Misuse Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness) 4.3 > Fraud, scams, and targeted manipulation 4.3 > Fraud, scams, and targeted manipulation AI Risk Database v3 ai_risk_entry
+search_high_priority: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data 4. Malicious Actors & Misuse Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 4.3 > Fraud, scams, and targeted manipulation 4.3 > Fraud, scams, and targeted manipulation
+sheet: AI Risk Database v3
+specific_domain: 4.3 > Fraud, scams, and targeted manipulation
+subdomain: 4.3 > Fraud, scams, and targeted manipulation
+timing: 2 - Post-deployment
+title: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data
+
+Content:
+Title: Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.3 > Fraud, scams, and targeted manipulation\nRisk Category: Misuse tactics that exploit GenAI capabilities (Realistic depiction of human likeness)\nRisk Subcategory: Child sexual abuse material (CSAM)\nDescription: "Create child sexual explicit material"\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

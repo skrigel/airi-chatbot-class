@@ -32,8 +32,8 @@ def main():
     # Create the Flask application
     app = create_app()
     
-    # Get an available port
-    port = get_available_port()
+    # Get configured port (respects PORT environment variable)
+    port = settings.get_port()
     
     # Print startup information
     print("\\n" + "="*50)

@@ -1,0 +1,28 @@
+Repository ID: RID-00100
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Broken systems\nDescription: "These are the most mentioned cases. They refer to situations where the algorithm or the t...
+domain: 1. Discrimination & Toxicity
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00100
+risk_category: Broken systems
+row: 77
+scqa_answer: "\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: riables, like race or gender, but there is no transparency to this effect, making them impossible to challenge. These situations are typically only ident
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 1
+search_all_fields: Navigating the Landscape of AI Ethics and Responsibility 1. Discrimination & Toxicity Broken systems 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation AI Risk Database v3 ai_risk_entry
+search_high_priority: Navigating the Landscape of AI Ethics and Responsibility 1. Discrimination & Toxicity Broken systems
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation
+sheet: AI Risk Database v3
+specific_domain: 1.1 > Unfair discrimination and misrepresentation
+subdomain: 1.1 > Unfair discrimination and misrepresentation
+timing: 2 - Post-deployment
+title: Navigating the Landscape of AI Ethics and Responsibility
+
+Content:
+Title: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Broken systems\nDescription: "These are the most mentioned cases. They refer to situations where the algorithm or the training data lead to unreliable outputs. These systems frequently assign disproportionate weight to some variables, like race or gender, but there is no transparency to this effect, making them impossible to challenge. These situations are typically only identified when regulators or the press examine the systems under freedom of information acts. Nevertheless, the damage they cause to people’s lives can be dramatic, such as lost homes, divorces, prosecution, or incarceration. Besides the inherent technical shortcomings, auditors have also pointed out “insufficient coordination” between the developers of the systems and their users as a cause for ethical considerations to be neglected. This situation raises issues about the education of future creators of AI-infused systems, not only in terms of technical competence (e.g., requirements, algorithms, and training) but also ethics and responsibility. For example, as autonomous vehicles become more common, moral dilemmas regarding what to do in potential accident situations emerge, as evidenced in this MIT experiment. The decisions regarding how the machines should act divides opinions and requires deep reflection and maybe regulation."\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

@@ -1,5 +1,5 @@
 """
-Query processing and enhancement for employment-related searches.
+Query processing and enhancement for domain-specific searches.
 """
 from typing import List, Dict, Any, Tuple, Optional
 from langchain.docstore.document import Document
@@ -14,14 +14,11 @@ class QueryProcessor:
     def __init__(self, query_monitor=None):
         self.query_monitor = query_monitor
         
-        # Keywords for different query types
-        self.employment_keywords = [
-            'job', 'employ', 'work', 'career', 'unemployment', 
-            'labor', 'worker', 'workforce', 'occupation'
-        ]
-        self.socioeconomic_keywords = [
-            'socioeconomic', 'economic', 'inequality', 'social', 'financial'
-        ]
+        # Import domain classifier for generic domain detection
+        from ...config.domains import domain_classifier
+        from ...config.prompts import prompt_manager
+        self.domain_classifier = domain_classifier
+        self.prompt_manager = prompt_manager
     
     def analyze_query(self, message: str) -> Tuple[str, Optional[str]]:
         """
@@ -57,17 +54,12 @@ class QueryProcessor:
             except Exception as e:
                 logger.error(f"Error analyzing query: {str(e)}")
         
-        # Enhanced keyword-based detection
-        if not query_type or query_type == "general":
-            message_lower = message.lower()
-            if any(keyword in message_lower for keyword in self.employment_keywords):
-                query_type = "employment"
-                domain = "socioeconomic"
-                logger.info("Enhanced detection found employment related query")
-            elif any(keyword in message_lower for keyword in self.socioeconomic_keywords):
-                query_type = "socioeconomic"
-                domain = "socioeconomic"
-                logger.info("Enhanced detection found socioeconomic related query")
+        # Enhanced domain-based detection using generic classifier
+        if not domain or domain == "other":
+            domain = self.domain_classifier.classify_domain(message)
+            if domain != "other":
+                query_type = domain
+                logger.info(f"Enhanced detection found {domain} related query")
         
         return query_type, domain
     
@@ -84,10 +76,11 @@ class QueryProcessor:
         """
         enhanced_query = message
         
-        if query_type == "employment":
-            enhanced_query += " employment job work career labor workforce inequality"
-        elif query_type == "socioeconomic":
-            enhanced_query += " socioeconomic economic social inequality"
+        # Use generic domain keywords for enhancement
+        if query_type != "general":
+            domain_keywords = self.domain_classifier.get_domain_keywords(query_type)
+            if domain_keywords:
+                enhanced_query += " " + " ".join(domain_keywords[:6])  # Limit to first 6 keywords
         
         return enhanced_query
     
@@ -102,89 +95,75 @@ class QueryProcessor:
         Returns:
             Filtered and prioritized documents
         """
-        if query_type not in ["employment", "socioeconomic"]:
+        # Generic domain-based document filtering
+        if query_type == "general" or not self.domain_classifier.is_domain_enabled(query_type):
             return docs
         
-        employment_docs = []
+        domain_docs = []
         other_docs = []
+        
+        # Get domain keywords for matching
+        domain_keywords = self.domain_classifier.get_domain_keywords(query_type)
         
         for doc in docs:
             doc_domain = doc.metadata.get('domain', '').lower()
             doc_subdomain = doc.metadata.get('subdomain', '').lower()
             doc_specific_domain = doc.metadata.get('specific_domain', '').lower()
             
-            # Check if this document is employment-related
-            is_employment_related = any(
+            # Check if this document is domain-related
+            is_domain_related = any(
                 keyword in doc_domain + doc_subdomain + doc_specific_domain 
-                for keyword in ['employ', 'job', 'work', 'labor', 'socioeconomic', 'economic', 'inequality']
+                for keyword in domain_keywords
             )
             
-            if is_employment_related:
-                employment_docs.append(doc)
+            if is_domain_related:
+                domain_docs.append(doc)
             else:
                 other_docs.append(doc)
         
-        # Prioritize employment docs, but include some others for context
-        filtered_docs = employment_docs[:6] + other_docs[:2]
+        # Prioritize domain docs, but include some others for context
+        filtered_docs = domain_docs[:6] + other_docs[:2]
         
-        logger.info(f"Filtered to {len(employment_docs)} employment-specific documents and {min(2, len(other_docs))} general documents")
+        logger.info(f"Filtered to {len(domain_docs)} {query_type}-specific documents and {min(2, len(other_docs))} general documents")
         
         return filtered_docs
     
-    def generate_prompt(self, message: str, query_type: str, context: str) -> str:
+    def generate_prompt(self, message: str, query_type: str, context: str, session_id: str = "default", docs: List[Document] = None) -> str:
         """
-        Generate enhanced prompt based on query type.
-        
+        Generate enhanced prompt using the new prompt management system.
+
         Args:
             message: User query
             query_type: Detected query type  
             context: Retrieved context
+            session_id: Session ID for intro tracking
+            docs: Retrieved documents for RID extraction
             
         Returns:
-            Enhanced prompt
+            Enhanced prompt with brevity rules and domain-specific guidance
         """
-        base_prompt = """You are an AI assistant that helps users understand AI risks based on information from the MIT AI Risk Repository. 
-Answer based on the retrieved context when possible. If the context doesn't contain relevant information, say so honestly.
-
-When referring to sources, use 'SECTION X' or 'Document X' format which will be replaced with proper citations later."""
+        # Detect domain from query type or use domain classifier
+        domain = query_type if query_type in ['socioeconomic', 'safety', 'privacy', 'bias', 'governance', 'technical'] else 'general'
+        if domain == 'general':
+            # Try to detect domain using classifier
+            detected_domain = self.domain_classifier.classify_domain(message)
+            if detected_domain != 'other':
+                domain = detected_domain
         
-        if context:
-            if query_type in ["employment", "socioeconomic"]:
-                specific_guidance = """
-
-IMPORTANT: This question is about employment, job, or socioeconomic risks from AI. The repository contains specific information about:
-- Increased inequality and decline in employment quality (Domain 6.2)
-- Economic and cultural devaluation of human effort (Domain 6.3) 
-- Socioeconomic and Environmental risks (Domain 6)
-
-Focus your answer on these specific employment-related risks when available in the context."""
-                prompt = f"""{base_prompt}{specific_guidance}
-
-Context: {context}
-
-Question: {message}"""
-            else:
-                prompt = f"""{base_prompt}
-
-Context: {context}
-
-Question: {message}"""
-        else:
-            if query_type in ["employment", "socioeconomic"]:
-                prompt = f"""You are an AI assistant that helps users understand AI risks based on the MIT AI Risk Repository. 
-The repository contains information about employment and socioeconomic risks from AI, including:
-- Job displacement and automation impacts
-- Increased inequality from AI systems
-- Decline in employment quality
-- Economic impacts on workers
-
-Answer the following question about AI employment/socioeconomic risks: {message}
-
-When referring to sources, use 'SECTION X' or 'Document X' format which will be replaced with proper citations later."""
-            else:
-                prompt = f"""You are an AI assistant that helps users understand AI risks based on the MIT AI Risk Repository. 
-Answer the following question about AI risk: {message}
-
-When referring to sources, use 'SECTION X' or 'Document X' format which will be replaced with proper citations later."""
+        # Extract available RIDs from documents
+        available_rids = []
+        if docs:
+            for doc in docs:
+                rid = doc.metadata.get('rid')
+                if rid and rid not in available_rids:
+                    available_rids.append(rid)
         
-        return prompt
+        # Use the new prompt manager for advanced, context-aware prompts
+        return self.prompt_manager.get_prompt(
+            query=message,
+            domain=domain,
+            context=context,
+            session_id=session_id,
+            query_type=query_type,
+            available_rids=available_rids
+        )

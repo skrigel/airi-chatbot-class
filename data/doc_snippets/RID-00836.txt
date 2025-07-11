@@ -1,0 +1,28 @@
+Repository ID: RID-00836
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Robustness\nRisk Subcategory: Interventional Effect\nDescription: existing disparities ...
+domain: 1. Discrimination & Toxicity
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00836
+risk_category: Robustness
+row: 813
+scqa_answer: creating barriers for future data collection\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: nation and misrepresentation\nRisk Category: Robustness\nRisk Subcategory: Interventional Effect\nDescription: existing disparities in data among differen
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: ntional Effect\nDescription: existing disparities in data among different user groups might create differentiated experiences when users interact with an algorithmic system (e.g. a recommendation system), which will further reinforce the bias\nAdditional Evidence: if an L
+search_all_fields: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment 1. Discrimination & Toxicity Robustness 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation AI Risk Database v3 ai_risk_entry
+search_high_priority: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment 1. Discrimination & Toxicity Robustness
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation
+sheet: AI Risk Database v3
+specific_domain: 1.1 > Unfair discrimination and misrepresentation
+subdomain: 1.1 > Unfair discrimination and misrepresentation
+timing: 2 - Post-deployment
+title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment
+
+Content:
+Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Robustness\nRisk Subcategory: Interventional Effect\nDescription: existing disparities in data among different user groups might create differentiated experiences when users interact with an algorithmic system (e.g. a recommendation system), which will further reinforce the bias\nAdditional Evidence: if an LLM only provides a poor experience to a certain group of users due to the lack of training data, this issue will tend to become even more severe when this particular user group chooses to engage less with the service, therefore creating barriers for future data collection\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

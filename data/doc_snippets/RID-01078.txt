@@ -1,0 +1,28 @@
+Repository ID: RID-01078
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: Example: "precision livestock farming systems malfunction ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01078
+risk_category: Unintentional: direct
+row: 1055
+scqa_answer: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: Example: "precision livestock farming systems malfunction or operate in unintentional ways that harm animals"
+scqa_complication: ematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI op
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: : AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: Example: "precision livestock farming systems malfunction or operate in unintentional ways that harm animals"
+search_all_fields: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+
+Content:
+Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: Example: "precision livestock farming systems malfunction or operate in unintentional ways that harm animals"

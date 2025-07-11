@@ -8,6 +8,7 @@ from ..models.gemini import GeminiModel
 from ..storage.vector_store import VectorStore
 from ..query.processor import QueryProcessor
 from .citation_service import CitationService
+from ..validation.response_validator import validation_chain
 from ...config.logging import get_logger
 from ...config.settings import settings
 
@@ -38,7 +39,7 @@ class ChatService:
     
     def process_query(self, message: str, conversation_id: str) -> Tuple[str, List[Document]]:
         """
-        Process a user query and generate a response.
+        Process a user query with intent classification and pre-filtering.
         
         Args:
             message: User message
@@ -48,25 +49,84 @@ class ChatService:
             Tuple of (response_text, retrieved_documents)
         """
         try:
-            # 1. Analyze the query
+            # 1. Intent classification (Phase 2.1) - fast pre-filtering
+            from ...core.query.intent_classifier import intent_classifier
+            intent_result = intent_classifier.classify_intent(message)
+            
+            # 2. Handle non-repository queries immediately
+            if not intent_result.should_process:
+                logger.info(f"Query filtered by intent classifier: {intent_result.category.value} (confidence: {intent_result.confidence:.2f})")
+                
+                if intent_result.suggested_response:
+                    response = intent_result.suggested_response
+                else:
+                    response = "I can help you understand AI risks from the MIT AI Risk Repository. Try asking about employment impacts, safety concerns, privacy issues, or algorithmic bias."
+                
+                # Update conversation history even for filtered queries
+                self._update_conversation_history(conversation_id, message, response)
+                return response, []
+            
+            # 3. Process repository-related queries
+            logger.info(f"Processing repository query (intent confidence: {intent_result.confidence:.2f})")
+            
+            # 4. Query refinement check (Phase 2.2) - handle over-broad queries
+            from ...core.query.refinement import query_refiner
+            refinement_result = query_refiner.analyze_query(message)
+            
+            # 5. Handle over-broad queries with suggestions (less aggressive)
+            if refinement_result.needs_refinement and refinement_result.complexity.value == 'very_broad':
+                logger.info(f"Query is very broad and needs refinement: {refinement_result.complexity.value}")
+                
+                # Use auto-refined query if available
+                if refinement_result.refined_query:
+                    logger.info(f"Using auto-refined query: {refinement_result.refined_query}")
+                    message = refinement_result.refined_query
+                elif refinement_result.suggestions:
+                    # Only block very_broad queries with suggestions, let broad queries proceed
+                    suggestion_response = query_refiner.format_suggestions_response(refinement_result)
+                    self._update_conversation_history(conversation_id, message, suggestion_response)
+                    return suggestion_response, []
+            elif refinement_result.needs_refinement and refinement_result.complexity.value == 'broad':
+                # For broad queries, use auto-refined query if available, but don't block with suggestions
+                if refinement_result.refined_query:
+                    logger.info(f"Using auto-refined query for broad query: {refinement_result.refined_query}")
+                    message = refinement_result.refined_query
+                # Let broad queries proceed to retrieval even if they have suggestions
+            
+            # 6. Analyze the query
             query_type, domain = self.query_processor.analyze_query(message)
             
-            # 2. Retrieve relevant documents
+            # 7. Retrieve relevant documents
             docs = self._retrieve_documents(message, query_type)
             
-            # 3. Format context
+            # 8. Format context
             context = self._format_context(docs, query_type)
             
-            # 4. Generate response
-            response = self._generate_response(message, query_type, context, conversation_id)
+            # 9. Generate response
+            response = self._generate_response(message, query_type, context, conversation_id, docs)
             
-            # 5. Enhance with citations
+            # 10. Enhance with citations
             enhanced_response = self.citation_service.enhance_response_with_citations(response, docs)
             
-            # 6. Update conversation history
-            self._update_conversation_history(conversation_id, message, enhanced_response)
+            # 11. Self-validation chain for quality assurance
+            validated_response, validation_results = validation_chain.validate_and_improve(
+                response=enhanced_response,
+                query=message,
+                documents=docs,
+                domain=domain
+            )
             
-            return enhanced_response, docs
+            # Log validation results
+            logger.info(f"Response validation: {validation_results.overall_result.value} "
+                       f"(score: {validation_results.overall_score:.2f})")
+            
+            if validation_results.overall_score < 0.6:
+                logger.warning(f"Low quality response detected. Recommendations: {validation_results.recommendations}")
+            
+            # 12. Update conversation history
+            self._update_conversation_history(conversation_id, message, validated_response)
+            
+            return validated_response, docs
             
         except Exception as e:
             logger.error(f"Error processing query: {str(e)}")
@@ -74,24 +134,42 @@ class ChatService:
             return error_response, []
     
     def _retrieve_documents(self, message: str, query_type: str) -> List[Document]:
-        """Retrieve relevant documents based on query type."""
+        """Retrieve relevant documents with relevance threshold filtering."""
         if not self.vector_store:
             logger.warning("No vector store available")
             return []
         
         try:
+            # Detect domain for threshold-based filtering
+            from ...config.domains import domain_classifier
+            domain = domain_classifier.classify_domain(message)
+            
             if query_type in ["employment", "socioeconomic"]:
                 # Enhanced search for employment/socioeconomic queries
                 enhanced_query = self.query_processor.enhance_query(message, query_type)
-                docs = self.vector_store.get_relevant_documents(enhanced_query, k=settings.EMPLOYMENT_DOCS_RETRIEVED)
+                docs = self.vector_store.get_relevant_documents(
+                    enhanced_query, 
+                    k=settings.DOMAIN_DOCS_RETRIEVED, 
+                    domain="socioeconomic"
+                )
                 
                 # Filter and prioritize employment-related documents
                 docs = self.query_processor.filter_documents_by_relevance(docs, query_type)
                 
-                logger.info(f"Retrieved {len(docs)} documents using enhanced employment search")
+                logger.info(f"Retrieved {len(docs)} documents using enhanced {domain} search")
             else:
-                # Standard retrieval for other queries
-                docs = self.vector_store.get_relevant_documents(message, k=settings.DEFAULT_DOCS_RETRIEVED)
+                # Standard retrieval with relevance threshold
+                docs = self.vector_store.get_relevant_documents(
+                    message, 
+                    k=settings.DEFAULT_DOCS_RETRIEVED, 
+                    domain=domain
+                )
+                
+                # If no docs above threshold, this is likely out-of-scope
+                if not docs:
+                    logger.info(f"No relevant documents found above threshold for query: {message[:50]}...")
+                    return []
+                
                 logger.info(f"Retrieved {len(docs)} documents using standard search")
             
             return docs
@@ -119,7 +197,7 @@ class ChatService:
             logger.error(f"Error formatting context: {str(e)}")
             return ""
     
-    def _generate_response(self, message: str, query_type: str, context: str, conversation_id: str) -> str:
+    def _generate_response(self, message: str, query_type: str, context: str, conversation_id: str, docs: List[Document] = None) -> str:
         """Generate response using the AI model."""
         if not self.gemini_model:
             logger.warning("No Gemini model available")
@@ -129,8 +207,8 @@ class ChatService:
             # Prepare conversation history
             history = self._get_conversation_history(conversation_id)
             
-            # Generate enhanced prompt
-            prompt = self.query_processor.generate_prompt(message, query_type, context)
+            # Generate enhanced prompt with session awareness and RID information
+            prompt = self.query_processor.generate_prompt(message, query_type, context, conversation_id, docs)
             
             # Generate response
             response = self.gemini_model.generate(prompt, history)

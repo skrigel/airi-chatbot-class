@@ -1,0 +1,28 @@
+Repository ID: RID-01081
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.6 > Environmental harm\nRisk Category: Unintentional: indirect\nDescription: "AI impacts human or ecological systems in ways that ultimately harm animals"\nEntity: 2...
+domain: 6. Socioeconomic and Environmental
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01081
+risk_category: Unintentional: indirect
+row: 1058
+scqa_answer: 6 > Environmental harm\nRisk Category: Unintentional: indirect\nDescription: "AI impacts human or ecological systems in ways that ultimately harm animals"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: in: 6.6 > Environmental harm\nRisk Category: Unintentional: indirect\nDescription: "AI impacts human or ecological systems in ways that ultimately harm an
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nDomain: 6
+search_all_fields: Harm to Nonhuman Animals from AI: a Systematic Account and Framework 6. Socioeconomic and Environmental Unintentional: indirect 6.6 > Environmental harm 6.6 > Environmental harm AI Risk Database v3 ai_risk_entry
+search_high_priority: Harm to Nonhuman Animals from AI: a Systematic Account and Framework 6. Socioeconomic and Environmental Unintentional: indirect
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.6 > Environmental harm 6.6 > Environmental harm
+sheet: AI Risk Database v3
+specific_domain: 6.6 > Environmental harm
+subdomain: 6.6 > Environmental harm
+timing: 2 - Post-deployment
+title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+
+Content:
+Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.6 > Environmental harm\nRisk Category: Unintentional: indirect\nDescription: "AI impacts human or ecological systems in ways that ultimately harm animals"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

@@ -1,0 +1,28 @@
+Repository ID: RID-00807
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.3 > Unequal performance across groups\nRisk Category: Fairness\nDescription: Avoiding bias and ensuring no disparate performance\nAdditional Evidence: ...
+domain: 1. Discrimination & Toxicity
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00807
+risk_category: Fairness
+row: 784
+scqa_answer: 3 > Unequal performance across groups\nRisk Category: Fairness\nDescription: Avoiding bias and ensuring no disparate performance\nAdditional Evidence: "Fairness is vital because biased LLMs that are not aligned with universally shared human morals can produce discrimination against users, reducing user trust, as well as negative public opinions about the deployers, and violation of anti-discrimination laws"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other
+scqa_complication: al performance across groups\nRisk Category: Fairness\nDescription: Avoiding bias and ensuring no disparate performance\nAdditional Evidence: "Fairness is
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nDomain: 1
+search_all_fields: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment 1. Discrimination & Toxicity Fairness 1.3 > Unequal performance across groups 1.3 > Unequal performance across groups AI Risk Database v3 ai_risk_entry
+search_high_priority: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment 1. Discrimination & Toxicity Fairness
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.3 > Unequal performance across groups 1.3 > Unequal performance across groups
+sheet: AI Risk Database v3
+specific_domain: 1.3 > Unequal performance across groups
+subdomain: 1.3 > Unequal performance across groups
+timing: 3 - Other
+title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment
+
+Content:
+Title: Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.3 > Unequal performance across groups\nRisk Category: Fairness\nDescription: Avoiding bias and ensuring no disparate performance\nAdditional Evidence: "Fairness is vital because biased LLMs that are not aligned with universally shared human morals can produce discrimination against users, reducing user trust, as well as negative public opinions about the deployers, and violation of anti-discrimination laws"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other

@@ -1,0 +1,28 @@
+Repository ID: RID-00189
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Usurpation of jobs by automation\nDescription: "Eliminated jobs ...
+domain: 6. Socioeconomic and Environmental
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00189
+risk_category: Usurpation of jobs by automation
+row: 166
+scqa_answer: Recommendations: An Exploratory Study\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment q
+scqa_complication: ecline in employment quality\nRisk Category: Usurpation of jobs by automation\nDescription: "Eliminated jobs in various types of companies."\nEntity: 1 -
+scqa_confidence: 1.0
+scqa_content_type: mitigation_strategy
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study\nDomain: 6
+search_all_fields: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study 6. Socioeconomic and Environmental Usurpation of jobs by automation 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_entry
+search_high_priority: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study 6. Socioeconomic and Environmental Usurpation of jobs by automation
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+subdomain: 6.2 > Increased inequality and decline in employment quality
+timing: 2 - Post-deployment
+title: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study
+
+Content:
+Title: Social Impacts of Artificial Intelligence and Mitigation Recommendations: An Exploratory Study\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Usurpation of jobs by automation\nDescription: "Eliminated jobs in various types of companies."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

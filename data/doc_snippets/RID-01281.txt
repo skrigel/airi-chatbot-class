@@ -1,0 +1,28 @@
+Repository ID: RID-01281
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI systems rely on and process vast amounts of personal data, and this could pose significant and potentially wide- reaching ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01281
+risk_category: Systemic Risks
+row: 1258
+scqa_answer: Such risks include loss of data confidentiality for people whose data was used to train these systems, loss of transparency and control over how data- driven decisions are made, and new forms of abuse that these systems could enable
+scqa_complication: on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI systems rely on
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: fidentiality for people whose data was used to train these systems, loss of transparency and control over how data- driven decisions are made, and new forms of abuse
+search_all_fields: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International Scientific Report on the Safety of Advanced AI
+
+Content:
+Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Risks to privacy\nAdditional Evidence: "General- purpose AI systems rely on and process vast amounts of personal data, and this could pose significant and potentially wide- reaching privacy risks. Such risks include loss of data confidentiality for people whose data was used to train these systems, loss of transparency and control over how data- driven decisions are made, and new forms of abuse that these systems could enable."

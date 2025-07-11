@@ -1,0 +1,28 @@
+Repository ID: RID-01759
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Sources of systemic risks from general-purpose AI\nRisk Subcategory: Human choice of overreliance in critical sectors\nDescription: "Heavy...
+domain: 5. Human-Computer Interaction
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01759
+risk_category: Sources of systemic risks from general-purpose AI
+row: 1736
+scqa_answer: "\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Ca
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: I\nRisk Subcategory: Human choice of overreliance in critical sectors\nDescription: "Heavy reliance on AI in critical sectors like finance or healthcare can exacerbate issues related to size, speed, interconnectivity, and complexity of the system."\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+search_all_fields: A Taxonomy of Systemic Risks from General-Purpose AI 5. Human-Computer Interaction Sources of systemic risks from general-purpose AI 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use AI Risk Database v3 ai_risk_entry
+search_high_priority: A Taxonomy of Systemic Risks from General-Purpose AI 5. Human-Computer Interaction Sources of systemic risks from general-purpose AI
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use
+sheet: AI Risk Database v3
+specific_domain: 5.1 > Overreliance and unsafe use
+subdomain: 5.1 > Overreliance and unsafe use
+timing: 2 - Post-deployment
+title: A Taxonomy of Systemic Risks from General-Purpose AI
+
+Content:
+Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Sources of systemic risks from general-purpose AI\nRisk Subcategory: Human choice of overreliance in critical sectors\nDescription: "Heavy reliance on AI in critical sectors like finance or healthcare can exacerbate issues related to size, speed, interconnectivity, and complexity of the system."\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

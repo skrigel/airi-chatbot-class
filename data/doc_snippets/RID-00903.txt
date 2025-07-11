@@ -1,0 +1,28 @@
+Repository ID: RID-00903
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Alignment: A Comprehensive Survey\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.1 > AI pursuing its own goals in conflict with human goals or values\nRisk Category: Misaligned Behaviors\nRisk Subcategory: Power-Seeking Behaviors\nDescription: "AI systems may exhibit ...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00903
+risk_category: Misaligned Behaviors
+row: 880
+scqa_answer: "\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 3 - Other
+scqa_complication: t with human goals or values\nRisk Category: Misaligned Behaviors\nRisk Subcategory: Power-Seeking Behaviors\nDescription: "AI systems may exhibit behavio
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: ions\nSub-domain: 7.1 > AI pursuing its own goals in conflict with human goals or values\nRisk Category: Misaligned Behaviors\nRisk Subcategory: Power-Seeking Behaviors\nDescription: "AI systems may exhibit behaviors that attempt to gain control over resourcesand humans and then exert that con
+search_all_fields: AI Alignment: A Comprehensive Survey 7. AI System Safety, Failures, & Limitations Misaligned Behaviors 7.1 > AI pursuing its own goals in conflict with human goals or values 7.1 > AI pursuing its own goals in conflict with human goals or values AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Alignment: A Comprehensive Survey 7. AI System Safety, Failures, & Limitations Misaligned Behaviors
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.1 > AI pursuing its own goals in conflict with human goals or values 7.1 > AI pursuing its own goals in conflict with human goals or values
+sheet: AI Risk Database v3
+specific_domain: 7.1 > AI pursuing its own goals in conflict with human goals or values
+subdomain: 7.1 > AI pursuing its own goals in conflict with human goals or values
+timing: 3 - Other
+title: AI Alignment: A Comprehensive Survey
+
+Content:
+Title: AI Alignment: A Comprehensive Survey\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.1 > AI pursuing its own goals in conflict with human goals or values\nRisk Category: Misaligned Behaviors\nRisk Subcategory: Power-Seeking Behaviors\nDescription: "AI systems may exhibit behaviors that attempt to gain control over resourcesand humans and then exert that control to achieve its assigned goal (Carlsmith, 2022). The intuitive reasonwhy such behaviors may occur is the observation that for almost any optimization objective (e.g., investmentreturns), the optimal policy to maximize that quantity would involve power-seeking behaviors (e.g.,manipulating the market), assuming the absence of solid safety and morality constraints."\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 3 - Other

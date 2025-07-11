@@ -1,0 +1,28 @@
+Repository ID: RID-00384
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Ethical and social risks of harm from language models\nRisk Category: Information Hazards\nRisk Subcategory: Compromising privacy by leaking private infiormation\nAdditional Evidence: "This ’unintended memorization’ of training data can occur even when there is not overfitting in the traditio...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00384
+risk_category: Information Hazards
+row: 361
+scqa_answer: , 2019), and can be observed serendipitously when sampling from LMs even without any form of "malicious" prompting (Carlini et al
+scqa_complication: Title: Ethical and social risks of harm from language models\nRisk Category: Information Hazards\nRisk Subcategory: Compromising privacy by leaking pr
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Ethical and social risks of harm from language models\nRisk Category: Information Hazards\nRisk Subcategory: Compromising privacy by leaking private infiormation\nAdditional Evidence: "This ’unintended memorization’ of training data can occur even when there is not overfitting in the traditional statistical sense (Carlini et al
+search_all_fields: Ethical and social risks of harm from language models Unspecified Information Hazards Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Ethical and social risks of harm from language models Unspecified Information Hazards
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Ethical and social risks of harm from language models
+
+Content:
+Title: Ethical and social risks of harm from language models\nRisk Category: Information Hazards\nRisk Subcategory: Compromising privacy by leaking private infiormation\nAdditional Evidence: "This ’unintended memorization’ of training data can occur even when there is not overfitting in the traditional statistical sense (Carlini et al., 2019), and can be observed serendipitously when sampling from LMs even without any form of "malicious" prompting (Carlini et al., 2021)."

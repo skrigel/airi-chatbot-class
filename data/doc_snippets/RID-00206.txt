@@ -1,0 +1,28 @@
+Repository ID: RID-00206
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.3 > Unequal performance across groups\nRisk Category: Quality-of-Service Harms\nDescription: "These harms occur when algorithmic systems disproportionately u...
+domain: 1. Discrimination & Toxicity
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00206
+risk_category: Quality-of-Service Harms
+row: 183
+scqa_answer: "\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: al performance across groups\nRisk Category: Quality-of-Service Harms\nDescription: "These harms occur when algorithmic systems disproportionately underpe
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction\nDomain: 1
+search_all_fields: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction 1. Discrimination & Toxicity Quality-of-Service Harms 1.3 > Unequal performance across groups 1.3 > Unequal performance across groups AI Risk Database v3 ai_risk_entry
+search_high_priority: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction 1. Discrimination & Toxicity Quality-of-Service Harms
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.3 > Unequal performance across groups 1.3 > Unequal performance across groups
+sheet: AI Risk Database v3
+specific_domain: 1.3 > Unequal performance across groups
+subdomain: 1.3 > Unequal performance across groups
+timing: 2 - Post-deployment
+title: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction
+
+Content:
+Title: Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.3 > Unequal performance across groups\nRisk Category: Quality-of-Service Harms\nDescription: "These harms occur when algorithmic systems disproportionately underperform for certain groups of people along social categories of difference such as disability, ethnicity, gender identity, and race."\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

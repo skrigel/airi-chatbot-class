@@ -1,0 +1,23 @@
+Repository ID: RID-00003
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Content from sheet Contents:\n\n Unnamed: 0                                                                                                                                                                                                                                                                 ...
+file_type: excel_sheet
+rid: RID-00003
+scqa_answer: 12622                       
+                                                                                                                                                                                                                                                                                                                                                             This work is licensed under CC BY 4
+scqa_complication: This page is mobile-friendly but please access on a non-mobile device for the best user experience.
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: s v0.1                       
+            The Domain Taxonomy of AI Risks adapted from Weidinger (2022) classifies risks into 7 AI risk domains: (1) Discrimination & Toxicity, (2) Privacy & Security, (3) Misinformation, (4) Malicious Actors & Misuse, (5) Human-Computer Interaction, (6) Socioeconomic & Environmental, and (7) AI System Safety, Failures, & Limitations.  These are further divided into 24 subdomains.
+search_all_fields: Sheet: Contents Contents excel_sheet
+search_high_priority: Sheet: Contents
+search_low_priority: Contents excel_sheet
+search_medium_priority: 
+sheet: Contents
+title: Sheet: Contents
+
+Content:
+AI Risk Database                       
+                                                                                                                                                                                                                                                                                                                                                                    Our living database of risks.

@@ -1,0 +1,28 @@
+Repository ID: RID-00940
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review\nRisk Category: Human-AI interaction\nRisk Subcategory: Building a human-AI environment\nAdditional Evidence: Impact on jobs:"This subset underscores the potential consequences of AI on employment and...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00940
+risk_category: Human-AI interaction
+row: 917
+scqa_answer: Title: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review\nRisk Category: Human-AI interaction\nRisk Subcategory: Building a human-AI environment\nAdditional Evidence: Impact on jobs:"This subset underscores the potential consequences of AI on employment and the workforce
+scqa_complication: Systematic Literature Review\nRisk Category: Human-AI interaction\nRisk Subcategory: Building a human-AI environment\nAdditional Evidence: Impact on jobs:
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review\nRisk Category: Human-AI interaction\nRisk Subcategory: Building a human-AI environment\nAdditional Evidence: Impact on jobs:"This subset underscores the potential consequences of AI on employment and the workforce
+search_all_fields: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review Unspecified Human-AI interaction Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review Unspecified Human-AI interaction
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review
+
+Content:
+Title: What Ethics Can Say on Artificial Intelligence: Insights from a Systematic Literature Review\nRisk Category: Human-AI interaction\nRisk Subcategory: Building a human-AI environment\nAdditional Evidence: Impact on jobs:"This subset underscores the potential consequences of AI on employment and the workforce."

@@ -1,0 +1,28 @@
+Repository ID: RID-00672
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Ethics of Advanced AI Assistants\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\nRisk Category: AI Influence\nRisk Subcategory: Privacy Harms\nDescription: "These harms relate to violations of an individual’s...
+domain: 2. Privacy & Security
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-00672
+risk_category: AI Influence
+row: 649
+scqa_answer: ant harms might include identity theft, or stigmatisation and discrimination based on individual or group characteristics. This could have a detriment
+scqa_complication: erring sensitive information\nRisk Category: AI Influence\nRisk Subcategory: Privacy Harms\nDescription: "These harms relate to violations of an individua
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: The Ethics of Advanced AI Assistants\nDomain: 2
+search_all_fields: The Ethics of Advanced AI Assistants 2. Privacy & Security AI Influence 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information AI Risk Database v3 ai_risk_entry
+search_high_priority: The Ethics of Advanced AI Assistants 2. Privacy & Security AI Influence
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+sheet: AI Risk Database v3
+specific_domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+subdomain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+timing: 2 - Post-deployment
+title: The Ethics of Advanced AI Assistants
+
+Content:
+Title: The Ethics of Advanced AI Assistants\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\nRisk Category: AI Influence\nRisk Subcategory: Privacy Harms\nDescription: "These harms relate to violations of an individual’s or group’s moral or legal right to privacy. Such harms may be exacerbated by assistants that influence users to disclose personal information or private information that pertains to others. Resultant harms might include identity theft, or stigmatisation and discrimination based on individual or group characteristics. This could have a detrimental impact, particularly on marginalised communities. Furthermore, in principle, state-owned AI assistants could employ manipulation or deception to extract private information for surveillance purposes."\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment

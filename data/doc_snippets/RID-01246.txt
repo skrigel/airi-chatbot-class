@@ -1,0 +1,28 @@
+Repository ID: RID-01246
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International Scientific Report on the Safety of Advanced AI\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.0 > AI system safety, failures, & limitations\nRisk Category: Risks from Malfunctions\nDescription: None provided.\nEntity: 3 - Other\nIntent: 2 - Unintentional\nT...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01246
+risk_category: Risks from Malfunctions
+row: 1223
+scqa_answer: \nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 3 - Other
+scqa_complication: ety, failures, & limitations\nRisk Category: Risks from Malfunctions\nDescription: None provided.\nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 3
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: International Scientific Report on the Safety of Advanced AI\nDomain: 7
+search_all_fields: International Scientific Report on the Safety of Advanced AI 7. AI System Safety, Failures, & Limitations Risks from Malfunctions 7.0 > AI system safety, failures, & limitations 7.0 > AI system safety, failures, & limitations AI Risk Database v3 ai_risk_entry
+search_high_priority: International Scientific Report on the Safety of Advanced AI 7. AI System Safety, Failures, & Limitations Risks from Malfunctions
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.0 > AI system safety, failures, & limitations 7.0 > AI system safety, failures, & limitations
+sheet: AI Risk Database v3
+specific_domain: 7.0 > AI system safety, failures, & limitations
+subdomain: 7.0 > AI system safety, failures, & limitations
+timing: 3 - Other
+title: International Scientific Report on the Safety of Advanced AI
+
+Content:
+Title: International Scientific Report on the Safety of Advanced AI\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.0 > AI system safety, failures, & limitations\nRisk Category: Risks from Malfunctions\nDescription: None provided.\nEntity: 3 - Other\nIntent: 2 - Unintentional\nTiming: 3 - Other

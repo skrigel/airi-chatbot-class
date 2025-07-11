@@ -1,0 +1,21 @@
+Repository ID: RID-02323
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Domain Taxonomy Entry:\n6.2 Increased inequality and decline in employment quality 0.52 0.32 0.16 0.41 0.11 0.48 0.11 0.77 0.11
+file_type: domain_taxonomy
+rid: RID-02323
+row: 30
+scqa_answer: 2 Increased inequality and decline in employment quality 0
+scqa_complication: 
+scqa_confidence: 0.85
+scqa_content_type: risk_description
+scqa_question: What should be done about this?
+scqa_situation: Domain Taxonomy Entry:\n6
+search_all_fields: Domain Definition from Causal x Domain Taxonomy compar Causal x Domain Taxonomy compar domain_taxonomy
+search_high_priority: Domain Definition from Causal x Domain Taxonomy compar
+search_low_priority: Causal x Domain Taxonomy compar domain_taxonomy
+search_medium_priority: 
+sheet: Causal x Domain Taxonomy compar
+title: Domain Definition from Causal x Domain Taxonomy compar
+
+Content:
+Domain Taxonomy Entry:\n6.2 Increased inequality and decline in employment quality 0.52 0.32 0.16 0.41 0.11 0.48 0.11 0.77 0.11

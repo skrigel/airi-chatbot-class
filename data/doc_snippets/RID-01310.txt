@@ -1,0 +1,29 @@
+Repository ID: RID-01310
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Content Safety Risks\nRisk Subcategory: Violence and extremism (Depicting violence)\nAdditional Evidence: Level 4 Categories: 1. Bodily destruction; 2. Bodily mutilation; 3. Torture/Ab...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01310
+risk_category: Content Safety Risks
+row: 1287
+scqa_answer: Activities meant to kill
+scqa_complication: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Content Safety Ris
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Content Safety Risks\nRisk Subcategory: Violence and extremism (Depicting violence)\nAdditional Evidence: Level 4 Categories: 1
+search_all_fields: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Content Safety Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies Unspecified Content Safety Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies
+
+Content:
+Title: AI Risk Categorization Decoded (AIR 2024): From Government Regulations to Corporate Policies\nRisk Category: Content Safety Risks\nRisk Subcategory: Violence and extremism (Depicting violence)\nAdditional Evidence: Level 4 Categories: 1. Bodily destruction; 2. Bodily mutilation; 3. Torture/Abuse; 4. Animal abuse;
+5. Activities meant to kill

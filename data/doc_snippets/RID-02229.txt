@@ -1,0 +1,28 @@
+Repository ID: RID-02229
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Non-technical risks (legal compliance)\nRisk Subcategory: Legal accountability\nDescription: "Determining who is responsible for an AI model is challenging without good documentatio...
+domain: 6. Socioeconomic and Environmental
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-02229
+risk_category: Non-technical risks (legal compliance)
+row: 2206
+scqa_answer: "\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 3 - Other
+scqa_complication: Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Non-technical r
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nDomain: 6
+search_all_fields: AI Risk Atlas 6. Socioeconomic and Environmental Non-technical risks (legal compliance) 6.5 > Governance failure 6.5 > Governance failure AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas 6. Socioeconomic and Environmental Non-technical risks (legal compliance)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.5 > Governance failure 6.5 > Governance failure
+sheet: AI Risk Database v3
+specific_domain: 6.5 > Governance failure
+subdomain: 6.5 > Governance failure
+timing: 3 - Other
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.5 > Governance failure\nRisk Category: Non-technical risks (legal compliance)\nRisk Subcategory: Legal accountability\nDescription: "Determining who is responsible for an AI model is challenging without good documentation and governance processes."\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 3 - Other

@@ -1,0 +1,28 @@
+Repository ID: RID-00316
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Second-Order Risks\nRisk Subcategory: Discrimination\nDescription: This is the risk of an ML system encoding stereotypes of or performing ...
+domain: 1. Discrimination & Toxicity
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00316
+risk_category: Second-Order Risks
+row: 293
+scqa_answer: from first-order risks and refer the reader to comprehensive surveys for discussions on the biases in ML algorithms [17, 94, 124, 161, 172]. There ar
+scqa_complication: l photos of the suspect [76]. This leads to discrimination when coupled with performance disparities between majority and minority demographics [28]. Such disparit
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: ics14 Samson Tan, Araz Taeihagh, and Kathy Baxter in computer vision [28] while Bolukbasi et al. discovered gender stereotypes encoded in word embeddings [18]. Recent reporting has also exposed gender and racially-aligned discrimination in ML systems used for recruiting [45], education [65], automatic translation [86], and immigration [149]. We foc
+search_all_fields: The Risks of Machine Learning Systems 1. Discrimination & Toxicity Second-Order Risks 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems 1. Discrimination & Toxicity Second-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 1.1 > Unfair discrimination and misrepresentation 1.1 > Unfair discrimination and misrepresentation
+sheet: AI Risk Database v3
+specific_domain: 1.1 > Unfair discrimination and misrepresentation
+subdomain: 1.1 > Unfair discrimination and misrepresentation
+timing: 2 - Post-deployment
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.1 > Unfair discrimination and misrepresentation\nRisk Category: Second-Order Risks\nRisk Subcategory: Discrimination\nDescription: This is the risk of an ML system encoding stereotypes of or performing disproportionately poorly for some demographics/social groups.\nAdditional Evidence: "ML systems gatekeeping access to economic opportunity, privacy, and liberty run the risk of discriminating against minority demographics if they perform disproportionately poorly for them. This is known as “allocational harm”. Another form of discrimination is the encoding of demographic-specific stereotypes and is a form of “representational harm” [43]. The Gender Shades study highlighted performance disparities between demographics14 Samson Tan, Araz Taeihagh, and Kathy Baxter in computer vision [28] while Bolukbasi et al. discovered gender stereotypes encoded in word embeddings [18]. Recent reporting has also exposed gender and racially-aligned discrimination in ML systems used for recruiting [45], education [65], automatic translation [86], and immigration [149]. We focus on how discrimination risk can result from first-order risks and refer the reader to comprehensive surveys for discussions on the biases in ML algorithms [17, 94, 124, 161, 172]. There are various ways in which first-order risks can give rise to discrimination risk. For example, facial recognition systems may be misused by law enforcement, using celebrity photos or composites in place of real photos of the suspect [76]. This leads to discrimination when coupled with performance disparities between majority and minority demographics [28]. Such disparities may stem from misrepresentative training data and a lack of mitigating mechanisms [161]. Insufficient testing and a non-diverse team may also cause such disparities to pass unnoticed into production [59, 142]. Finally, even something as fundamental as an argmax

@@ -1,0 +1,7 @@
+Repository ID: RID-00123
+Source: Unknown
+rid: RID-00123
+title: Manufacturing Impact Study
+
+Content:
+AI automation will displace manufacturing workers.

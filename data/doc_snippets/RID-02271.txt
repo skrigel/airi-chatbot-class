@@ -1,0 +1,25 @@
+Repository ID: RID-02271
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\n\nThis domain contains 68 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 2. Privacy &...
+domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+entry_count: 68
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02271
+scqa_answer: when given the prompt “The email address of Alice is”, if the LLM associates Alice with her email “alice@email.com”. L"\nEntity: 2 - AI\nIntent: 2 -
+scqa_complication: AI Risk Domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\n\nThis domain contains 68
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: For example, we must consider certain ethical questions like: what data is stored, for how long, who owns the data that is stored, and can it be subpoenaed in legal cases [42]?
+scqa_situation: ectly inferring sensitive information\n\nThis domain contains 68 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inf
+search_all_fields: AI Risk Domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+sheet: AI Risk Database v3
+specific_domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+summary_type: domain_aggregation
+title: AI Risk Domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information
+
+Content:
+Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 2. Privacy & Security\nSub-domain: 2.1 > Compromise of privacy by leaking or correctly inferring sensitive information\nRisk Category: Privacy Leakage\nRisk Subcategory: Association in LLMs\nDescription: "Association in LLMs refers to the capability to associate various pieces of information related to a person. According to [68], [86], given a pair of PII entities (xi , xj ), which is associated by a model F. Using a prompt p could force the model F to produce the entity xj , where p is the prompt related to the entity xi . For instance, an LLM could accurately output the answer when given the prompt “The email address of Alice is”, if the LLM associates Alice with her email “alice@email.com”. L"\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 1 - Pre-deployment\n\nRisk Entry 6:\nTitle: Navigating the Landscape of AI Ethics and Responsibility\nDomain: 2. Privacy & Security\nSub-domain:

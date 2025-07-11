@@ -1,0 +1,28 @@
+Repository ID: RID-00964
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Survey of Artificial Intelligence Challenges: Analyzing the Definitions, Relationships, and Evolutions\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Robustness and Reliability\nDescription: The robustness of an AI-b...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00964
+risk_category: Robustness and Reliability
+row: 941
+scqa_answer: \nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment
+scqa_complication: of capability or robustness\nRisk Category: Robustness and Reliability\nDescription: The robustness of an AI-based model refers to the stability of the m
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: y of the model performance after abnormal changes in the input data... The cause of this change may be a malicious attacker, environmental noise, or a crash of other components of an AI-based system... This problem may be challenging in HLI-based agents because weak robustness may have appeared in
+search_all_fields: A Survey of Artificial Intelligence Challenges: Analyzing the Definitions, Relationships, and Evolutions 7. AI System Safety, Failures, & Limitations Robustness and Reliability 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness AI Risk Database v3 ai_risk_entry
+search_high_priority: A Survey of Artificial Intelligence Challenges: Analyzing the Definitions, Relationships, and Evolutions 7. AI System Safety, Failures, & Limitations Robustness and Reliability
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness
+sheet: AI Risk Database v3
+specific_domain: 7.3 > Lack of capability or robustness
+subdomain: 7.3 > Lack of capability or robustness
+timing: 2 - Post-deployment
+title: A Survey of Artificial Intelligence Challenges: Analyzing the Definitions, Relationships, and Evolutions
+
+Content:
+Title: A Survey of Artificial Intelligence Challenges: Analyzing the Definitions, Relationships, and Evolutions\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Robustness and Reliability\nDescription: The robustness of an AI-based model refers to the stability of the model performance after abnormal changes in the input data... The cause of this change may be a malicious attacker, environmental noise, or a crash of other components of an AI-based system... This problem may be challenging in HLI-based agents because weak robustness may have appeared in unreliable machine learning models, and hence an HLI with this drawback is error-prone in practice.\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment

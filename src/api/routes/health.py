@@ -100,3 +100,45 @@ def status():
             "status": "error",
             "error": str(e)
         }), 500
+
+@health_bp.route('/api/version', methods=['GET'])
+def version():
+    """Version and configuration endpoint to verify current system."""
+    try:
+        from ...config.settings import settings
+        
+        version_info = {
+            "service": "AIRI Chatbot API",
+            "version": "2.0.0",
+            "build_date": "2025-07-10",
+            "features": {
+                "field_aware_hybrid_retrieval": settings.USE_FIELD_AWARE_HYBRID,
+                "hybrid_search": settings.USE_HYBRID_SEARCH,
+                "multi_model_fallback": True,
+                "semantic_intent_classification": True,
+                "rid_citation_consistency": True
+            }
+        }
+        
+        # Add actual retriever type if available
+        if chat_service and chat_service.vector_store:
+            if hasattr(chat_service.vector_store, 'hybrid_retriever') and chat_service.vector_store.hybrid_retriever:
+                retriever_class = chat_service.vector_store.hybrid_retriever.__class__.__name__
+                version_info["active_retriever"] = retriever_class
+            else:
+                version_info["active_retriever"] = "vector_only"
+        
+        # Add model chain info
+        if chat_service and chat_service.gemini_model:
+            if hasattr(chat_service.gemini_model, 'model_chain'):
+                version_info["model_chain"] = chat_service.gemini_model.model_chain
+        
+        return jsonify(version_info)
+        
+    except Exception as e:
+        logger.error(f"Error in version check: {str(e)}")
+        return jsonify({
+            "service": "AIRI Chatbot API",
+            "status": "error",
+            "error": str(e)
+        }), 500

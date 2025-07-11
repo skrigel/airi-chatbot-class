@@ -1,0 +1,28 @@
+Repository ID: RID-01079
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: "Consider a black-box AI system that provides too much or ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01079
+risk_category: Unintentional: direct
+row: 1056
+scqa_answer: Such errors may only be discovered later (if at all) when animals get sick or sicker, by which time harm has been done
+scqa_complication: ematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI op
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: : AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: "Consider a black-box AI system that provides too much or too little food or medicine to an animal in an automated environment such
+search_all_fields: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Harm to Nonhuman Animals from AI: a Systematic Account and Framework Unspecified Unintentional: direct
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework
+
+Content:
+Title: Harm to Nonhuman Animals from AI: a Systematic Account and Framework\nRisk Category: Unintentional: direct\nRisk Subcategory: AI harms animals due to mistake or misadventure in the way the AI operates in practice\nAdditional Evidence: "Consider a black-box AI system that provides too much or too little food or medicine to an animal in an automated environment such as a farm, zoo, or home without providing an understandable explanation for its actions (Miller, 2019). Such errors may only be discovered later (if at all) when animals get sick or sicker, by which time harm has been done."

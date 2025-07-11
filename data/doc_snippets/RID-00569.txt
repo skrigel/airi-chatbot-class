@@ -1,0 +1,28 @@
+Repository ID: RID-00569
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: An Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nAdditional Evidence: "Catastrophes occur even when competitive pressures are low. Even in the absence of competitive pressures or malicious actors, factors like human error or unforeseen circumstances can ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00569
+risk_category: Organizational Risks (Accidental)
+row: 546
+scqa_answer: The Challenger disaster illustrates that organizational negligence can lead to loss of life, even when there is no urgent need to compete or outperform rivals"
+scqa_complication: n Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nAdditional Evidence: "Catastrophes occur even when competitive pres
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: An Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nAdditional Evidence: "Catastrophes occur even when competitive pressures are low
+search_all_fields: An Overview of Catastrophic AI Risks Unspecified Organizational Risks (Accidental) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: An Overview of Catastrophic AI Risks Unspecified Organizational Risks (Accidental)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: An Overview of Catastrophic AI Risks
+
+Content:
+Title: An Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nAdditional Evidence: "Catastrophes occur even when competitive pressures are low. Even in the absence of competitive pressures or malicious actors, factors like human error or unforeseen circumstances can still bring about catastrophe. The Challenger disaster illustrates that organizational negligence can lead to loss of life, even when there is no urgent need to compete or outperform rivals"

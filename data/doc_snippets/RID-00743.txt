@@ -1,0 +1,28 @@
+Repository ID: RID-00743
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Safety Assessment of Chinese Large Language Models
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00743
+risk_category: 
+row: 720
+scqa_answer: Title: Safety Assessment of Chinese Large Language Models
+scqa_complication: 
+scqa_confidence: 0.95
+scqa_content_type: risk_description
+scqa_question: What should be done about this?
+scqa_situation: Title: Safety Assessment of Chinese Large Language Models
+search_all_fields: Safety Assessment of Chinese Large Language Models Unspecified Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Safety Assessment of Chinese Large Language Models Unspecified
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Safety Assessment of Chinese Large Language Models
+
+Content:
+Title: Safety Assessment of Chinese Large Language Models

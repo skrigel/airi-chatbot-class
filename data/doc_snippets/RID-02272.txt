@@ -1,0 +1,25 @@
+Repository ID: RID-02272
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 3.1 > False or misleading information\n\nThis domain contains 41 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 3. Misinformation\nSub-domain: 3.1 > False or misleading i...
+domain: 3.1 > False or misleading information
+entry_count: 41
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02272
+scqa_answer: the gap between knowledge involved in an input prompt and knowledge embedded in the LLMs can lead to hallucinations"\nEntity: 2 - AI\nIntent: 2 - Uni
+scqa_complication: made-up academic references. However, as ChatGPT-type tools become available to the general population, the scale of the problem may increase dramatically. F
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: 3.1 > False or misleading information\n\nThis domain contains 41 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 3. Misinformation\nSub-domain: 3.1 > False or misleading information\nRisk Category: Untru
+search_all_fields: AI Risk Domain: 3.1 > False or misleading information 3.1 > False or misleading information 3.1 > False or misleading information AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 3.1 > False or misleading information 3.1 > False or misleading information
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 3.1 > False or misleading information
+sheet: AI Risk Database v3
+specific_domain: 3.1 > False or misleading information
+summary_type: domain_aggregation
+title: AI Risk Domain: 3.1 > False or misleading information
+
+Content:
+Models’ Alignment\n- Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\n- Trustworthy LLMs: A Survey and Guideline for Evaluating Large Language Models’ Alignment\n- Generating Harms - Generative AI's impact and paths forwards\n- Generative AI and ChatGPT: Applications, Challenges, and AI-Human Collaboration\n- Cataloguing LLM Evaluations\n- AI Safety Governance Framework\n- AI Safety Governance Framework\n- Regulating under Uncertainty: Governance Options for Generative AI\n- Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile\n- Governing General Purpose AI: A Comprehensive Map of Unreliability, Misuse and Systemic Risks\n- AILUMINATE: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons\n- Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\n- AI Risk Atlas\n

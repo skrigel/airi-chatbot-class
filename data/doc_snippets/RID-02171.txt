@@ -1,0 +1,28 @@
+Repository ID: RID-02171
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nRisk Category: Inference risks (Intellectual property)\nRisk Subcategory: Confidential data in prompt\nAdditional Evidence: "If not properly developed to secure confidential data, the model might reveal confidential information or IP in the generated output. Additionally, end u...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02171
+risk_category: Inference risks (Intellectual property)
+row: 2148
+scqa_answer: Additionally, end users' confidential information might be unintentionally collected and stored
+scqa_complication: Title: AI Risk Atlas\nRisk Category: Inference risks (Intellectual property)\nRisk Subcategory: Confidential data in prompt\nAdditiona
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Risk Atlas\nRisk Category: Inference risks (Intellectual property)\nRisk Subcategory: Confidential data in prompt\nAdditional Evidence: "If not properly developed to secure confidential data, the model might reveal confidential information or IP in the generated output
+search_all_fields: AI Risk Atlas Unspecified Inference risks (Intellectual property) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Inference risks (Intellectual property)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nRisk Category: Inference risks (Intellectual property)\nRisk Subcategory: Confidential data in prompt\nAdditional Evidence: "If not properly developed to secure confidential data, the model might reveal confidential information or IP in the generated output. Additionally, end users' confidential information might be unintentionally collected and stored."

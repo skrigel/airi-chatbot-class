@@ -1,0 +1,28 @@
+Repository ID: RID-01500
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.1 > Disinformation, surveillance, and influence at scale\nRisk Category: Increased power concent...
+domain: 4. Malicious Actors & Misuse
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-01500
+risk_category: Increased power concentration and inequality
+row: 1477
+scqa_answer: "\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: ance, and influence at scale\nRisk Category: Increased power concentration and inequality\nRisk Subcategory: Developments in AI enable actors to undermine
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 4
+search_all_fields: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values 4. Malicious Actors & Misuse Increased power concentration and inequality 4.1 > Disinformation, surveillance, and influence at scale 4.1 > Disinformation, surveillance, and influence at scale AI Risk Database v3 ai_risk_entry
+search_high_priority: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values 4. Malicious Actors & Misuse Increased power concentration and inequality
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 4.1 > Disinformation, surveillance, and influence at scale 4.1 > Disinformation, surveillance, and influence at scale
+sheet: AI Risk Database v3
+specific_domain: 4.1 > Disinformation, surveillance, and influence at scale
+subdomain: 4.1 > Disinformation, surveillance, and influence at scale
+timing: 2 - Post-deployment
+title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values
+
+Content:
+Title: A Survey of the Potential Long-term Impacts of AI: How AI Could Lead to Long-term Changes in Science, Cooperation, Power, Epistemics and Values\nDomain: 4. Malicious Actors & Misuse\nSub-domain: 4.1 > Disinformation, surveillance, and influence at scale\nRisk Category: Increased power concentration and inequality\nRisk Subcategory: Developments in AI enable actors to undermine democratic processes\nDescription: "Developments in AI are giving companies and governments more control over individuals’ lives than ever before, and may possibly be used to undermine democratic processes. We are already seeing how the collection of large amounts of personal data can be used to surveil and influence populations, for example the use of facial recognition technology to surveil Uighur and other minority populations in China [66]. Further advances in language modelling could also be used to develop tools that can effectively persuade people of certain claims [42]."\nEntity: 1 - Human\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

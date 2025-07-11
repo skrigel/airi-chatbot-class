@@ -1,0 +1,28 @@
+Repository ID: RID-00172
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: AGI - Effects on humans and other living beings: E...
+domain: 6. Socioeconomic and Environmental
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00172
+risk_category: AGI - Effects on humans and other living beings: Existential risks
+row: 149
+scqa_answer: in human labor becoming more expensive or less effective than artificial labor, leading to redundancies or extinction of the human labor force."\nEnt
+scqa_complication: tle: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review\nDomain: 6. Socioeconomic and Environmen
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review\nDomain: 6
+search_all_fields: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review 6. Socioeconomic and Environmental AGI - Effects on humans and other living beings: Existential risks 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_entry
+search_high_priority: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review 6. Socioeconomic and Environmental AGI - Effects on humans and other living beings: Existential risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+subdomain: 6.2 > Increased inequality and decline in employment quality
+timing: 2 - Post-deployment
+title: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review
+
+Content:
+Title: Managing the ethical and risk implications of rapid advances in artificial intelligence: A literature review\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: AGI - Effects on humans and other living beings: Existential risks\nRisk Subcategory: Direct competition with humans\nDescription: "One or more artificial agent(s) could have the capacity to directly outcompete humans, for example through capacity to perform work faster, better adaptation to change, vaster knowledge base to draw from, etc. This may result in human labor becoming more expensive or less effective than artificial labor, leading to redundancies or extinction of the human labor force."\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

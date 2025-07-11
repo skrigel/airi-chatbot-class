@@ -1,0 +1,28 @@
+Repository ID: RID-02245
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Governance)\nRisk Subcategory: Lack of model transparency\nAdditional Evidence: "Transparency is important for legal compliance, AI ethics, and guiding appropriate use of models. Missing information might make it more difficult to evaluate ri...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02245
+risk_category: Non-technical risks (Governance)
+row: 2222
+scqa_answer: Additionally, transparency regarding how the model’s risks were determined, evaluated, and mitigated also play a role in determining model risks, identifying model suitability, and governing model usage
+scqa_complication: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Governance)\nRisk Subcategory: Lack of model transparency\nAdditional Eviden
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: Knowledge about who built a model can also be an important factor in deciding whether to trust it?
+scqa_situation: Title: AI Risk Atlas\nRisk Category: Non-technical risks (Governance)\nRisk Subcategory: Lack of model transparency\nAdditional Evidence: "Transparency is important for legal compliance, AI ethics, and guiding appropriate use of models
+search_all_fields: AI Risk Atlas Unspecified Non-technical risks (Governance) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Risk Atlas Unspecified Non-technical risks (Governance)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: AI Risk Atlas
+
+Content:
+Title: AI Risk Atlas\nRisk Category: Non-technical risks (Governance)\nRisk Subcategory: Lack of model transparency\nAdditional Evidence: "Transparency is important for legal compliance, AI ethics, and guiding appropriate use of models. Missing information might make it more difficult to evaluate risks, change the model, or reuse it.  Knowledge about who built a model can also be an important factor in deciding whether to trust it. Additionally, transparency regarding how the model’s risks were determined, evaluated, and mitigated also play a role in determining model risks, identifying model suitability, and governing model usage."

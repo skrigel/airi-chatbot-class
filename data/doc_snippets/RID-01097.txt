@@ -1,0 +1,28 @@
+Repository ID: RID-01097
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Safety Governance Framework\nSub-domain: X.1 > Excluded\nRisk Category: AI's inherent safety risks\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-01097
+risk_category: AI's inherent safety risks
+row: 1074
+scqa_answer: 1 > Excluded\nRisk Category: AI's inherent safety risks\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: \nSub-domain: X.1 > Excluded\nRisk Category: AI's inherent safety risks\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not cod
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AI Safety Governance Framework\nSub-domain: X
+search_all_fields: AI Safety Governance Framework Unspecified AI's inherent safety risks X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Safety Governance Framework Unspecified AI's inherent safety risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: AI Safety Governance Framework
+
+Content:
+Title: AI Safety Governance Framework\nSub-domain: X.1 > Excluded\nRisk Category: AI's inherent safety risks\nDescription: -\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded

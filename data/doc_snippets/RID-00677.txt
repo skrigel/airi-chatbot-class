@@ -1,0 +1,28 @@
+Repository ID: RID-00677
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Ethics of Advanced AI Assistants\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Anthropomorphism\nRisk Subcategory: Privacy concerns\nDescription: "Anthropomorphic AI assistant behaviours that promote emotional trust and encourage inf...
+domain: 5. Human-Computer Interaction
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00677
+risk_category: Anthropomorphism
+row: 654
+scqa_answer: in a loss of control over one’s own data. Personal data that has been made public may be disseminated or embedded in contexts outside of the immediat
+scqa_complication: Overreliance and unsafe use\nRisk Category: Anthropomorphism\nRisk Subcategory: Privacy concerns\nDescription: "Anthropomorphic AI assistant behaviours t
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: en made public may be disseminated or embedded in contexts outside of the immediate exchange. The interference of malicious actors could also lead to widespr
+search_all_fields: The Ethics of Advanced AI Assistants 5. Human-Computer Interaction Anthropomorphism 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use AI Risk Database v3 ai_risk_entry
+search_high_priority: The Ethics of Advanced AI Assistants 5. Human-Computer Interaction Anthropomorphism
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 5.1 > Overreliance and unsafe use 5.1 > Overreliance and unsafe use
+sheet: AI Risk Database v3
+specific_domain: 5.1 > Overreliance and unsafe use
+subdomain: 5.1 > Overreliance and unsafe use
+timing: 2 - Post-deployment
+title: The Ethics of Advanced AI Assistants
+
+Content:
+Title: The Ethics of Advanced AI Assistants\nDomain: 5. Human-Computer Interaction\nSub-domain: 5.1 > Overreliance and unsafe use\nRisk Category: Anthropomorphism\nRisk Subcategory: Privacy concerns\nDescription: "Anthropomorphic AI assistant behaviours that promote emotional trust and encourage information sharing, implicitly or explicitly, may inadvertently increase a user’s susceptibility to privacy concerns (see Chapter 13). If lulled into feelings of safety in interactions with a trusted, human-like AI assistant, users may unintentionally relinquish their private data to a corporation, organisation or unknown actor. Once shared, access to the data may not be capable of being withdrawn, and in some cases, the act of sharing personal information can result in a loss of control over one’s own data. Personal data that has been made public may be disseminated or embedded in contexts outside of the immediate exchange. The interference of malicious actors could also lead to widespread data leakage incidents or, most drastically, targeted harassment or black-mailing attempts."\nEntity: 3 - Other\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

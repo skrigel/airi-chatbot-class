@@ -1,0 +1,28 @@
+Repository ID: RID-00520
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Category: Model-level risk\nRisk Subcategory: Model misspecification\nAdditional Evidence: Model form error:"When all explanatory variables are available, but the model fails to characterize the relatio...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00520
+risk_category: Model-level risk
+row: 497
+scqa_answer: The specified functional form is inadequate to characterize the true relationship, leading to underfitting of the training data
+scqa_complication: tory variables are available, but the model fails to characterize the relationship between the explanatory variables X and the quantity of interest Y. Th
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Category: Model-level risk\nRisk Subcategory: Model misspecification\nAdditional Evidence: Model form error:"When all explanatory variables are available, but the model fails to characterize the relationship between the explanatory variables X and the quantity of interest Y
+search_all_fields: Towards risk-aware artificial intelligence and machine learning systems: An overview Unspecified Model-level risk Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Towards risk-aware artificial intelligence and machine learning systems: An overview Unspecified Model-level risk
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Towards risk-aware artificial intelligence and machine learning systems: An overview
+
+Content:
+Title: Towards risk-aware artificial intelligence and machine learning systems: An overview\nRisk Category: Model-level risk\nRisk Subcategory: Model misspecification\nAdditional Evidence: Model form error:"When all explanatory variables are available, but the model fails to characterize the relationship between the explanatory variables X and the quantity of interest Y. The specified functional form is inadequate to characterize the true relationship, leading to underfitting of the training data."

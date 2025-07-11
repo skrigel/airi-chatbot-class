@@ -1,0 +1,28 @@
+Repository ID: RID-01269
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Global AI Divide\nAdditional Evidence: "There is a well- documented concentration of AI research and development, including research on potential societal impacts of AI, in Western c...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01269
+risk_category: Systemic Risks
+row: 1246
+scqa_answer: The global general- purpose AI divide could also be harmful if biased or inequitable general- purpose AI systems are deployed globally
+scqa_complication: on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Global AI Divide\nAdditional Evidence: "There is a well- documented concent
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: ing research on potential societal impacts of AI, in Western countries and China (316, 548, 549). This global ‘AI Divide’ could become even larger for general- purpose AI specifically because of the high costs associated with general- purpose AI development. Some countries face substantial barriers to benefiting from general- purpose AI development and deployment, including lower digital skills literacy, limited access to computing resources, infrastructure challenges, and economic dependence on entities in higher- income countries (519, 550). Because general- purpose AI system development is so dominated by a few companies, particularly those based in the US, there are conce
+search_all_fields: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: International Scientific Report on the Safety of Advanced AI Unspecified Systemic Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: International Scientific Report on the Safety of Advanced AI
+
+Content:
+Title: International Scientific Report on the Safety of Advanced AI\nRisk Category: Systemic Risks\nRisk Subcategory: Global AI Divide\nAdditional Evidence: "There is a well- documented concentration of AI research and development, including research on potential societal impacts of AI, in Western countries and China (316, 548, 549). This global ‘AI Divide’ could become even larger for general- purpose AI specifically because of the high costs associated with general- purpose AI development. Some countries face substantial barriers to benefiting from general- purpose AI development and deployment, including lower digital skills literacy, limited access to computing resources, infrastructure challenges, and economic dependence on entities in higher- income countries (519, 550). Because general- purpose AI system development is so dominated by a few companies, particularly those based in the US, there are concerns that prominent general- purpose AI systems which are used worldwide primarily reflect the values, cultures and goals of large Western corporations. In addition, the recent trend towards aiming to develop ever- larger, more powerful general- purpose AI models could also exacerbate global supply chain inequalities (551), place demands on energy usage, and lead to harmful climate effects which also worsen global inequalities (552, 553). The global general- purpose AI divide could also be harmful if biased or inequitable general- purpose AI systems are deployed globally."

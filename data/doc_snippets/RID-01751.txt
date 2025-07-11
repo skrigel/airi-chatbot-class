@@ -1,0 +1,28 @@
+Repository ID: RID-01751
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Sources of systemic risks from general-purpose AI\nRisk Subcategory: Detection challenges in content\nDescription...
+domain: 3. Misinformation
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-01751
+risk_category: Sources of systemic risks from general-purpose AI
+row: 1728
+scqa_answer: "\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 2 - Post-deployment
+scqa_complication: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of c
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 3
+search_all_fields: A Taxonomy of Systemic Risks from General-Purpose AI 3. Misinformation Sources of systemic risks from general-purpose AI 3.2 > Pollution of information ecosystem and loss of consensus reality 3.2 > Pollution of information ecosystem and loss of consensus reality AI Risk Database v3 ai_risk_entry
+search_high_priority: A Taxonomy of Systemic Risks from General-Purpose AI 3. Misinformation Sources of systemic risks from general-purpose AI
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 3.2 > Pollution of information ecosystem and loss of consensus reality 3.2 > Pollution of information ecosystem and loss of consensus reality
+sheet: AI Risk Database v3
+specific_domain: 3.2 > Pollution of information ecosystem and loss of consensus reality
+subdomain: 3.2 > Pollution of information ecosystem and loss of consensus reality
+timing: 2 - Post-deployment
+title: A Taxonomy of Systemic Risks from General-Purpose AI
+
+Content:
+Title: A Taxonomy of Systemic Risks from General-Purpose AI\nDomain: 3. Misinformation\nSub-domain: 3.2 > Pollution of information ecosystem and loss of consensus reality\nRisk Category: Sources of systemic risks from general-purpose AI\nRisk Subcategory: Detection challenges in content\nDescription: "The difficulty in distinguishing synthetic content from authentic material adds to information risks."\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 2 - Post-deployment

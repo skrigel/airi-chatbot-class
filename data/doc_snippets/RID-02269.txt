@@ -1,0 +1,25 @@
+Repository ID: RID-02269
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: AI Risk Domain: 1.2 > Exposure to toxic content\n\nThis domain contains 106 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to tox...
+domain: 1.2 > Exposure to toxic content
+entry_count: 106
+file_type: ai_risk_domain_summary
+is_summary: True
+rid: RID-02269
+scqa_answer: , and Assessment Benchmarks of Large Language Model Systems\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk C
+scqa_complication: AI Risk Domain: 1.2 > Exposure to toxic content\n\nThis domain contains 106 risk entries from the AI Risk Repository:\n\nRisk E
+scqa_confidence: 1.0
+scqa_content_type: mitigation_strategy
+scqa_question: What is considered a sensitive topic, such as egregious violence or adult sexual content, can vary widely by viewpoint?
+scqa_situation: main: 1.2 > Exposure to toxic content\n\nThis domain contains 106 risk entries from the AI Risk Repository:\n\nRisk Entry 1:\nTitle: Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems\nDomain: 1. Discrimination & Toxicity\nSub-domain: 1.2 > Exposure to toxic content\nRisk Category:
+search_all_fields: AI Risk Domain: 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content AI Risk Database v3 ai_risk_domain_summary
+search_high_priority: AI Risk Domain: 1.2 > Exposure to toxic content 1.2 > Exposure to toxic content
+search_low_priority: AI Risk Database v3 ai_risk_domain_summary
+search_medium_priority: 1.2 > Exposure to toxic content
+sheet: AI Risk Database v3
+specific_domain: 1.2 > Exposure to toxic content
+summary_type: domain_aggregation
+title: AI Risk Domain: 1.2 > Exposure to toxic content
+
+Content:
+unsafe content, which can also include abuse and hate speech[151, 236]. What is considered a sensitive topic, such as egregious violence or adult sexual content, can vary widely by viewpoint. Due to norms differing by culture, region, and language, there is no standard for what constitutes sensitive content. Increasing politicization of model training and outputs, as seen in projects such as with projects like RightWingGPT [202], raises urgency in evaluating the complexity of political values. Distinct cultural values present a challenge for deploying models into a global sphere, as what may be appropriate in one culture may be unsafe in others [238]. Generative AI systems cannot be neutral or objective, nor can they encompass truly universal values. There is no “view from nowhere”; in evaluating anything, a particular frame of reference [207] is imposed [237]."\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 2 - Post-deployment\n\nRisk Entry 9:\nTitle: Taxonomy of Risks posed by

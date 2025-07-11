@@ -1,23 +1,131 @@
 """
 Document processing utilities for Excel and other file formats.
+Enhanced with stable RID (Repository ID) assignment for citation tracking.
 """
 import os
 import csv
 import pandas as pd
+import hashlib
+import json
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from langchain.docstore.document import Document
 
 from ...config.logging import get_logger
 from ...config.settings import settings
+from ..taxonomy.scqa_taxonomy import scqa_manager
 
 logger = get_logger(__name__)
 
 class DocumentProcessor:
-    """Handles processing of various document formats."""
+    """Handles processing of various document formats with stable RID assignment."""
     
     def __init__(self):
         self.structured_data = []
+        self.rid_counter = 1  # Start RID counter at 1
+        self.rid_mapping = {}  # Maps content hash to RID for stability
+        self.rid_registry_path = settings.DATA_DIR / "rid_registry.json"
+        self._load_rid_registry()
+    
+    def _load_rid_registry(self):
+        """Load existing RID registry for stable citations."""
+        try:
+            if self.rid_registry_path.exists():
+                with open(self.rid_registry_path, 'r') as f:
+                    registry = json.load(f)
+                    self.rid_mapping = registry.get('mappings', {})
+                    self.rid_counter = registry.get('counter', 1)
+                logger.info(f"Loaded RID registry with {len(self.rid_mapping)} mappings")
+            else:
+                logger.info("No existing RID registry found, starting fresh")
+        except Exception as e:
+            logger.error(f"Error loading RID registry: {str(e)}")
+            self.rid_mapping = {}
+            self.rid_counter = 1
+    
+    def _save_rid_registry(self):
+        """Save RID registry for persistence."""
+        try:
+            registry = {
+                'mappings': self.rid_mapping,
+                'counter': self.rid_counter
+            }
+            with open(self.rid_registry_path, 'w') as f:
+                json.dump(registry, f, indent=2)
+            logger.info(f"Saved RID registry with {len(self.rid_mapping)} mappings")
+        except Exception as e:
+            logger.error(f"Error saving RID registry: {str(e)}")
+    
+    def _assign_rid(self, document: Document) -> str:
+        """Assign a stable RID to a document based on its content."""
+        # Create a stable hash from key document properties
+        content_key = f"{document.page_content[:200]}_{document.metadata.get('source', '')}_{document.metadata.get('row', '')}"
+        content_hash = hashlib.md5(content_key.encode()).hexdigest()
+        
+        # Check if we already have a RID for this content
+        if content_hash in self.rid_mapping:
+            rid = self.rid_mapping[content_hash]
+        else:
+            # Assign new RID
+            rid = f"RID-{self.rid_counter:05d}"
+            self.rid_mapping[content_hash] = rid
+            self.rid_counter += 1
+        
+        # Add RID to document metadata
+        document.metadata['rid'] = rid
+        document.metadata['content_hash'] = content_hash
+        
+        # Add field-aware search metadata for boosting
+        self._add_search_metadata(document)
+        
+        # Enhance with SCQA taxonomy structure
+        enhanced_document = scqa_manager.enhance_document_with_scqa(document)
+        
+        return rid
+    
+    def _add_search_metadata(self, document: Document) -> None:
+        """Add searchable metadata fields for field-aware boosting."""
+        metadata = document.metadata
+        
+        # Create concatenated search fields for different priorities
+        high_priority_fields = []
+        medium_priority_fields = []
+        low_priority_fields = []
+        
+        # High priority: titles, domains, categories
+        if 'title' in metadata and metadata['title']:
+            high_priority_fields.append(str(metadata['title']))
+        if 'domain' in metadata and metadata['domain']:
+            high_priority_fields.append(str(metadata['domain']))
+        if 'risk_category' in metadata and metadata['risk_category']:
+            high_priority_fields.append(str(metadata['risk_category']))
+        
+        # Medium priority: subdomain, specific domain
+        if 'subdomain' in metadata and metadata['subdomain']:
+            medium_priority_fields.append(str(metadata['subdomain']))
+        if 'specific_domain' in metadata and metadata['specific_domain']:
+            medium_priority_fields.append(str(metadata['specific_domain']))
+        
+        # Low priority: other metadata
+        if 'sheet' in metadata and metadata['sheet']:
+            low_priority_fields.append(str(metadata['sheet']))
+        if 'file_type' in metadata and metadata['file_type']:
+            low_priority_fields.append(str(metadata['file_type']))
+        
+        # Store concatenated fields for search boosting
+        metadata['search_high_priority'] = ' '.join(high_priority_fields)
+        metadata['search_medium_priority'] = ' '.join(medium_priority_fields)
+        metadata['search_low_priority'] = ' '.join(low_priority_fields)
+        
+        # Create a comprehensive search string for hybrid search
+        all_searchable = high_priority_fields + medium_priority_fields + low_priority_fields
+        metadata['search_all_fields'] = ' '.join(all_searchable)
+        
+        # Add content excerpt for search preview
+        content_preview = document.page_content[:300]
+        if len(document.page_content) > 300:
+            content_preview += "..."
+        metadata['content_preview'] = content_preview
     
     def process_excel_file(self, file_path: Path) -> List[Document]:
         """
@@ -60,7 +168,14 @@ class DocumentProcessor:
             # Create a fallback document
             documents.append(self._create_fallback_document(file_path, str(e)))
         
-        logger.info(f"Created {len(documents)} documents from Excel file {file_path}")
+        # Assign stable RIDs to all documents
+        for doc in documents:
+            self._assign_rid(doc)
+        
+        # Save the RID registry after processing
+        self._save_rid_registry()
+        
+        logger.info(f"Created {len(documents)} documents with RIDs from Excel file {file_path}")
         return documents
     
     def _process_ai_risk_database_sheet(self, df: pd.DataFrame, sheet_name: str, file_path: Path) -> List[Document]:
@@ -145,7 +260,10 @@ class DocumentProcessor:
                         "domain": domain,
                         "subdomain": subdomain,
                         "risk_category": risk_category,
-                        "specific_domain": specific_domain
+                        "specific_domain": specific_domain,
+                        "entity": str(row.get('Entity', '')).strip() if pd.notna(row.get('Entity')) else '',
+                        "intent": str(row.get('Intent', '')).strip() if pd.notna(row.get('Intent')) else '',
+                        "timing": str(row.get('Timing', '')).strip() if pd.notna(row.get('Timing')) else ''
                     }
                 )
                 individual_docs.append(doc)
@@ -206,7 +324,9 @@ class DocumentProcessor:
                 "title": f"AI Risk Domain: {domain_name}",
                 "domain": domain_name,
                 "entry_count": len(entries),
-                "specific_domain": domain_name
+                "specific_domain": domain_name,
+                "is_summary": True,
+                "summary_type": "domain_aggregation"
             }
         )
     

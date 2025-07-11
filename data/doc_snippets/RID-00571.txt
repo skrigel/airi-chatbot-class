@@ -1,0 +1,28 @@
+Repository ID: RID-00571
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: An Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nRisk Subcategory: Accidents Are Hard to Avoid\nAdditional Evidence: "When dealing with complex systems, the focus needs to be placed on ensuring accidents don’t cascade into catastrophes. In his book “Norm...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00571
+risk_category: Organizational Risks (Accidental)
+row: 548
+scqa_answer: This prevented operators from noticing that a critical valve was closed, demonstrating the unintended consequences that can arise from seemingly minor interactions within complex systems"
+scqa_complication: merely caused by human errors but also by the complexity of the systems themselves [79]. In particular, such accidents are likely to occur when the intri
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: suring accidents don’t cascade into catastrophes. In his book “Normal Accidents: Living with High-Risk Technologies,” sociologist Charles Perrow argues that accidents are inevitable and even “normal” in complex systems, as they are not merely caused by human errors but also by the complexity of the systems themselves
+search_all_fields: An Overview of Catastrophic AI Risks Unspecified Organizational Risks (Accidental) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: An Overview of Catastrophic AI Risks Unspecified Organizational Risks (Accidental)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: An Overview of Catastrophic AI Risks
+
+Content:
+Title: An Overview of Catastrophic AI Risks\nRisk Category: Organizational Risks (Accidental)\nRisk Subcategory: Accidents Are Hard to Avoid\nAdditional Evidence: "When dealing with complex systems, the focus needs to be placed on ensuring accidents don’t cascade into catastrophes. In his book “Normal Accidents: Living with High-Risk Technologies,” sociologist Charles Perrow argues that accidents are inevitable and even “normal” in complex systems, as they are not merely caused by human errors but also by the complexity of the systems themselves [79]. In particular, such accidents are likely to occur when the intricate interactions between components cannot be completely planned or foreseen. For example, in the Three Mile Island accident, a contributing factor to the lack of situational awareness by the reactor’s operators was the presence of a yellow maintenance tag, which covered valve position lights in the emergency feedwater lines [80]. This prevented operators from noticing that a critical valve was closed, demonstrating the unintended consequences that can arise from seemingly minor interactions within complex systems"

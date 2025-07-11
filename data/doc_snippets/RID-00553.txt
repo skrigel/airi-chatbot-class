@@ -1,0 +1,28 @@
+Repository ID: RID-00553
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: An Overview of Catastrophic AI Risks\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.4 > Competitive dynamics\nRisk Category: AI Race (Environmental/Structural)\nRisk Subcategory: Corporate AI Race\nDescription: "Although competition between companies can be beneficial, creating mo...
+domain: 6. Socioeconomic and Environmental
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-00553
+risk_category: AI Race (Environmental/Structural)
+row: 530
+scqa_answer: s. With this mindset, companies often pursue something that can make a lot of profit in the short term, even if it poses a societal risk in the long t
+scqa_complication: ctivity may be unevenly distributed, incentivizing those who benefit most from it to disregard the harms to others. Second, under intense market competit
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: An Overview of Catastrophic AI Risks\nDomain: 6
+search_all_fields: An Overview of Catastrophic AI Risks 6. Socioeconomic and Environmental AI Race (Environmental/Structural) 6.4 > Competitive dynamics 6.4 > Competitive dynamics AI Risk Database v3 ai_risk_entry
+search_high_priority: An Overview of Catastrophic AI Risks 6. Socioeconomic and Environmental AI Race (Environmental/Structural)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.4 > Competitive dynamics 6.4 > Competitive dynamics
+sheet: AI Risk Database v3
+specific_domain: 6.4 > Competitive dynamics
+subdomain: 6.4 > Competitive dynamics
+timing: 3 - Other
+title: An Overview of Catastrophic AI Risks
+
+Content:
+Title: An Overview of Catastrophic AI Risks\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.4 > Competitive dynamics\nRisk Category: AI Race (Environmental/Structural)\nRisk Subcategory: Corporate AI Race\nDescription: "Although competition between companies can be beneficial, creating more useful products for consumers, there are also pitfalls. First, the benefits of economic activity may be unevenly distributed, incentivizing those who benefit most from it to disregard the harms to others. Second, under intense market competition, businesses tend to focus much more on short-term gains than on long-term outcomes. With this mindset, companies often pursue something that can make a lot of profit in the short term, even if it poses a societal risk in the long term."\nEntity: 1 - Human\nIntent: 2 - Unintentional\nTiming: 3 - Other

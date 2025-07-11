@@ -1,0 +1,28 @@
+Repository ID: RID-00288
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Algorithm\nAdditional Evidence: "Explainability/transparency:Algorithmic opacity and unpredictability can pose risks and make it difficult to ensure accountability. While new mandated levels of transpar...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00288
+risk_category: First-Order Risks
+row: 265
+scqa_answer: a system that can explain its decision in the event of a mistake is often desirable in high-stakes applications. A mistake can take the form of an ac
+scqa_complication: nability due to their nature. However, not all machine learning algorithms are equal in this regard. Decision trees are often considered highly explainable si
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: impossible for the experts to interpret how certain outputs are derived from the inputs and design of the algorithm. This suggests the difficulty of assigning liability and accountability for harms resulting from the use of the ML system, as inputs and design rules that could yield unsafe or discriminatory outcomes cannot as easily be
+search_all_fields: The Risks of Machine Learning Systems Unspecified First-Order Risks Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: The Risks of Machine Learning Systems Unspecified First-Order Risks
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: The Risks of Machine Learning Systems
+
+Content:
+Title: The Risks of Machine Learning Systems\nRisk Category: First-Order Risks\nRisk Subcategory: Algorithm\nAdditional Evidence: "Explainability/transparency:Algorithmic opacity and unpredictability can pose risks and make it difficult to ensure accountability. While new mandated levels of transparency and explainability of algorithms are being demanded through the likes of the EU’s General Data Protection Regulation (GDPR) to tackle bias and discrimination, it can be at times impossible for the experts to interpret how certain outputs are derived from the inputs and design of the algorithm. This suggests the difficulty of assigning liability and accountability for harms resulting from the use of the ML system, as inputs and design rules that could yield unsafe or discriminatory outcomes cannot as easily be predicted. Therefore, a system that can explain its decision in the event of a mistake is often desirable in high-stakes applications. A mistake can take the form of an accident resulting from a decision, a denied loan, assigning different credit limits based on gender. While explainability on its own is insufficient to reduce biases in the system or make it safer, it may aid the detection of biases and spurious features, thereby reducing safety and discrimination risks when the flaws are rectified. Other use cases, such as judicial applications, may require such explainability due to their nature. However, not all machine learning algorithms are equal in this regard. Decision trees are often considered highly explainable since they learn human-readable rules to classify the training data, while deep neural networks are a well-known example of a black-box model. While there have been recent advances in explaining neural network predictions, researchers have also demonstrated the ability to fool attention-based interpretation techniques. This may allow developers to prevent the network’s predictions from being correctly interpreted during an audit. The choice of

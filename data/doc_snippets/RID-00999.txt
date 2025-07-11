@@ -1,0 +1,28 @@
+Repository ID: RID-00999
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Economic\nDescription: "AI is predicted to bring increased GDP per capita by performin...
+domain: 6. Socioeconomic and Environmental
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 1 - Intentional
+rid: RID-00999
+risk_category: Economic
+row: 976
+scqa_answer: 2 > Increased inequality and decline in employment quality\nRisk Category: Economic\nDescription: "AI is predicted to bring increased GDP per capita by performing existing jobs more efficiently and compensating for a decline in the workforce, especially due to population aging, the potential substitution of many low- and middle-income jobs could bring extensive unemployment"\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment
+scqa_complication: Future Outlooks and Emerging Risks\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 6
+search_all_fields: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks 6. Socioeconomic and Environmental Economic 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_entry
+search_high_priority: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks 6. Socioeconomic and Environmental Economic
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+subdomain: 6.2 > Increased inequality and decline in employment quality
+timing: 2 - Post-deployment
+title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks
+
+Content:
+Title: The Rise of Artificial Intelligence - Future Outlooks and Emerging Risks\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Economic\nDescription: "AI is predicted to bring increased GDP per capita by performing existing jobs more efficiently and compensating for a decline in the workforce, especially due to population aging, the potential substitution of many low- and middle-income jobs could bring extensive unemployment"\nEntity: 2 - AI\nIntent: 1 - Intentional\nTiming: 2 - Post-deployment

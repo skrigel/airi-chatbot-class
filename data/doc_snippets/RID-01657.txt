@@ -1,0 +1,28 @@
+Repository ID: RID-01657
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AI Hazard Management: A Framework for the Systematic Management of Root Causes for AI Risks\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Lack of robustness\nDescription: "Robustness characterizes the resilience of an...
+domain: 7. AI System Safety, Failures, & Limitations
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 2 - Unintentional
+rid: RID-01657
+risk_category: Lack of robustness
+row: 1634
+scqa_answer: "\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other
+scqa_complication: agement of Root Causes for AI Risks\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Catego
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: ce of an AI system’s output against minor changes in the input domain. A great variation in an AI system’s response to small input changes indicates unreliable outputs."\nEntity: 2 - AI\nIntent: 2 - Unint
+search_all_fields: AI Hazard Management: A Framework for the Systematic Management of Root Causes for AI Risks 7. AI System Safety, Failures, & Limitations Lack of robustness 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness AI Risk Database v3 ai_risk_entry
+search_high_priority: AI Hazard Management: A Framework for the Systematic Management of Root Causes for AI Risks 7. AI System Safety, Failures, & Limitations Lack of robustness
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 7.3 > Lack of capability or robustness 7.3 > Lack of capability or robustness
+sheet: AI Risk Database v3
+specific_domain: 7.3 > Lack of capability or robustness
+subdomain: 7.3 > Lack of capability or robustness
+timing: 3 - Other
+title: AI Hazard Management: A Framework for the Systematic Management of Root Causes for AI Risks
+
+Content:
+Title: AI Hazard Management: A Framework for the Systematic Management of Root Causes for AI Risks\nDomain: 7. AI System Safety, Failures, & Limitations\nSub-domain: 7.3 > Lack of capability or robustness\nRisk Category: Lack of robustness\nDescription: "Robustness characterizes the resilience of an AI system’s output against minor changes in the input domain. A great variation in an AI system’s response to small input changes indicates unreliable outputs."\nEntity: 2 - AI\nIntent: 2 - Unintentional\nTiming: 3 - Other

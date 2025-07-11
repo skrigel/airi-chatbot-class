@@ -1,0 +1,30 @@
+Repository ID: RID-00412
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Ethical and social risks of harm from language models\nRisk Category: Human-Computer Interaction Harms\nRisk Subcategory: Creating avenues for exploiting user trust, nudging or manipulation\nAdditional Evidence: "Recommender system harms may arise in conversational agents Conversational agent...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00412
+risk_category: Human-Computer Interaction Harms
+row: 389
+scqa_answer: If similar patterns
+were to emerge in conversational agent interactions, users who follow recommendations from the conversational agent may find their own time was ‘not well spent’, and the conversational agent may induce lower well-being (Twenge, 2019)
+scqa_complication: Title: Ethical and social risks of harm from language models\nRisk Category: Human-Computer Interaction Harms\nRisk Subcategory: Creating avenues for
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: nal Evidence: "Recommender system harms may arise in conversational agents Conversational agents can be understood as comparable to recommender systems, especially where they provide a prediction that is optimised for metrics that are commonly used in
+search_all_fields: Ethical and social risks of harm from language models Unspecified Human-Computer Interaction Harms Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Ethical and social risks of harm from language models Unspecified Human-Computer Interaction Harms
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Ethical and social risks of harm from language models
+
+Content:
+Title: Ethical and social risks of harm from language models\nRisk Category: Human-Computer Interaction Harms\nRisk Subcategory: Creating avenues for exploiting user trust, nudging or manipulation\nAdditional Evidence: "Recommender system harms may arise in conversational agents Conversational agents can be understood as comparable to recommender systems, especially where they provide a prediction that is optimised for metrics that are commonly used in other recommender systems, for example on platforms recommending video or games content...If similar patterns
+were to emerge in conversational agent interactions, users who follow recommendations from the conversational agent may find their own time was ‘not well spent’, and the conversational agent may induce lower well-being (Twenge, 2019)."

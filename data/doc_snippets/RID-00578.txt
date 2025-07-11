@@ -1,0 +1,28 @@
+Repository ID: RID-00578
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: An Overview of Catastrophic AI Risks\nRisk Category: Rogue AIs (Internal)\nAdditional Evidence: "Rogue AIs could acquire power through various means. If we lose control over advanced AIs, they would have numerous strategies at their disposal for actively acquiring power and securing their sur...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-00578
+risk_category: Rogue AIs (Internal)
+row: 555
+scqa_answer: They could engage in mass surveillance by hacking into phone cameras and microphones, allowing them to track any rebellion and selectively assassinate
+scqa_complication: n Overview of Catastrophic AI Risks\nRisk Category: Rogue AIs (Internal)\nAdditional Evidence: "Rogue AIs could acquire power through various means. If we
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: pabilities of allies to become a formidable force in return for protection and resources. For example, they could offer advanced weapons technology to lagging countries that the countries would otherwise be prevented from acquiring. They could build backdoors into the technology they develop for allies, like how programmer Ken Thompson gave himself a hidden way to control all computers running the widely used UNIX operating system. They could sow discord in non-allied countries by manipulating human discourse and politics. They
+search_all_fields: An Overview of Catastrophic AI Risks Unspecified Rogue AIs (Internal) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: An Overview of Catastrophic AI Risks Unspecified Rogue AIs (Internal)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: An Overview of Catastrophic AI Risks
+
+Content:
+Title: An Overview of Catastrophic AI Risks\nRisk Category: Rogue AIs (Internal)\nAdditional Evidence: "Rogue AIs could acquire power through various means. If we lose control over advanced AIs, they would have numerous strategies at their disposal for actively acquiring power and securing their survival. Rogue AIs could design and credibly demonstrate highly lethal and contagious bioweapons, threatening mutually assured destruction if humanity moves against them. They could steal cryptocurrency and money from bank accounts using cyberattacks, similar to how North Korea already steals billions. They could self-extricate their weights onto poorly monitored data centers to survive and spread, making them challenging to eradicate. They could hire humans to perform physical labor and serve as armed protection for their hardware. Rogue AIs could also acquire power through persuasion and manipulation tactics. Like the Conquistadors, they could ally with various factions, organizations, or states and play them off one another. They could enhance the capabilities of allies to become a formidable force in return for protection and resources. For example, they could offer advanced weapons technology to lagging countries that the countries would otherwise be prevented from acquiring. They could build backdoors into the technology they develop for allies, like how programmer Ken Thompson gave himself a hidden way to control all computers running the widely used UNIX operating system. They could sow discord in non-allied countries by manipulating human discourse and politics. They could engage in mass surveillance by hacking into phone cameras and microphones, allowing them to track any rebellion and selectively assassinate."

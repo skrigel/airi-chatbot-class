@@ -1,0 +1,28 @@
+Repository ID: RID-01566
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms\nSub-domain: X.1 > Excluded\nRisk Category: Physical\nRisk Subcategory: Loss of Life\nDescription: "Loss of life - Accidental or deliberate loss of life, including suicide, extinction or cessation, due to the use...
+domain: Unspecified
+entity: 1 - Human
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-01566
+risk_category: Physical
+row: 1543
+scqa_answer: "\nEntity: 1 - Human\nIntent: 3 - Other\nTiming: 2 - Post-deployment
+scqa_complication: \nSub-domain: X.1 > Excluded\nRisk Category: Physical\nRisk Subcategory: Loss of Life\nDescription: "Loss of life - Accidental or deliberate loss of life,
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms\nSub-domain: X
+search_all_fields: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms Unspecified Physical X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms Unspecified Physical
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 2 - Post-deployment
+title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms
+
+Content:
+Title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms\nSub-domain: X.1 > Excluded\nRisk Category: Physical\nRisk Subcategory: Loss of Life\nDescription: "Loss of life - Accidental or deliberate loss of life, including suicide, extinction or cessation, due to the use or misuse of a technology system."\nEntity: 1 - Human\nIntent: 3 - Other\nTiming: 2 - Post-deployment

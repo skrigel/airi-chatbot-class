@@ -1,0 +1,28 @@
+Repository ID: RID-01612
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Societal and Cultural\nRisk Subcategory: Job loss/losses\nDescription: "Job lo...
+domain: 6. Socioeconomic and Environmental
+entity: 2 - AI
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-01612
+risk_category: Societal and Cultural
+row: 1589
+scqa_answer: "\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment
+scqa_complication: ecline in employment quality\nRisk Category: Societal and Cultural\nRisk Subcategory: Job loss/losses\nDescription: "Job loss/losses - Replacement/displac
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: ub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Societal and Cultural\nRisk Subcategory: Job loss/losses\nDescription: "Job loss/losses - Replacement/displacement of human jobs by a technology system, leading to increased unemployment, inequality, reduced consumer spending, and social friction."\nE
+search_all_fields: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms 6. Socioeconomic and Environmental Societal and Cultural 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality AI Risk Database v3 ai_risk_entry
+search_high_priority: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms 6. Socioeconomic and Environmental Societal and Cultural
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.2 > Increased inequality and decline in employment quality 6.2 > Increased inequality and decline in employment quality
+sheet: AI Risk Database v3
+specific_domain: 6.2 > Increased inequality and decline in employment quality
+subdomain: 6.2 > Increased inequality and decline in employment quality
+timing: 2 - Post-deployment
+title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms
+
+Content:
+Title: A Collaborative, Human-Centred Taxonomy of AI, Algorithmic, and Automation Harms\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.2 > Increased inequality and decline in employment quality\nRisk Category: Societal and Cultural\nRisk Subcategory: Job loss/losses\nDescription: "Job loss/losses - Replacement/displacement of human jobs by a technology system, leading to increased unemployment, inequality, reduced consumer spending, and social friction."\nEntity: 2 - AI\nIntent: 3 - Other\nTiming: 2 - Post-deployment

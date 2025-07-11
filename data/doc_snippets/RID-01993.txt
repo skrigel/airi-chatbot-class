@@ -1,0 +1,28 @@
+Repository ID: RID-01993
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Impacts of AI (Privacy)\nRisk Subcategory: Decision-making on inferred private data\nAdditional Evidence: "This capability may be used for both intentional manipulation (e.g., pers...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-01993
+risk_category: Impacts of AI (Privacy)
+row: 1970
+scqa_answer: , different responses to factual questions by models trained to be agreeable or helpful, when asked by different demograph- ics)
+scqa_complication: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Impacts of
+scqa_confidence: 1.0
+scqa_content_type: impact_analysis
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Impacts of AI (Privacy)\nRisk Subcategory: Decision-making on inferred private data
+search_all_fields: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems Unspecified Impacts of AI (Privacy) Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems Unspecified Impacts of AI (Privacy)
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems
+
+Content:
+Title: Risk Sources and Risk Management Measures in Support of Standards for General-Purpose AI Systems\nRisk Category: Impacts of AI (Privacy)\nRisk Subcategory: Decision-making on inferred private data\nAdditional Evidence: "This capability may be used for both intentional manipulation (e.g., personalized or targeted advertising, malicious actors using GPAIs for influence campaigns) or unintentional manipulation (e.g., different responses to factual questions by models trained to be agreeable or helpful, when asked by different demograph- ics)."

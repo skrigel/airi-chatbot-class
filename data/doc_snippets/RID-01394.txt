@@ -1,0 +1,28 @@
+Repository ID: RID-01394
+Source: data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: AGI Safety Literature Review\nSub-domain: X.1 > Excluded\nRisk Category: Multi-agent systems\nDescription: "An artificial intelligence may be copied and distributed, allowing instances of it to interact with the world in parallel. This can significantly boost learning, but undermines the conc...
+domain: Unspecified
+entity: 4 - Not coded
+file_type: ai_risk_entry
+intent: 4 - Not coded
+rid: RID-01394
+risk_category: Multi-agent systems
+row: 1371
+scqa_answer: "\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
+scqa_complication: gence may be copied and distributed, allowing instances of it to interact with the world in parallel. This can significantly boost learning, but undermin
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: AGI Safety Literature Review\nSub-domain: X
+search_all_fields: AGI Safety Literature Review Unspecified Multi-agent systems X.1 > Excluded X.1 > Excluded AI Risk Database v3 ai_risk_entry
+search_high_priority: AGI Safety Literature Review Unspecified Multi-agent systems
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: X.1 > Excluded X.1 > Excluded
+sheet: AI Risk Database v3
+specific_domain: X.1 > Excluded
+subdomain: X.1 > Excluded
+timing: 4 - Not coded
+title: AGI Safety Literature Review
+
+Content:
+Title: AGI Safety Literature Review\nSub-domain: X.1 > Excluded\nRisk Category: Multi-agent systems\nDescription: "An artificial intelligence may be copied and distributed, allowing instances of it to interact with the world in parallel. This can significantly boost learning, but undermines the concept of a single agent interacting with the world."\nEntity: 4 - Not coded\nIntent: 4 - Not coded\nTiming: 4 - Not coded
