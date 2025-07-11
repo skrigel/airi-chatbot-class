@@ -38,6 +38,9 @@ EXPOSE 8080
 # Set environment variables
 ENV PYTHONPATH=/app
 ENV PORT=8080
+ENV USE_FIELD_AWARE_HYBRID=true
+ENV USE_HYBRID_SEARCH=true
+ENV DEBUG=false
 
 # Run the application
 CMD ["python", "main.py"]
