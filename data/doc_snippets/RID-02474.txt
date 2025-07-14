@@ -1,0 +1,28 @@
+Repository ID: RID-02474
+Source: /Users/sashakrigel/Documents/AIRI/airi-chatbot-class/data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Examining the differential risk from high-level artificial intelligence and the question of control
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-02474
+risk_category: 
+row: 125
+scqa_answer: Title: Examining the differential risk from high-level artificial intelligence and the question of control
+scqa_complication: e: Examining the differential risk from high-level artificial intelligence and the question of control
+scqa_confidence: 1.0
+scqa_content_type: risk_description
+scqa_question: What are the implications of this risk?
+scqa_situation: Title: Examining the differential risk from high-level artificial intelligence and the question of control
+search_all_fields: Examining the differential risk from high-level artificial intelligence and the question of control Unspecified Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Examining the differential risk from high-level artificial intelligence and the question of control Unspecified
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Examining the differential risk from high-level artificial intelligence and the question of control
+
+Content:
+Title: Examining the differential risk from high-level artificial intelligence and the question of control

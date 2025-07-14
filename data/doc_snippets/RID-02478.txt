@@ -1,0 +1,28 @@
+Repository ID: RID-02478
+Source: /Users/sashakrigel/Documents/AIRI/airi-chatbot-class/data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Examining the differential risk from high-level artificial intelligence and the question of control\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.0 > Socioeconomic & Environmental\nRisk Category: Structural\nDescription: "Structural risks are concerned with how AI technologies "s...
+domain: 6. Socioeconomic and Environmental
+entity: 3 - Other
+file_type: ai_risk_entry
+intent: 3 - Other
+rid: RID-02478
+risk_category: Structural
+row: 129
+scqa_answer: For example, alterations to behavioral regimes, such as nuclear rapprochement, can compromise trust and increase uncertainty"\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 3 - Other
+scqa_complication: e: Examining the differential risk from high-level artificial intelligence and the question of control\nDomain: 6. Socioeconomic and Environmental\nSub-do
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: ologies "shape and are shaped by the environments in which they are developed and deployed""\nAdditional Evidence: "One structural risk that is evaluated less frequently is the potential for automated systems to upend the stability of strategic weapons systems through the erosion of confidence. For example,
+search_all_fields: Examining the differential risk from high-level artificial intelligence and the question of control 6. Socioeconomic and Environmental Structural 6.0 > Socioeconomic & Environmental 6.0 > Socioeconomic & Environmental AI Risk Database v3 ai_risk_entry
+search_high_priority: Examining the differential risk from high-level artificial intelligence and the question of control 6. Socioeconomic and Environmental Structural
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: 6.0 > Socioeconomic & Environmental 6.0 > Socioeconomic & Environmental
+sheet: AI Risk Database v3
+specific_domain: 6.0 > Socioeconomic & Environmental
+subdomain: 6.0 > Socioeconomic & Environmental
+timing: 3 - Other
+title: Examining the differential risk from high-level artificial intelligence and the question of control
+
+Content:
+Title: Examining the differential risk from high-level artificial intelligence and the question of control\nDomain: 6. Socioeconomic and Environmental\nSub-domain: 6.0 > Socioeconomic & Environmental\nRisk Category: Structural\nDescription: "Structural risks are concerned with how AI technologies "shape and are shaped by the environments in which they are developed and deployed""\nAdditional Evidence: "One structural risk that is evaluated less frequently is the potential for automated systems to upend the stability of strategic weapons systems through the erosion of confidence. For example, alterations to behavioral regimes, such as nuclear rapprochement, can compromise trust and increase uncertainty"\nEntity: 3 - Other\nIntent: 3 - Other\nTiming: 3 - Other

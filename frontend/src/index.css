@@ -1,41 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
-    --background: 0 0% 98%; /* Light grey */
-    --foreground: 0 0% 10%; /* Near-black text */
+    --background: 0 0% 98%;              /* Light gray background */
+    --foreground: 0 0% 15%;              /* Soft black text */
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card-foreground: 0 0% 15%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
-    
-    --primary: 0 84% 60%;       /* Red-500 */
+    --primary: 210 100% 70%;             /* Soft blue (Airtable-like) */
     --primary-foreground: 0 0% 100%;
-    
-    --secondary: 0 0% 95%;      /* Light grey */
+
+    --secondary: 0 0% 96%;               /* Pale gray for pills, input bg */
     --secondary-foreground: 0 0% 20%;
-    
-    --muted: 0 0% 90%;
+
+    --muted: 0 0% 95%;
     --muted-foreground: 0 0% 50%;
-    
+
     --accent: 0 0% 92%;
     --accent-foreground: 0 0% 10%;
-    
+
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    
+
     --border: 0 0% 85%;
-    --input: 0 0% 85%;
-    --ring: 0 84% 60%; /* Red ring */
+    --input: 0 0% 92%;
+    --ring: 210 100% 70%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --chart-1: 0 84% 60%;
-    --chart-2: 240 4% 40%;
-    --chart-3: 0 0% 20%;
-    --chart-4: 10 80% 80%;
-    --chart-5: 0 100% 90%;
+    --font-sans: 'geist', ui-sans-serif, system-ui, sans-serif;
   }
 }
 
@@ -44,17 +40,33 @@
     font-family: 'geist';
     src: url(./assets/fonts/geist.woff2) format('woff2');
   }
+
+  html {
+    font-family: var(--font-sans);
+  }
+
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
-
 }
 
-button {
-  background-color: white; /* ✅ Use the custom variable */
-  color: black;
-  border: 2px solid black;
+@layer components {
+  button {
+    @apply px-3 py-1.5 rounded-lg text-sm font-medium transition-colors duration-150;
+    background-color: white;
+    color: black;
+    border: 1px solid hsl(var(--border));
+  }
+
+  button:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+
+  input {
+    @apply text-sm px-3 py-2 bg-input text-foreground border border-border rounded-full focus:outline-none focus:ring-2 focus:ring-primary;
+  }
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { BotIcon, XIcon } from "lucide-react"; // Just an example, replace with your actual icons
+import { BotIcon, XIcon } from "lucide-react";
 import { Header } from "../../components/header";
-import { Chat } from '../chat/chat';
+import { Chat } from "../chat/chat";
 
 export function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -10,25 +10,36 @@ export function Home() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="relative flex flex-col min-h-screen bg-gray-50 text-black">
+    <div className="relative flex flex-col min-h-screen bg-white text-black">
       <Header />
 
       {/* Hero Section */}
-      <section className="flex-1 flex items-center justify-center text-center px-6">
-        <div className="max-w-3xl">
-          <h1 className="text-5xl font-bold mb-4 text-gray-900">
-            Welcome to the AI Risk Repository
-          </h1>
-          <p className="text-lg text-gray-600 mb-6">
-            Your AI companion for instant help, smart replies, and real-time support.
+      <section className="flex-1 flex items-center justify-center text-center px-6 py-16">
+        <div className="max-w-3xl space-y-6">
+          {/* Title + Bot Icon */}
+          <div className="flex justify-center items-center">
+            <div className="w-20 h-20 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center">
+              <BotIcon size={40} />
+            </div>
+            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
+              Welcome to the AI Risk Repository
+            </h1>
+          </div>
+
+          <p className="text-lg text-gray-600">
+            I’m your helpful companion for researching AI risks, answering questions, and guiding your exploration.
           </p>
-       
-          <button
-            onClick={handleOpen}
-            className="px-6 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition shadow-md"
-          >
-            Open Chat
-          </button>
+
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+            <button
+              onClick={handleOpen}
+              className="px-6 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition shadow-md"
+            >
+              Open Chat
+            </button>
+      
+          </div>
         </div>
       </section>
 
@@ -40,7 +51,9 @@ export function Home() {
       {/* Chat Popup */}
       <div
         className={`fixed bottom-5 right-5 z-50 transition-all duration-300 ease-in-out ${
-          isOpen ? "translate-y-0 opacity-100 scale-100" : "translate-y-5 opacity-0 scale-95 pointer-events-none"
+          isOpen
+            ? "translate-y-0 opacity-100 scale-100"
+            : "translate-y-5 opacity-0 scale-95 pointer-events-none"
         }`}
         style={{
           width: "90vw",

@@ -1,0 +1,28 @@
+Repository ID: RID-03861
+Source: /Users/sashakrigel/Documents/AIRI/airi-chatbot-class/data/info_files/The_AI_Risk_Repository_V3_26_03_2025.xlsx
+content_preview: Title: Future Risks of Frontier AI\nRisk Category: Capabilities that increase the likelihood of existential risk\nAdditional Evidence: "This debate is unlikely to be resolved soon. To pose an existential risk, a model must be given or gain some control over systems with significant impacts, such as ...
+domain: Unspecified
+entity: 
+file_type: ai_risk_entry
+intent: 
+rid: RID-03861
+risk_category: Capabilities that increase the likelihood of existential risk
+row: 1512
+scqa_answer: ing from AI actions. They could derive from a misaligned model pursuing dangerous goals, such as gather power, or from unintended side effects."
+scqa_complication: Title: Future Risks of Frontier AI\nRisk Category: Capabilities that increase the likelihood of existential risk\nAdditional Evidence: "Th
+scqa_confidence: 1.0
+scqa_content_type: case_study
+scqa_question: What are the implications of this risk?
+scqa_situation: e an existential risk, a model must be given or gain some control over systems with significant impacts, such as weapons or financial systems. That model would then need the capa
+search_all_fields: Future Risks of Frontier AI Unspecified Capabilities that increase the likelihood of existential risk Unspecified AI Risk Database v3 ai_risk_entry
+search_high_priority: Future Risks of Frontier AI Unspecified Capabilities that increase the likelihood of existential risk
+search_low_priority: AI Risk Database v3 ai_risk_entry
+search_medium_priority: Unspecified
+sheet: AI Risk Database v3
+specific_domain: Unspecified
+subdomain: 
+timing: 
+title: Future Risks of Frontier AI
+
+Content:
+Title: Future Risks of Frontier AI\nRisk Category: Capabilities that increase the likelihood of existential risk\nAdditional Evidence: "This debate is unlikely to be resolved soon. To pose an existential risk, a model must be given or gain some control over systems with significant impacts, such as weapons or financial systems. That model would then need the capability to manipulate these systems while rendering mitigations ineffective. These effects could be direct or indirect, for example the consequences of conflict resulting from AI actions. They could derive from a misaligned model pursuing dangerous goals, such as gather power, or from unintended side effects."
