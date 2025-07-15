@@ -1,104 +1,22 @@
 import { ChatInput } from "../../components/chatinput";
 import { useScrollToBottom } from '../../components/use-scroll-to-bottom';
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { message } from "../../interfaces/interfaces";
-import { v4 as uuidv4 } from 'uuid';
 import ReactMarkdown from "react-markdown";
-
-const API_URL = '';
 
 const QUESTIONS = ["Find AI risk papers related to “Pre-deployment” timing",
        "What are the main risk categories in the AI Risk Database v3?"];
 
-const WELCOME: message = { content: "Hi! I'm your AI assistant to help you navigate the AI Risk repository. How can I help you today?", role: "assistant", id: uuidv4() };
+interface ChatProps {
+  previousMessages: message[];
+  currentMessage: message | null;
+  handleSubmit: (text?: string) => Promise<void>;
+  isLoading: boolean;
+}
 
-export function Chat() {
-
-
+export function Chat({ previousMessages, currentMessage, handleSubmit, isLoading }: ChatProps) {
   const [messagesContainerRef, messagesEndRef] = useScrollToBottom<HTMLDivElement>();
-  const [previousMessages, setPreviousMessages] = useState<message[]>([]);
-  const [currentMessage, setCurrentMessage] = useState<message | null>(WELCOME);
   const [question, setQuestion] = useState<string>("");
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const messageHandlerRef = useRef<((event: MessageEvent) => void) | null>(null);
-
-  const cleanupMessageHandler = () => {
-    if (messageHandlerRef.current) {
-      messageHandlerRef.current = null;
-    }
-  };
-
-  async function handleSubmit(text?: string) {
-    if (isLoading) return;
-    const messageText = text || question;
-    if (!messageText.trim()) return;
-    setQuestion("");
-
-    const userMessage: message = { content: messageText, role: "user", id: uuidv4() };
-    setPreviousMessages(prev => [...prev, userMessage]);
-
-    const loadingMessage: message = { content: "Loading...", role: "assistant", id: "loading" };
-    setCurrentMessage(loadingMessage);
-
-    try {
-      const stream = await fetch(`${API_URL}api/v1/stream`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: messageText })
-      });
-
-      if (!stream.body) throw new Error('Failed!!');
-
-      const reader = stream.body.getReader();
-      const decoder = new TextDecoder();
-      let done = false;
-      let buffer = "";
-      let accumulatedText = "";
-
-      while (!done) {
-        const { value, done: doneReading } = await reader.read();
-        done = doneReading;
-        buffer += decoder.decode(value, { stream: !done });
-
-        const lines = buffer.split("\n");
-        buffer = lines.pop() ?? "";
-
-        for (const line of lines) {
-          if (line.trim()) {
-            try {
-              const parsed = JSON.parse(line);
-              accumulatedText += parsed;
-              const currMess: message = { content: accumulatedText, role: 'assistant', id: uuidv4() };
-              setCurrentMessage(currMess);
-            } catch (err) {
-              console.error("Error parsing line:", line, err);
-            }
-          }
-        }
-      }
-
-      const botMessage: message = {
-        content: accumulatedText,
-        role: "assistant",
-        id: uuidv4()
-      };
-
-      setPreviousMessages(prev => [...prev, botMessage]);
-      setCurrentMessage(null);
-    } catch (error) {
-      console.error("Error sending message:", error);
-      const errorMessage: message = {
-        content: "Error talking to server.",
-        role: "assistant",
-        id: uuidv4()
-      };
-      setPreviousMessages(prev => [...prev, errorMessage]);
-      setCurrentMessage(null);
-    } finally {
-      setIsLoading(false);
-      cleanupMessageHandler();
-    }
-  }
 
   return (
     <div className="relative h-full w-full bg-white rounded-xl flex flex-col">
@@ -111,7 +29,11 @@ export function Chat() {
         </div>
         <div className="flex flex-wrap justify-center gap-2 text-sm text-gray-600">
           {QUESTIONS.map((question, index) => (
-            <button key={index} className="bg-gray-100 hover:bg-gray-200 px-3 py-1 rounded-full">
+            <button
+              key={index}
+              className="bg-gray-100 hover:bg-gray-200 px-3 py-1 rounded-full"
+              onClick={() => handleSubmit(question)}
+            >
               {question}
             </button>
           ))}

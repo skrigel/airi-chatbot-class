@@ -258,6 +258,21 @@ class ChatService:
         if len(self.conversations[conversation_id]) > max_messages:
             self.conversations[conversation_id] = self.conversations[conversation_id][-max_messages:]
     
+    def generate_use_cases(self, domain: str) -> List[str]:
+        """Generate use cases for a given domain."""
+        if not self.gemini_model:
+            logger.warning("No Gemini model available for use case generation")
+            return [f"Use case 1 for {domain}", f"Use case 2 for {domain}", f"Use case 3 for {domain}"]
+
+        try:
+            prompt = f"Generate 3 diverse and specific use cases for AI in the '{domain}' domain. Return the use cases as a comma-separated list."
+            response = self.gemini_model.generate(prompt, history=[])
+            use_cases = [uc.strip() for uc in response.split(',')]
+            return use_cases
+        except Exception as e:
+            logger.error(f"Error generating use cases: {str(e)}")
+            return [f"Error generating use cases for {domain}"]
+
     def reset_conversation(self, conversation_id: str) -> None:
         """Reset conversation history."""
         if conversation_id in self.conversations:

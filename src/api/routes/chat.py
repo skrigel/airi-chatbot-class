@@ -138,6 +138,11 @@ def stream_message():
                             yield json.dumps(chunk) + '\n'
                             time.sleep(0.1)
                         
+                        # Send the related documents
+                        if docs:
+                            related_docs = [{"title": doc.metadata.get("title", "Unknown Title"), "url": doc.metadata.get("url", "#")} for doc in docs]
+                            yield json.dumps({"related_documents": related_docs}) + '\n'
+
                         # Update conversation history
                         chat_service._update_conversation_history(conversation_id, message, enhanced_response)
                         
@@ -178,6 +183,26 @@ def stream_message():
         
     except Exception as e:
         logger.error(f"Error in stream_message: {str(e)}")
+        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
+
+@chat_bp.route('/api/v1/use_cases', methods=['POST'])
+def get_use_cases():
+    """Endpoint to generate use cases for a given domain."""
+    try:
+        data = request.json
+        domain = data.get('domain', '')
+
+        if not domain:
+            return jsonify({"error": "Domain is required"}), 400
+
+        use_cases = chat_service.generate_use_cases(domain)
+
+        return jsonify({
+            "use_cases": use_cases
+        })
+
+    except Exception as e:
+        logger.error(f"Error in get_use_cases: {str(e)}")
         return jsonify({"error": f"Internal server error: {str(e)}"}), 500
 
 @chat_bp.route('/api/v1/reset', methods=['POST'])

@@ -258,10 +258,13 @@ class GeminiModelPool(BaseModel):
         except Exception as e:
             error_str = str(e)
             logger.error(f"Error generating streaming response with {current_model}: {error_str}")
-            
+
             if self._is_quota_error(error_str):
                 self._mark_model_failed(current_model)
-                yield f"I encountered a quota error with {current_model}. Please try again."
+                logger.info(f"Quota error with {current_model}, trying next model for streaming...")
+                # This is a recursive call to try the next model.
+                # It's safe because the model is marked as failed, so it won't be picked again in the same cycle.
+                yield from self.generate_stream(prompt, history)
             else:
                 yield f"I encountered an error while generating a response: {error_str}"
     
