@@ -1,13 +1,113 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { BotIcon, XIcon } from "lucide-react";
 import { Header } from "../../components/header";
 import { Chat } from "../chat/chat";
+import { message } from "../../interfaces/interfaces";
+import { v4 as uuidv4 } from "uuid";
+
+const API_URL = "";
+
+const WELCOME: message = {
+  content: "Hi! I'm your AI assistant to help you navigate the AI Risk repository. How can I help you today?",
+  role: "assistant",
+  id: uuidv4(),
+};
 
 export function Home() {
   const [isOpen, setOpen] = useState(false);
+  const [previousMessages, setPreviousMessages] = useState<message[]>([]);
+  const [currentMessage, setCurrentMessage] = useState<message | null>(WELCOME);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const messageHandlerRef = useRef<((event: MessageEvent) => void) | null>(null);
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+
+  const cleanupMessageHandler = () => {
+    if (messageHandlerRef.current) {
+      messageHandlerRef.current = null;
+    }
+  };
+
+  async function handleSubmit(text?: string) {
+    if (isLoading) return;
+    const messageText = text;
+    if (!messageText || !messageText.trim()) return;
+
+    const userMessage: message = { content: messageText, role: "user", id: uuidv4() };
+    setPreviousMessages((prev) => [...prev, userMessage]);
+
+    const loadingMessage: message = { content: "Loading...", role: "assistant", id: "loading" };
+    setCurrentMessage(loadingMessage);
+
+    try {
+      const stream = await fetch(`${API_URL}api/v1/stream`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: messageText }),
+      });
+
+      if (!stream.body) throw new Error("Failed!!");
+
+      const reader = stream.body.getReader();
+      const decoder = new TextDecoder();
+      let done = false;
+      let buffer = "";
+      let accumulatedText = "";
+
+      while (!done) {
+        const { value, done: doneReading } = await reader.read();
+        done = doneReading;
+        buffer += decoder.decode(value, { stream: !done });
+
+        const lines = buffer.split("\n");
+        buffer = lines.pop() ?? "";
+
+        for (const line of lines) {
+          if (line.trim()) {
+            try {
+              const parsed = JSON.parse(line);
+              if (parsed.related_documents) {
+                // In the home page, we don't have a place to display related documents yet.
+                // We can just ignore them for now.
+              } else {
+                accumulatedText += parsed;
+                const currMess: message = {
+                  content: accumulatedText,
+                  role: "assistant",
+                  id: uuidv4(),
+                };
+                setCurrentMessage(currMess);
+              }
+            } catch (err) {
+              console.error("Error parsing line:", line, err);
+            }
+          }
+        }
+      }
+
+      const botMessage: message = {
+        content: accumulatedText,
+        role: "assistant",
+        id: uuidv4(),
+      };
+
+      setPreviousMessages((prev) => [...prev, botMessage]);
+      setCurrentMessage(null);
+    } catch (error) {
+      console.error("Error sending message:", error);
+      const errorMessage: message = {
+        content: "Error talking to server.",
+        role: "assistant",
+        id: uuidv4(),
+      };
+      setPreviousMessages((prev) => [...prev, errorMessage]);
+      setCurrentMessage(null);
+    } finally {
+      setIsLoading(false);
+      cleanupMessageHandler();
+    }
+  }
 
   return (
     <div className="relative flex flex-col min-h-screen bg-white text-black">
@@ -74,7 +174,12 @@ export function Home() {
 
           {/* Chat Area */}
           <div className="flex-1 overflow-hidden bg-gray-50">
-            <Chat />
+            <Chat
+              previousMessages={previousMessages}
+              currentMessage={currentMessage}
+              handleSubmit={handleSubmit}
+              isLoading={isLoading}
+            />
           </div>
         </div>
       </div>
