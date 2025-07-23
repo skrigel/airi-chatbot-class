@@ -1,4 +1,4 @@
-# airi-chatbot-front-end
+# AI Risk Index Interface
 
 ## About 
 
