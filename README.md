@@ -1,6 +1,6 @@
 # AI Risk Chatbot Repository Notice 
 
-Note: This repository has been moved to a new location. Further development and updates are now maintained in the forked repository:
+Note: This repository has been moved to a new location. Further development and updates are now maintained by us in the forked repository:
 
 Visit Here [https://github.com/davidturturean/airi-chatbot-class]
 
